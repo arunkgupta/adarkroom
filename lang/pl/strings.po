@@ -1,391 +1,407 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: adarkroom\n"
-"POT-Creation-Date: 2014-06-25 14:58+0100\n"
-"PO-Revision-Date: 2014-06-25 14:58-0500\n"
-"Last-Translator: nutz <spencie01@gmail.com>\n"
-"Language-Team: \n"
-"Language: jp\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.5\n"
-"X-Poedit-KeywordsList: _\n"
-"X-Poedit-Basepath: .\n"
-"Plural-Forms: s;\n"
-"X-Poedit-SearchPath-0: ./../../script\n"
+"X-Generator: Poedit 1.5.4\n"
+"Project-Id-Version: ADR\n"
+"Language: pl\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sebastian <admin@itunix.eu>\n"
+"Language-Team: \n"
 
 #: ../../script/room.js:18
 msgid "trap"
-msgstr "トラップ"
+msgstr "pułapka"
 
 #: ../../script/room.js:21
 msgid ""
 "builder says she can make traps to catch any creatures might still be alive "
 "out there"
-msgstr "ビルダーは、彼女がどんな生き物がまだそこに生きているかもしれませんキャッチするトラップを作ることができると言う"
+msgstr ""
+"pracownik twierdzi, że może zbudować pułapki do połowu wszelkich, może "
+"jeszcze żywych, stworzeń"
 
 #: ../../script/room.js:22
 msgid "more traps to catch more creatures"
-msgstr "より多くの生き物をキャッチするのトラップ"
+msgstr "więcej pułapek do złapania większej ilości zwierząt"
 
 #: ../../script/room.js:23
 msgid "more traps won't help now"
-msgstr "より多くのトラップは、今助けにはなりません"
+msgstr "większa ilość pułapek teraz nie pomoże"
 
 #: ../../script/room.js:33
 msgid "cart"
-msgstr "カート"
+msgstr "wózek"
 
 #: ../../script/room.js:36
 msgid "builder says she can make a cart for carrying wood"
-msgstr "ビルダーは、彼女は、木材を運ぶためのカートを作ることができると言う"
+msgstr "pracownik twierdzi, że może zbudować wózek do zbierania drewna"
 
 #: ../../script/room.js:37
 msgid "the rickety cart will carry more wood from the forest"
-msgstr "ガタガタカートは森林からより多くの木材を運ぶ"
+msgstr "rozklekotany wózek pozwoli wozić więcej drzew z lasu"
 
 #: ../../script/room.js:46
 msgid "hut"
-msgstr "小屋"
+msgstr "szałas"
 
 #: ../../script/room.js:49
 msgid "builder says there are more wanderers. says they'll work, too."
-msgstr "ビルダーは、より多くの放浪者があると述べています。彼らはあまりにも、うまくいくと言います。"
+msgstr ""
+"budowniczy twierdzi, że jest więcej wędrowców. mówi też, że będą pracować."
 
 #: ../../script/room.js:50
 msgid "builder puts up a hut, out in the forest. says word will get around."
-msgstr "ビルダーは出森の中で、小屋を置きます。言葉は周りを取得予定だという。"
+msgstr "budowniczy stawia szałas w lesie. wieść się rozniesie."
 
 #: ../../script/room.js:51
 msgid "no more room for huts."
-msgstr "小屋のためのこれ以上の余地"
+msgstr "nie ma więcej miejsca dla szałasów."
 
 #: ../../script/room.js:61
 msgid "lodge"
-msgstr "ロッジ"
+msgstr "szałas myśliwski"
 
 #: ../../script/room.js:64
 msgid "villagers could help hunt, given the means"
-msgstr "村人たちは与えられた手段、狩りを助けることができる"
+msgstr "mieszkańcy mogliby pomóc w polowaniu, gdyby dano im środki ku temu"
 
 #: ../../script/room.js:65
 msgid "the hunting lodge stands in the forest, a ways out of town"
-msgstr "狩猟小屋は、さまざまな方法町から、森の中に立っている"
+msgstr "szałas myśliwski zbudowany w lesie poza miastem"
 
 #: ../../script/room.js:76
 msgid "trading post"
-msgstr "交易所"
+msgstr "stoisko handlowe"
 
 #: ../../script/room.js:79
 msgid "a trading post would make commerce easier"
-msgstr "交易所は、商取引を容易にするだろう"
+msgstr "punkt handlowy może ułatwić handel"
 
 #: ../../script/room.js:80
 msgid ""
 "now the nomads have a place to set up shop, they might stick around a while"
-msgstr "今遊牧民が店をセットアップする場所を持って、彼らはしばらく固執かもしれません"
+msgstr ""
+"teraz koczownicy mają miejsce na założenie sklepu, pozostaną tam przez jakiś "
+"czas"
 
 #: ../../script/room.js:90
 msgid "tannery"
-msgstr "皮なめし工場"
+msgstr "garbarnia"
 
 #: ../../script/room.js:93
 msgid "builder says leather could be useful. says the villagers could make it."
-msgstr "ビルダーは革が役に立つかもしれないと言います。村人たちはそれを作ることができたと言います。"
+msgstr ""
+"budowniczy mówi, że skóra może być przydatna, a mieszkańcy mogą coś z niej "
+"zrobić"
 
 #: ../../script/room.js:94
 msgid "tannery goes up quick, on the edge of the village"
-msgstr "皮なめし工場では、村の端に、アップクイック行く"
+msgstr "garbarnia zostaje szybko postawiona na krańcu wioski"
 
 #: ../../script/room.js:104
 msgid "smokehouse"
-msgstr "薫製場"
+msgstr "wędzarnia"
 
 #: ../../script/room.js:107
 msgid ""
 "should cure the meat, or it'll spoil. builder says she can fix something up."
-msgstr "肉を治すべきか、それが台無しよ。ビルダーは彼女が何かを修正できたと言います。"
+msgstr ""
+"mięso powinno być peklowane, aby zapobiec jego gniciu. budowniczy twierdzi, "
+"że może coś wymyślić."
 
 #: ../../script/room.js:108
 msgid "builder finishes the smokehouse. she looks hungry."
-msgstr "ビルダーは燻製を終了。彼女は空腹に見えます。"
+msgstr "budowniczy kończy wędzarnię. ślinka mu cieknie na jej widok."
 
 #: ../../script/room.js:118
 msgid "workshop"
-msgstr "ワークショップ"
+msgstr "warsztat"
 
 #: ../../script/room.js:121
 msgid "builder says she could make finer things, if she had the tools"
-msgstr "ビルダーは、彼女がツールを持っていた場合、彼女は、細かいものを作ることができると言う"
+msgstr ""
+"budowniczy mówi, że drobniejsze rzeczy mógłby zrobić, gdyby miała narzędzia"
 
 #: ../../script/room.js:122
 msgid "workshop's finally ready. builder's excited to get to it"
-msgstr "ワークショップでは、最終的に準備ができています。ビルダーは、それを取得することに興奮している"
+msgstr ""
+"Warsztat jest wreszcie gotowy. Konstruktor jest podekscytowany z tego powodu"
 
+#. huty czy stalowanie?
 #: ../../script/room.js:133
 msgid "steelworks"
-msgstr "製鋼所"
+msgstr "huta"
 
 #: ../../script/room.js:136
 msgid "builder says the villagers could make steel, given the tools"
-msgstr "ビルダーは、村人たちは道具を考えると、鋼を作ることができると言う"
+msgstr ""
+"pracownik powiedział, że mieszkańcy mogliby przetapiać stal, gdyby mieli "
+"narzędzia."
 
 #: ../../script/room.js:137
 msgid "a haze falls over the village as the steelworks fires up"
-msgstr "製鉄所は、最大火災などのヘイズは、村の上に落ちる"
+msgstr "mgiełka opada nad wioską podczas gdy huta się rozgrzewa"
 
 #: ../../script/room.js:148
 msgid "armoury"
-msgstr "武器庫"
+msgstr "zbrojownia"
 
 #: ../../script/room.js:151
 msgid "builder says it'd be useful to have a steady source of bullets"
-msgstr "ビルダーは、弾丸の着実なソースを持っていることは有用で思い語る"
+msgstr "pracownik mówi, że dobrze byłoby mieć pewne źródło nabojów"
 
 #: ../../script/room.js:152
 msgid "armoury's done, welcoming back the weapons of the past."
-msgstr "武器庫は、過去の武器をバック歓迎、行われます。"
+msgstr "zbrojownia jest zrobiona, witamy z powrotem, bronie z przeszłości."
 
 #: ../../script/room.js:163 ../../script/localization.js:5
 msgid "torch"
-msgstr "トーチ"
+msgstr "pochodnia"
 
 #: ../../script/room.js:166
 msgid "a torch to keep the dark away"
-msgstr "離れて暗いを保つためにトーチ"
+msgstr "pochodnia, która rozświetli mroki"
 
+#. wikipedia
 #: ../../script/room.js:175
 msgid "waterskin"
-msgstr "水筒"
+msgstr "bukłak"
 
 #: ../../script/room.js:179
 msgid "this waterskin'll hold a bit of water, at least"
-msgstr "この食堂は、少なくとも、水を少しを開催します"
+msgstr "bukłak będzie w stanie utrzymać przynajmniej wodę."
 
 #: ../../script/room.js:187
 msgid "cask"
-msgstr "カスク"
+msgstr "baryłka"
 
 #: ../../script/room.js:191
 msgid "the cask holds enough water for longer expeditions"
-msgstr "カスクは、長い遠征のために十分な水を保持している"
+msgstr "baryłka posiada wystarczającą ilość wody na dłuższe wyprawy"
 
 #: ../../script/room.js:200
 msgid "water tank"
-msgstr "水槽"
+msgstr "zbiornik na wodę"
 
 #: ../../script/room.js:204
 msgid "never go thirsty again"
-msgstr "再びのどが渇いて行くことはありません"
+msgstr "nigdy nie będziesz już spragniony"
 
 #: ../../script/room.js:213
 msgid "bone spear"
-msgstr "骨槍"
+msgstr "kościana dzida"
 
 #: ../../script/room.js:216
 msgid "this spear's not elegant, but it's pretty good at stabbing"
-msgstr "この槍は、エレガントではありませんが、それは刺すようにかなり良いです"
+msgstr "dzida nie jest szykowna, ale dobrze się nią dźga"
 
 #: ../../script/room.js:225 ../../script/world.js:279
 msgid "rucksack"
-msgstr "リュックサック"
+msgstr "plecak"
 
 #: ../../script/room.js:229
 msgid "carrying more means longer expeditions to the wilds"
-msgstr "荒野に複数の手段より長い遠征を運ぶ"
+msgstr ""
+"noszenie na sobie więcej rzeczy skutkuje dłuższymi wyprawami do dzikich "
+"miejsc"
 
 #: ../../script/room.js:237
 msgid "wagon"
-msgstr "ワゴン"
+msgstr "furgon"
 
 #: ../../script/room.js:241
 msgid "the wagon can carry a lot of supplies"
-msgstr "ワゴンは、物資の多くを運ぶことができます"
+msgstr "furgon może przenieść dużo zasobów"
 
 #: ../../script/room.js:250
 msgid "convoy"
-msgstr "車列"
+msgstr "konwój"
 
 #: ../../script/room.js:254
 msgid "the convoy can haul mostly everything"
-msgstr "船団は主に何を運ぶことができます"
+msgstr "konwój może ciągnąć praktycznie wszystko"
 
 #: ../../script/room.js:264
 msgid "l armour"
-msgstr "レザーメイル"
+msgstr "skórzana zbroja"
 
 #: ../../script/room.js:267
 msgid "leather's not strong. better than rags, though."
-msgstr "革は強くありません。ぼろよりも良い、しかし。"
+msgstr "skóra nie jest mocna, ale jest lepsza niż łachy"
 
 #: ../../script/room.js:276
 msgid "i armour"
-msgstr "鉄の鎧"
+msgstr "żelazna zbroja"
 
 #: ../../script/room.js:279
 msgid "iron's stronger than leather"
-msgstr "鉄は革よりも強い"
+msgstr "żelazo jest mocniejsze niż skóra"
 
 #: ../../script/room.js:288
 msgid "s armour"
-msgstr "鋼の鎧"
+msgstr "stalowa zbroja"
 
 #: ../../script/room.js:291
 msgid "steel's stronger than iron"
-msgstr "鋼は鉄よりも強い"
+msgstr "stal jest mocniejsza od żelaza"
 
 #: ../../script/room.js:300
 msgid "iron sword"
-msgstr "鉄剣"
+msgstr "żelazny miecz"
 
 #: ../../script/room.js:303
 msgid "sword is sharp. good protection out in the wilds."
-msgstr "剣は鋭いです。荒野での保護の実施のために良い。"
+msgstr "miecz jest ostry, dobrze się nada do obrony"
 
 #: ../../script/room.js:313
 msgid "steel sword"
-msgstr "鋼の剣"
+msgstr "stalowy miecz"
 
 #: ../../script/room.js:316
 msgid "the steel is strong, and the blade true."
-msgstr "鋼は強く、刃は本当。"
+msgstr "stal jest mocna, a ostrze solidne"
 
 #: ../../script/room.js:326
 msgid "rifle"
-msgstr "ライフル"
+msgstr "karabin"
 
 #: ../../script/room.js:328
 msgid "black powder and bullets, like the old days."
-msgstr "昔のような黒い粉や弾丸、。"
+msgstr "czarny proch i pociski, jak w starych, dobrych czasach"
 
 #: ../../script/room.js:460
 msgid "Room"
-msgstr "部屋"
+msgstr "pomieszczenie"
 
 #: ../../script/room.js:484 ../../script/room.js:603
 msgid "A Dark Room"
-msgstr "暗い部屋"
+msgstr "Mroczny pokój"
 
 #: ../../script/room.js:497
 msgid "light fire"
-msgstr "光火災"
+msgstr "rozpal ogień"
 
 #: ../../script/room.js:507
 msgid "stoke fire"
-msgstr "ストーク火災"
+msgstr "napal w piecu"
 
 #: ../../script/room.js:544 ../../script/room.js:554 ../../script/room.js:702
 #: ../../script/room.js:706
 msgid "the room is {0}"
-msgstr "部屋は{0}"
+msgstr "w pokoju jest {0}"
 
 #: ../../script/room.js:545 ../../script/room.js:553 ../../script/room.js:671
 msgid "the fire is {0}"
-msgstr "火は{0}"
+msgstr "ogień {0}"
 
 #: ../../script/room.js:564
 msgid ""
 "the stranger is standing by the fire. she says she can help. says she builds "
 "things."
-msgstr "見知らぬ人が火災で立っている。彼女は助けることができると言います。彼女ビルド言う"
+msgstr ""
+"nieznajoma stoi przy ogniu. twierdzi, że może pomóc. twierdzi, że może "
+"budować."
 
 #: ../../script/room.js:579
 msgid "freezing"
-msgstr "凍結"
+msgstr "lodowato"
 
 #: ../../script/room.js:580
 msgid "cold"
-msgstr "寒い"
+msgstr "zimno"
 
 #: ../../script/room.js:581
 msgid "mild"
-msgstr "マイルド"
+msgstr "przytulnie"
 
 #: ../../script/room.js:582
 msgid "warm"
-msgstr "暖かい"
+msgstr "ciepło"
 
 #: ../../script/room.js:583
 msgid "hot"
-msgstr "ホット"
+msgstr "gorąco"
 
 #: ../../script/room.js:595
 msgid "dead"
-msgstr "死んだ"
+msgstr "zgasł"
 
 #: ../../script/room.js:596
 msgid "smoldering"
-msgstr "くすぶっている"
+msgstr "tli się"
 
 #: ../../script/room.js:597
 msgid "flickering"
-msgstr "ちらつき"
+msgstr "migocze"
 
 #: ../../script/room.js:598
 msgid "burning"
-msgstr "燃える"
+msgstr "płonie"
 
 #: ../../script/room.js:599
 msgid "roaring"
-msgstr "活発な"
+msgstr "ostro bucha"
 
 #: ../../script/room.js:603
 msgid "A Firelit Room"
-msgstr "消防明るい部屋"
+msgstr "Oświetlony pokój"
 
 #: ../../script/room.js:641
 msgid "not enough wood to get the fire going"
-msgstr "行く火を取得するのに十分ではない木材"
+msgstr "niewystarczająco dużo drewna by podtrzymać ogień"
 
 #: ../../script/room.js:654
 msgid "the wood has run out"
-msgstr "木材は不足しています"
+msgstr "drewno się skończyło"
 
 #: ../../script/room.js:674
 msgid "the light from the fire spills from the windows, out into the dark"
-msgstr "火からの光は暗い中に、窓からこぼれ"
+msgstr "światło ognia wypływa z okien, prosto w ciemność"
 
 #: ../../script/room.js:687
 msgid "builder stokes the fire"
-msgstr "ビルダーは火をストークス"
+msgstr "pracownik pali w piecu"
 
 #: ../../script/room.js:717
 msgid "the wind howls outside"
-msgstr "風が外に吠える"
+msgstr "na zewnątrz wyje wiatr"
 
 #: ../../script/room.js:718
 msgid "the wood is running out"
-msgstr "木材は不足しています"
+msgstr "kończy się drewno"
 
 #: ../../script/room.js:725
 msgid "a ragged stranger stumbles through the door and collapses in the corner"
-msgstr "不揃い見知らぬ人がドアを通ってつまずくと隅に崩壊する"
+msgstr "obszarpana nieznajoma przechodzi przez drzwi i pada w kącie"
 
 #: ../../script/room.js:733
 msgid ""
 "the stranger shivers, and mumbles quietly. her words are unintelligible."
-msgstr "見知らぬ人の震え、およびマンブルズ静か。彼女の言葉は理解できないです。"
+msgstr "nieznajoma drży i cicho mamrocze, a jej słowa są niezrozumiałe"
 
 #: ../../script/room.js:736
 msgid "the stranger in the corner stops shivering. her breathing calms."
-msgstr "隅に見知らぬ人が震えて停止します。彼女の呼吸が落ち着く。"
+msgstr ""
+"nieznajoma w pokoju przestaje drżeć, a jej oddech staje się spokojniejszy"
 
 #: ../../script/room.js:890 ../../script/room.js:938
 msgid "not enough "
-msgstr "十分でない"
+msgstr "niewystarczająco dużo "
 
 #: ../../script/room.js:910
 msgid "builder just shivers"
-msgstr "ビルダーはただ震え"
+msgstr "pracownik po prostu drży"
 
 #: ../../script/events.js:126
 msgid "eat meat"
-msgstr "肉を食べる"
+msgstr "zjedz mięso"
 
 #: ../../script/events.js:146
 msgid "use meds"
-msgstr "クスリを使う"
+msgstr "użyj medykamentów"
 
 #: ../../script/events.js:474 ../../script/events/room.js:139
 #: ../../script/events/room.js:159 ../../script/events/room.js:179
@@ -402,248 +418,249 @@ msgstr "クスリを使う"
 #: ../../script/events/setpieces.js:3412 ../../script/events/setpieces.js:3440
 #: ../../script/events/global.js:41 ../../script/events/global.js:58
 msgid "leave"
-msgstr "去る"
+msgstr "odejdź"
 
 #: ../../script/engine.js:20
 msgid "boxer"
-msgstr "ボクサー"
+msgstr "bokser"
 
 #: ../../script/engine.js:21
 msgid "punches do more damage"
-msgstr "パンチはより多くのダメージを与える"
+msgstr "ciosy pięściami zadają więcej obrażeń"
 
 #: ../../script/engine.js:22
 msgid "learned to throw punches with purpose"
-msgstr "目的を持ってパンチをスローすることを学んだ"
+msgstr "nauczyłeś się uderzać z większą precyzją"
 
 #: ../../script/engine.js:25
 msgid "martial artist"
-msgstr "武道家"
+msgstr "mistrz sztuk walk"
 
 #: ../../script/engine.js:26
 msgid "punches do even more damage."
-msgstr "パンチはさらにダメージを与える"
+msgstr "ciosy pięściami zadają więcej obrażeń"
 
 #: ../../script/engine.js:27
 msgid "learned to fight quite effectively without weapons"
-msgstr "核兵器のない、非常に効果的に戦うことを学んだ"
+msgstr "nauczyłeś się dość dobrze walczyć bez broni"
 
 #: ../../script/engine.js:30
 msgid "unarmed master"
-msgstr "非武装のマスター"
+msgstr "mistrz walki wręcz"
 
 #: ../../script/engine.js:31
 msgid "punch twice as fast, and with even more force"
-msgstr "パンチ倍の速度であり、さらに力で"
+msgstr "uderz dwa razy szybciej, i do tego jeszcze mocniej"
 
 #: ../../script/engine.js:32
 msgid "learned to strike faster without weapons"
-msgstr "核兵器のない速く打つことを学びました"
+msgstr "nauczyłeś się uderzać szybciej gołymi pięściami"
 
 #: ../../script/engine.js:35
 msgid "barbarian"
-msgstr "野蛮人"
+msgstr "barbarzyńca"
 
 #: ../../script/engine.js:36
 msgid "melee weapons deal more damage"
-msgstr "近接武器は、より多くのダメージを与える"
+msgstr "bronie białe zadają więcej obrażeń"
 
 #: ../../script/engine.js:37
 msgid "learned to swing weapons with force"
-msgstr "力で武器を振ることを学んだ"
+msgstr "nauczyłeś się machać bronią z większą siłą"
 
-# contexte ?
+#. contexte ?
 #: ../../script/engine.js:40
 msgid "slow metabolism"
-msgstr "遅い代謝"
+msgstr "wolny metabolizm"
 
 #: ../../script/engine.js:41
 msgid "go twice as far without eating"
-msgstr "食べず二度まで行く"
+msgstr "idź dwa razy dalej bez jedzenia"
 
 #: ../../script/engine.js:42
 msgid "learned how to ignore the hunger"
-msgstr "空腹を無視する方法を学びました"
+msgstr "nauczyłeś się ignorować głód"
 
 #: ../../script/engine.js:45
 msgid "desert rat"
-msgstr "砂漠のラット"
+msgstr "szczur pustynny"
 
 #: ../../script/engine.js:46
 msgid "go twice as far without drinking"
-msgstr "飲酒せずに二度まで行く"
+msgstr "idź dwa razy dalej bez picia"
 
 #: ../../script/engine.js:47
 msgid "learned to love the dry air"
-msgstr "乾燥した空気を愛することを学んだ"
+msgstr "nauczyłeś się kochać suche powietrze"
 
 #: ../../script/engine.js:50
 msgid "evasive"
-msgstr "回避的な"
+msgstr "wymijający"
 
 #: ../../script/engine.js:51
 msgid "dodge attacks more effectively"
-msgstr "ダッジは、より効果的に攻撃する"
+msgstr "unikaj ataków efektywniej"
 
 #: ../../script/engine.js:52
 msgid "learned to be where they're not"
-msgstr "彼らはわからないところであると学びました"
+msgstr "nauczył się być tam, gdzie ich nie ma"
 
 #: ../../script/engine.js:55
 msgid "precise"
-msgstr "正確な"
+msgstr "precyzyjny"
 
+#. description pour la précision ...
 #: ../../script/engine.js:56
 msgid "land blows more often"
-msgstr "土地はより頻繁に吹く"
+msgstr "grunt wybucha coraz częściej"
 
 #: ../../script/engine.js:57
 msgid "learned to predict their movement"
-msgstr "彼らの動きを予測することを学んだ"
+msgstr "nauczyłeś się przewidywać ich posunięcia"
 
 #: ../../script/engine.js:60
 msgid "scout"
-msgstr "スカウト"
+msgstr "zwiadowca"
 
 #: ../../script/engine.js:61
 msgid "see farther"
-msgstr "遠くを参照してください"
+msgstr "spójrz dalej"
 
 #: ../../script/engine.js:62
 msgid "learned to look ahead"
-msgstr "先読みすることを学んだ"
+msgstr "nauczyłeś się być bardziej spostrzegawczym"
 
 #: ../../script/engine.js:65
 msgid "stealthy"
-msgstr "内密の"
+msgstr "niepostrzeżenie"
 
 #: ../../script/engine.js:66
 msgid "better avoid conflict in the wild"
-msgstr "より良い野生での競合を避ける"
+msgstr "lepiej unikać konfliktów w dziczy"
 
 #: ../../script/engine.js:67
 msgid "learned how not to be seen"
-msgstr "見られることではない方法を学びました"
+msgstr "nauczyłeś się być niedostrzegalnym"
 
 #: ../../script/engine.js:70
 msgid "gastronome"
-msgstr "美食家"
+msgstr "kucharz"
 
 #: ../../script/engine.js:71
 msgid "restore more health when eating"
-msgstr "食べるときより健康を回復"
+msgstr "przywracaj więcej życia podczas jedzenia"
 
 #: ../../script/engine.js:72
 msgid "learned to make the most of food"
-msgstr "食べ物を最大限に活用することを学んだ"
+msgstr "nauczyłeś się przyrządzać większość potraw"
 
 #: ../../script/engine.js:114 ../../script/engine.js:408
 msgid "lights off."
-msgstr "消灯"
+msgstr "zgaś światła."
 
 #: ../../script/engine.js:120 ../../script/space.js:439
 msgid "restart."
-msgstr "リセット"
+msgstr "restart."
 
 #: ../../script/engine.js:126
 msgid "share."
-msgstr "シェア"
+msgstr "podziel się."
 
 #: ../../script/engine.js:132
 msgid "save."
-msgstr "保存"
+msgstr "zapisz."
 
 #: ../../script/engine.js:138
 msgid "app store."
-msgstr "アプリケーションストア"
+msgstr "sklep z aplikacjami."
 
 #: ../../script/engine.js:216
 msgid "Export / Import"
-msgstr "エクスポート/インポート"
+msgstr "Eksport / Import"
 
 #: ../../script/engine.js:219
 msgid "export or import save data, for backing up"
-msgstr "エクスポートまたはバックアップするためのインポート、"
+msgstr "eksportuj lub importuj zapisy, aby stworzyć kopię zapasową,"
 
 #: ../../script/engine.js:220
 msgid "or migrating computers"
-msgstr "またはコンピュータを移行する"
+msgstr "lub by przenieść je między komputerami"
 
 #: ../../script/engine.js:223
 msgid "export"
-msgstr "輸出"
+msgstr "eksport"
 
 #: ../../script/engine.js:227
 msgid "import"
-msgstr "インポート"
+msgstr "import"
 
 #: ../../script/engine.js:231
 msgid "cancel"
-msgstr "キャンセル"
+msgstr "anuluj"
 
 #: ../../script/engine.js:237
 msgid "are you sure?"
-msgstr "本当に？"
+msgstr "jesteś pewien?"
 
 #: ../../script/engine.js:238
 msgid "if the code is invalid, all data will be lost."
-msgstr "コードが無効な場合、すべてのデータが失われます。"
+msgstr "jeśli kod jest niepoprawny, wszystkie dane zostaną utracone"
 
 #: ../../script/engine.js:239
 msgid "this is irreversible."
-msgstr "これは不可逆的である。"
+msgstr "tego nie da się cofnąć"
 
 #: ../../script/engine.js:242 ../../script/engine.js:303
 msgid "yes"
-msgstr "はい"
+msgstr "tak"
 
 #: ../../script/engine.js:247 ../../script/engine.js:308
 msgid "no"
-msgstr "いいえ"
+msgstr "nie"
 
 #: ../../script/engine.js:263
 msgid "Export"
-msgstr "輸出"
+msgstr "Eksport"
 
 #: ../../script/engine.js:266
 msgid "save this."
-msgstr "これを保存"
+msgstr "zapisz to."
 
 #: ../../script/engine.js:270
 msgid "got it"
-msgstr "たこと"
+msgstr "zrozumiałem"
 
 #: ../../script/engine.js:280
 msgid "put the save code here."
-msgstr "ここに保存したコードを入れて"
+msgstr "wpisz tutaj kod do zapisu"
 
 #: ../../script/engine.js:297
 msgid "Restart?"
-msgstr "再起動してください？"
+msgstr "Uruchomić ponownie?"
 
 #: ../../script/engine.js:300
 msgid "restart the game?"
-msgstr "ゲームを再起動？"
+msgstr "Uruchomić ponownie grę?"
 
 #: ../../script/engine.js:331
 msgid "Share"
-msgstr "シェア"
+msgstr "Podziel się"
 
 #: ../../script/engine.js:334
 msgid "bring your friends."
-msgstr "友達を連れてくる"
+msgstr "zaproś przyjaciół"
 
 #: ../../script/engine.js:337
 msgid "facebook"
-msgstr "フェイスブック"
+msgstr "facebook"
 
 #: ../../script/engine.js:344
 msgid "google+"
-msgstr "Google+の"
+msgstr "google+"
 
 #: ../../script/engine.js:351
 msgid "twitter"
-msgstr "ツイッター"
+msgstr "twitter"
 
 #: ../../script/engine.js:358
 msgid "reddit"
@@ -651,462 +668,439 @@ msgstr "reddit"
 
 #: ../../script/engine.js:365
 msgid "close"
-msgstr "クローズ"
+msgstr "zamknij"
 
 #: ../../script/engine.js:399 ../../script/engine.js:403
 msgid "lights on."
-msgstr "点灯し"
+msgstr "włącz światło."
 
 #: ../../script/engine.js:501
 msgid "{0} per {1}s"
-msgstr "{0}につき{1}"
+msgstr "{0} na {1}s"
 
 #: ../../script/localization.js:3
 msgid "saved."
-msgstr "保存された！"
+msgstr "zapisano."
 
 #: ../../script/localization.js:3
 msgid "wood"
-msgstr "木材"
+msgstr "drewno"
 
 #: ../../script/localization.js:3
 msgid "builder"
-msgstr "ビルダー"
+msgstr "pracownik"
 
 #: ../../script/localization.js:3
 msgid "teeth"
-msgstr "歯牙"
+msgstr "zęby"
 
 #: ../../script/localization.js:3
 msgid "meat"
-msgstr "肉"
+msgstr "mięso"
 
 #: ../../script/localization.js:3
 msgid "fur"
-msgstr "毛皮"
+msgstr "futro"
 
 #: ../../script/localization.js:3
 msgid "alien alloy"
-msgstr "エイリアン合金"
+msgstr "kosmiczny stop"
 
 #: ../../script/localization.js:3
 msgid "bullets"
-msgstr "箇条書き"
-
-#: ../../script/localization.js:3
-msgid "grenade"
-msgstr "手榴弾"
-
-#: ../../script/localization.js:3
-msgid "bolas"
-msgstr "ボーラス"
+msgstr "pociski"
 
 #: ../../script/localization.js:4
 msgid "charm"
-msgstr "魅力"
+msgstr "talizman"
 
 #: ../../script/localization.js:4 ../../script/path.js:138
 msgid "leather"
-msgstr "革"
+msgstr "skóra"
 
 #: ../../script/localization.js:4 ../../script/path.js:136
 msgid "iron"
-msgstr "鉄"
+msgstr "żelazo"
 
 #: ../../script/localization.js:4 ../../script/path.js:134
 msgid "steel"
-msgstr "スチール"
+msgstr "stal"
 
 #: ../../script/localization.js:4
 msgid "coal"
-msgstr "石炭"
+msgstr "węgiel"
 
 #: ../../script/localization.js:4
-msgid "energy cell"
-msgstr "エネルギーセル"
+msgid "enegy cell"
+msgstr "bateria"
 
 #: ../../script/localization.js:5
 msgid "medicine"
-msgstr "薬"
+msgstr "lekarstwo"
 
 #: ../../script/localization.js:5 ../../script/outside.js:20
 msgid "hunter"
-msgstr "ハンター"
+msgstr "łowca"
 
 #: ../../script/localization.js:5 ../../script/outside.js:28
 msgid "trapper"
-msgstr "トラッパー"
+msgstr "traper"
 
 #: ../../script/localization.js:5 ../../script/outside.js:36
 msgid "tanner"
-msgstr "タナー"
+msgstr "garbarz"
 
 #: ../../script/localization.js:6 ../../script/outside.js:44
 msgid "charcutier"
-msgstr "豚肉肉屋"
+msgstr "rzeźnik"
 
 #: ../../script/localization.js:6 ../../script/outside.js:53
 msgid "iron miner"
-msgstr "鉄鉱山労働者"
+msgstr "kopacz żelaza"
 
 #: ../../script/localization.js:6 ../../script/outside.js:61
 msgid "coal miner"
-msgstr "炭坑作業員"
+msgstr "kopacz węgla"
 
 #: ../../script/localization.js:6 ../../script/outside.js:69
 msgid "sulphur miner"
-msgstr "硫黄鉱山労働者"
+msgstr "kopacz siarki"
 
 #: ../../script/localization.js:6 ../../script/outside.js:86
 msgid "armourer"
-msgstr "甲冑師"
+msgstr "płatnerz"
 
 #: ../../script/localization.js:7 ../../script/outside.js:77
 msgid "steelworker"
-msgstr "製鋼工"
+msgstr "hutnik"
 
 #: ../../script/localization.js:7
 msgid "bait"
-msgstr "餌"
+msgstr "przynęta"
 
 #: ../../script/localization.js:7 ../../script/localization.js:8
 msgid "cured meat"
-msgstr "塩漬け肉"
+msgstr "peklowane mięso"
 
 #: ../../script/localization.js:7 ../../script/localization.js:8
 msgid "scales"
-msgstr "秤"
+msgstr "łuski"
 
 #: ../../script/localization.js:7
 msgid "compass"
-msgstr "コンパス"
+msgstr "kompas"
 
 #: ../../script/localization.js:7
 msgid "laser rifle"
-msgstr "レーザー銃"
-
-#: ../../script/localization.js:7
-msgid "bayonet"
-msgstr "バヨネット"
+msgstr "karabin laserowy"
 
 #: ../../script/localization.js:8 ../../script/outside.js:13
 msgid "gatherer"
-msgstr "採集"
+msgstr "zbieracz"
 
 #: ../../script/localization.js:8
 msgid "cloth"
-msgstr "布"
+msgstr "materiał"
 
 #: ../../script/localization.js:8
 msgid "thieves"
-msgstr "泥棒"
+msgstr "złodzieje"
 
 #: ../../script/localization.js:9
 msgid "not enough fur"
-msgstr "十分ではない毛皮"
+msgstr "za mało futra"
 
 #: ../../script/localization.js:9
 msgid "not enough wood"
-msgstr "十分ではない木材"
+msgstr "za mało drewna"
 
 #: ../../script/localization.js:9
 msgid "not enough coal"
-msgstr "十分ではない石炭"
+msgstr "za mało węgla"
 
 #: ../../script/localization.js:9
 msgid "not enough iron"
-msgstr "十分な鉄"
+msgstr "za mało żelaza"
 
 #: ../../script/localization.js:9
 msgid "not enough steel"
-msgstr "十分ではないスチール"
+msgstr "za mało stali"
 
 #: ../../script/localization.js:9
 msgid "baited trap"
-msgstr "餌を付けたトラップ"
+msgstr "pułapki z przynętą"
 
 #: ../../script/localization.js:10
 msgid "not enough scales"
-msgstr "十分ではないスケール"
-
-#: ../../script/localization.js:10
-msgid "not enough teeth"
-msgstr "十分ではない歯"
-
-#: ../../script/localization.js:10
-msgid "not enough leather"
-msgstr "十分ではない革"
+msgstr "za mało łusek"
 
 #: ../../script/localization.js:10
 msgid "not enough cloth"
-msgstr "十分ではない布"
+msgstr "za mało materiału"
+
+#: ../../script/localization.js:10
+msgid "not enough teeth"
+msgstr "za mało zębów"
+
+#: ../../script/localization.js:10
+msgid "not enough leather"
+msgstr "za mało skóry"
 
 #: ../../script/localization.js:11
 msgid "the compass points east."
-msgstr "コンパスポイント東。"
+msgstr "kompas wskazuje wschód."
 
 #: ../../script/localization.js:11
 msgid "the compass points west."
-msgstr "コンパスポイント西側。"
+msgstr "kompas wskazuje zachód."
 
 #: ../../script/localization.js:11
 msgid "the compass points north."
-msgstr "コンパスポイント北側。"
+msgstr "kompas wskazuje północ."
 
 #: ../../script/localization.js:11
 msgid "the compass points south."
-msgstr "コンパスポイント南側。"
+msgstr "kompas wskazuje południe."
 
 #: ../../script/localization.js:12
 msgid "the compass points northeast."
-msgstr "羅針盤ポイント北東。"
+msgstr "kompas wskazuje północy-wschód."
 
 #: ../../script/localization.js:12
 msgid "the compass points northwest."
-msgstr "コンパスポイント北西。"
+msgstr "kompas wskazuje na północny zachód."
 
 #: ../../script/localization.js:12
 msgid "the compass points southeast."
-msgstr "コンパスポイント南東。"
+msgstr "kompas wskazuje na południowy wschód."
 
 #: ../../script/localization.js:12
 msgid "the compass points southwest."
-msgstr "コンパスポイント南西。"
+msgstr "kompas wskazuje na południowy zachód."
 
 #: ../../script/localization.js:17
 msgid "stores"
-msgstr "ストレージ"
+msgstr "sklepy"
 
 #: ../../script/localization.js:18
 msgid "weapons"
-msgstr "兵器"
+msgstr "bronie"
 
 #: ../../script/localization.js:19
 msgid "build:"
-msgstr "構築："
+msgstr "zbuduj:"
 
 #: ../../script/localization.js:20
 msgid "craft:"
-msgstr "クラフト："
+msgstr "stwórz:"
 
 #: ../../script/localization.js:21
 msgid "buy:"
-msgstr "購入："
+msgstr "kup:"
 
 #: ../../script/localization.js:22
 msgid "supplies:"
-msgstr "消耗品："
+msgstr "zasoby:"
 
 #: ../../script/localization.js:23
 msgid "perks:"
-msgstr "特典："
+msgstr "umiejętności:"
 
 #: ../../script/localization.js:24
 msgid "take:"
-msgstr "取る："
+msgstr "weź:"
 
 #: ../../script/localization.js:25
 msgid "forest"
-msgstr "森"
+msgstr "las"
 
 #: ../../script/path.js:29 ../../script/path.js:295
 msgid "A Dusty Path"
-msgstr "ダスティパス"
+msgstr "Pylista droga"
 
 #: ../../script/path.js:43
 msgid "embark"
-msgstr "乗り出す"
+msgstr "wsiądź na statek"
 
 #: ../../script/path.js:60
 msgid "the compass points "
-msgstr "コンパスポイント"
+msgstr "kompas wskazuje na "
 
 #: ../../script/path.js:132
 msgid "none"
-msgstr "なし"
+msgstr "nic"
 
 #: ../../script/path.js:142
 msgid "armour"
-msgstr "鎧"
+msgstr "zbroja"
 
 #: ../../script/path.js:153
 msgid "water"
-msgstr "水"
+msgstr "woda"
 
 #: ../../script/path.js:229 ../../script/world.js:284
 msgid "free {0}/{1}"
-msgstr "自由：{0}/{1}"
+msgstr "wolny {0}/{1}"
 
 #: ../../script/path.js:253
 msgid "weight"
-msgstr "重さ"
+msgstr "waga"
 
 #: ../../script/path.js:255
 msgid "available"
-msgstr "利用できる"
+msgstr "dostępne"
 
 #: ../../script/ship.js:11
 msgid "Ship"
-msgstr "船"
+msgstr "Statek"
 
 #: ../../script/ship.js:27
 msgid "An Old Starship"
-msgstr "古いスターシップ"
+msgstr "Stary statek kosmiczny"
 
 #: ../../script/ship.js:38
 msgid "hull:"
-msgstr "ハル："
+msgstr "kadłub:"
 
 #: ../../script/ship.js:44
 msgid "engine:"
-msgstr "エンジン："
+msgstr "silnik:"
 
 #: ../../script/ship.js:51
 msgid "reinforce hull"
-msgstr "船体を強化"
+msgstr "wzmocnij kadłub"
 
 #: ../../script/ship.js:60
 msgid "upgrade engine"
-msgstr "エンジンをアップグレード"
+msgstr "ulepsz silnik"
 
 #: ../../script/ship.js:69 ../../script/ship.js:142
 msgid "lift off"
-msgstr "リフトオフ！"
+msgstr "oderwij się od ziemi"
 
 #: ../../script/ship.js:91
 msgid ""
 "somewhere above the debris cloud, the wanderer fleet hovers. been on this "
 "rock too long."
-msgstr "どこかに破片の雲上、放浪者艦隊はホバー。長すぎるこの岩の上にあった。"
+msgstr ""
+"gdzieś nad chmurą śmieci unosi się wędrowna flota. była ona na tym kamieniu "
+"zbyt długo."
 
 #: ../../script/ship.js:106 ../../script/ship.js:119
 msgid "not enough alien alloy"
-msgstr "十分ではない外国人合金"
+msgstr "za mało kosmicznego stopu"
 
 #: ../../script/ship.js:134
 msgid "Ready to Leave?"
-msgstr "去る準備はできましたか？"
+msgstr "Gotowy by odejść?"
 
 #: ../../script/ship.js:138
 msgid "time to get out of this place. won't be coming back."
-msgstr "この場所から抜け出すための時間。戻りません！"
+msgstr "czas odejść z tego miejsca. nie wrócę tu."
 
 #: ../../script/ship.js:150
 msgid "linger"
-msgstr "リンガー"
+msgstr "przeczekaj"
 
 #: ../../script/world.js:46
 msgid "punch"
-msgstr "パンチ"
+msgstr "uderz"
 
 #: ../../script/world.js:52
 msgid "stab"
-msgstr "刺す"
+msgstr "dźgnij"
 
 #: ../../script/world.js:58
 msgid "swing"
-msgstr "スイング"
+msgstr "zamachnij się"
 
 #: ../../script/world.js:64
 msgid "slash"
-msgstr "スラッシュ"
+msgstr "tnij"
 
 #: ../../script/world.js:70
 msgid "thrust"
-msgstr "推力"
+msgstr "pchnij"
 
 #: ../../script/world.js:76
 msgid "shoot"
-msgstr "撃つ"
+msgstr "strzel"
 
 #: ../../script/world.js:83
 msgid "blast"
-msgstr "爆発"
+msgstr "wysadź"
 
 #: ../../script/world.js:90
 msgid "lob"
-msgstr "ロブ"
+msgstr "rzuć"
 
 #: ../../script/world.js:97
 msgid "tangle"
-msgstr "もつれ"
+msgstr "zaplącz"
 
 #: ../../script/world.js:119
 msgid "An&nbsp;Outpost"
-msgstr "前哨"
+msgstr "Przyczułek"
 
 #: ../../script/world.js:120
 msgid "Iron&nbsp;Mine"
-msgstr "鉄鉱山"
+msgstr "Kopalnia&nbsp;żelaza"
 
 #: ../../script/world.js:121
 msgid "Coal&nbsp;Mine"
-msgstr "炭鉱"
-
-#: ../../script/localization.js:6 ../../script/outside.js:61
-msgid "coal mine"
-msgstr "炭鉱"
-
-msgid "iron mine"
-msgstr "鉄鉱山"
-
-msgid "sulphur mine"
-msgstr "硫黄鉱山"
-
-msgid "sulphur"
-msgstr "硫黄"
+msgstr "Kopalnia&nbsp;węgla"
 
 #: ../../script/world.js:122
 msgid "Sulphur&nbsp;Mine"
-msgstr "硫黄鉱山"
+msgstr "Kopalnia&nbsp;siarki"
 
 #: ../../script/world.js:123
 msgid "An&nbsp;Old&nbsp;House"
-msgstr "古家"
+msgstr "Stary&nbsp;Dom"
 
 #: ../../script/world.js:124
 msgid "A&nbsp;Damp&nbsp;Cave"
-msgstr "湿った洞窟"
+msgstr "Wilgotna&nbsp;jaskinia"
 
 #: ../../script/world.js:125
 msgid "An&nbsp;Abandoned&nbsp;Town"
-msgstr "捨てられた町"
+msgstr "Opuszczone&nbsp;Miasto"
 
 #: ../../script/world.js:126
 msgid "A&nbsp;Ruined&nbsp;City"
-msgstr "廃墟の街"
+msgstr "Zrujnowane&nbsp;Miasto"
 
 #: ../../script/world.js:127
 msgid "A&nbsp;Crashed&nbsp;Starship"
-msgstr "墜落した宇宙船"
+msgstr "Rozbity&nbsp;Statek&nbsp;Kosmiczny"
 
 #: ../../script/world.js:128
 msgid "A&nbsp;Borehole"
-msgstr "掘削孔"
+msgstr "Odwiert"
 
 #: ../../script/world.js:129
 msgid "A&nbsp;Battlefield"
-msgstr "戦場"
+msgstr "Pole&nbsp;walki"
 
 #: ../../script/world.js:130
 msgid "A&nbsp;Murky&nbsp;Swamp"
-msgstr "濁った沼"
+msgstr "Mroczne&nbsp;Bagno"
 
 #: ../../script/world.js:134
 msgid "A&nbsp;Destroyed&nbsp;Village"
-msgstr "破壊された村"
+msgstr "Zniszczona&nbsp;Wioska"
 
 #: ../../script/world.js:250
 msgid "water:{0}"
-msgstr "水:{0}"
+msgstr "woda:{0}"
 
 #: ../../script/world.js:277
 msgid "pockets"
-msgstr "ポケット"
+msgstr "kieszenie"
 
 #: ../../script/world.js:301
 msgid "hp: {0}/{1}"
-msgstr "HP: {0}/{1}"
+msgstr "hp: {0}/{1}"
 
 #: ../../script/world.js:308
 msgid "{0}:{1}"
@@ -1114,249 +1108,262 @@ msgstr "{0}:{1}"
 
 #: ../../script/world.js:343
 msgid "dangerous to be this far from the village without proper protection"
-msgstr "適切な保護のないこの遠い村からのものであると危険な"
+msgstr "niebezpiecznie jest być tak daleko od wsi bez odpowiedniej ochrony"
 
 #: ../../script/world.js:345
 msgid "safer here"
-msgstr "より安全なここ"
+msgstr "tutaj jest bezpieczniej"
 
 #: ../../script/world.js:445
 msgid "the meat has run out"
-msgstr "肉がなくなった"
+msgstr "skończyło się mięso"
 
 #: ../../script/world.js:450
 msgid "starvation sets in"
-msgstr "飢餓セット"
+msgstr "zaczynasz umierać z głodu"
 
 #: ../../script/world.js:475
 msgid "there is no more water"
-msgstr "これ以上の水が存在しない"
+msgstr "nie ma już wody"
 
 #: ../../script/world.js:479
 msgid "the thirst becomes unbearable"
-msgstr "喉の渇きは耐え難いとなり"
+msgstr "pragnienie staje się nie do zniesienia"
 
 #: ../../script/world.js:552
 msgid "the trees yield to dry grass. the yellowed brush rustles in the wind."
-msgstr "木は草を乾燥させるために生じる。黄ばんブッシュが風にそよぐ。"
+msgstr ""
+"sucha trawa zaczyna dominować nad drzewami. pożółkłe krzaki powiewają na "
+"wietrze."
 
 #: ../../script/world.js:555
 msgid ""
 "the trees are gone. parched earth and blowing dust are poor replacements."
-msgstr "木がなくなっている。乾ききった大地と吹いてほこりが貧弱な代替品である。"
+msgstr "drzewa zniknęły. sucha ziemia i pył słabo je zastępują."
 
 #: ../../script/world.js:562
 msgid ""
 "trees loom on the horizon. grasses gradually yield to a forest floor of dry "
 "branches and fallen leaves."
-msgstr "木が地平線上に織機。草は徐々に乾燥した枝や落ち葉の林床に屈する。"
+msgstr ""
+"drzewa wynurzają się zza horyzontu. trawy zostają stopniowo zastąpione przez "
+"runo leśne składające się z suchych gałęzi i opadniętych liści."
 
 #: ../../script/world.js:565
 msgid "the grasses thin. soon, only dust remains."
-msgstr "細い草。すぐに、唯一のほこりが残っている。"
+msgstr "trawy się rozrzedzają. wkrótce pozostanie tylko kurz."
 
 #: ../../script/world.js:572
 msgid "the barrens break at a sea of dying grass, swaying in the arid breeze."
-msgstr "やせ地は乾燥風に揺れて、草を死の海で破る。"
+msgstr "sucha ziemia zastępuje wymierającą trawę oraz wieje suchy wiatr."
 
 #: ../../script/world.js:575
 msgid ""
 "a wall of gnarled trees rises from the dust. their branches twist into a "
 "skeletal canopy overhead."
-msgstr "節くれだった木の壁は、埃から上昇。支店は、骨格天蓋のオーバーヘッドにねじる。"
+msgstr ""
+"ściana powyginanych drzew wyrasta z pyłu, a ich gałęzie tworzą coś na "
+"kształt baldahimu."
 
 #: ../../script/world.js:777
 msgid "Wanderer"
-msgstr "放浪者"
+msgstr "Wędrowiec"
 
 #: ../../script/world.js:782
 msgid "The&nbsp;Village"
-msgstr "村"
+msgstr "Wioska"
 
 #: ../../script/world.js:811
 msgid "the world fades"
-msgstr "世界が消えていきます。"
+msgstr "świat ciemnieje ci przed oczami"
 
 #: ../../script/world.js:912 ../../script/events/setpieces.js:2851
 msgid "water replenished"
-msgstr "水が補給さ！"
+msgstr "odnowiono zasoby wody"
 
 #: ../../script/world.js:939
 msgid "A Barren World"
-msgstr "不毛の世界"
+msgstr "Martwy świat"
 
 #: ../../script/outside.js:5
 msgid "Outside"
-msgstr "外"
+msgstr "Na zewnątrz"
 
 #: ../../script/outside.js:100
 msgid "scraps of fur"
-msgstr "毛皮のスクラップ"
+msgstr "skrawki futra"
 
 #: ../../script/outside.js:105
 msgid "bits of meat"
-msgstr "肉のビット"
+msgstr "kawałki mięsa"
 
 #: ../../script/outside.js:110
 msgid "strange scales"
-msgstr "奇妙なスケール"
+msgstr "dziwne łuski"
 
 #: ../../script/outside.js:115
 msgid "scattered teeth"
-msgstr "散乱歯"
+msgstr "porozrzucane zęby"
 
 #: ../../script/outside.js:120
 msgid "tattered cloth"
-msgstr "ぼろぼろの布"
+msgstr "podarte ubrania"
 
 #: ../../script/outside.js:125
 msgid "a crudely made charm"
-msgstr "ぞんざいた魅力"
+msgstr "słabo wykonany talizman"
 
 #: ../../script/outside.js:141 ../../script/outside.js:529
 msgid "A Silent Forest"
-msgstr "サイレント森"
+msgstr "Cichy las"
 
 #: ../../script/outside.js:166
 msgid "gather wood"
-msgstr "木を集める"
+msgstr "zbierz drewno"
 
 #: ../../script/outside.js:183
 msgid "a stranger arrives in the night"
-msgstr "見知らぬ人が夜に到着"
+msgstr "nieznajomy przybywa w nocy"
 
 #: ../../script/outside.js:185
 msgid "a weathered family takes up in one of the huts."
-msgstr "風化家族は小屋の1に占めている。"
+msgstr "zmęczona rodzina osiada w jednym z szałasów"
 
 #: ../../script/outside.js:187
 msgid "a small group arrives, all dust and bones."
-msgstr "小グループでは、すべての土と骨に到着。"
+msgstr "pojawia się mała grupka, wszędzie kurz i kości"
 
 #: ../../script/outside.js:189
 msgid "a convoy lurches in, equal parts worry and hope."
-msgstr "車列が入ってくる、等分心配と希望。"
+msgstr ""
+"konwój zbliża się chwiejnym krokiem, jednocześnie odczuwasz nadzieję i "
+"strach."
 
 #: ../../script/outside.js:191
 msgid "the town's booming. word does get around."
-msgstr "町は急成長を遂げています。言葉が動き回るん。"
+msgstr ""
+"w mieście panuje harmider, a plotki rozprzestrzeniają się w błyskawicznym "
+"tempie"
 
 #: ../../script/outside.js:510
 msgid "check traps"
-msgstr "トラップをチェックする"
+msgstr "sprawdź pułapki"
 
 #: ../../script/outside.js:531
 msgid "A Lonely Hut"
-msgstr "孤独な小屋"
+msgstr "Samotny szałas"
 
 #: ../../script/outside.js:533
 msgid "A Tiny Village"
-msgstr "小さな村"
+msgstr "Mała wieś"
 
 #: ../../script/outside.js:535
 msgid "A Modest Village"
-msgstr "ささやかな村"
+msgstr "Skromna wieś"
 
 #: ../../script/outside.js:537
 msgid "A Large Village"
-msgstr "大型村"
+msgstr "Duża wieś"
 
 #: ../../script/outside.js:539
 msgid "A Raucous Village"
-msgstr "騒々しい村"
+msgstr "Zaludniona wioska"
 
 #: ../../script/outside.js:551
 msgid "the sky is grey and the wind blows relentlessly"
-msgstr "空は灰色で、風が容赦なく吹く。"
+msgstr "niebo jest szare, a wiatr wieje nieubłaganie"
 
 #: ../../script/outside.js:561
 msgid "dry brush and dead branches litter the forest floor"
-msgstr "ドライブッシュと枯れ枝のトイレ林床"
+msgstr "suchy chrust i martwe gałęzie ozdabiają glebę lasu"
 
 #: ../../script/outside.js:587
 msgid "the traps contain "
-msgstr "トラップは含まれてい"
+msgstr "pułapki zawierają "
 
 #: ../../script/outside.js:592
 msgid " and "
-msgstr "と"
+msgstr " i "
 
 #: ../../script/space.js:42
 msgid "hull: "
-msgstr "ハル："
+msgstr "kadłub: "
 
 #: ../../script/space.js:76
 msgid "Troposphere"
-msgstr "対流圏"
+msgstr "Troposfera"
 
 #: ../../script/space.js:78
 msgid "Stratosphere"
-msgstr "成層圏"
+msgstr "Stratosfera"
 
 #: ../../script/space.js:80
 msgid "Mesosphere"
-msgstr "中間圏"
+msgstr "Mezosfera"
 
 #: ../../script/space.js:82
 msgid "Thermosphere"
-msgstr "熱圏"
+msgstr "Termosfera"
 
 #: ../../script/space.js:84
 msgid "Exosphere"
-msgstr "外気圏"
+msgstr "Egzosfera"
 
 #: ../../script/space.js:86
 msgid "Space"
-msgstr "宇宙空間"
+msgstr "Przestrzeń kosmiczna"
 
 #: ../../script/space.js:421
 msgid "score for this game: {0}"
-msgstr "このゲームのスコア：{0}"
+msgstr "punkty za tę grę: {0}"
 
 #: ../../script/space.js:428
 msgid "total score: {0}"
-msgstr "総得点：{0}"
+msgstr "całkowita ilość punktów: {0}"
 
 #: ../../script/events/room.js:6
 msgid "The Nomad"
-msgstr "遊牧民"
+msgstr "Koczownik"
 
 #: ../../script/events/room.js:13
 msgid ""
 "a nomad shuffles into view, laden with makeshift bags bound with rough twine."
-msgstr "ノマドはラフひもでバインド間に合わせの袋を積んでビューの中に加えて切り直す。"
+msgstr ""
+"na twoich oczach pojawia się koczownik, noszący improwizowane worki "
+"przewiązane sznurami."
 
 #: ../../script/events/room.js:14
 msgid "won't say from where he came, but it's clear that he's not staying."
-msgstr "彼が来たところからと言うが、それは彼が滞在していない明らかだことはありません。"
+msgstr "nie powie dokąd zmierzał, ale jasne jest, że niedługo odejdzie"
 
 #: ../../script/events/room.js:16
 msgid "a nomad arrives, looking to trade"
-msgstr "ノマドは、取引を探して、到着した。"
+msgstr "koczownik przybywa w poszukiwaniu handlu"
 
 #: ../../script/events/room.js:19
 msgid "buy scales"
-msgstr "スケールを買う"
+msgstr "kup łuski"
 
 #: ../../script/events/room.js:24
 msgid "buy teeth"
-msgstr "歯を買う"
+msgstr "kup zęby"
 
 #: ../../script/events/room.js:29
 msgid "buy bait"
-msgstr "餌を買う"
+msgstr "kup przynętę"
 
 #: ../../script/events/room.js:32
 msgid "traps are more effective with bait."
-msgstr "トラップは餌とより効果的です。"
+msgstr "pułapki są bardziej efektywne przy użyciu przynęty"
 
 #: ../../script/events/room.js:38
 msgid "buy compass"
-msgstr "コンパスを買う"
+msgstr "kup kompas"
 
 #: ../../script/events/room.js:41
 msgid "the old compass is dented and dusty, but it looks to work."
-msgstr "古いコンパスは窪んだと埃っぽいですが、それは動作するように見えます。"
+msgstr ""
+"stary kompas jest wyszczerbiony i zakurzony, ale wygląda na to, że działa"
 
 #: ../../script/events/room.js:45 ../../script/events/room.js:223
 #: ../../script/events/room.js:236 ../../script/events/room.js:249
@@ -1366,390 +1373,397 @@ msgstr "古いコンパスは窪んだと埃っぽいですが、それは動作
 #: ../../script/events/room.js:559 ../../script/events/room.js:575
 #: ../../script/events/room.js:586
 msgid "say goodbye"
-msgstr "別れを告げる"
+msgstr "pożegnaj się"
 
 #: ../../script/events/room.js:52 ../../script/events/room.js:102
 msgid "Noises"
-msgstr "ノイズ"
+msgstr "Hałasy"
 
 #: ../../script/events/room.js:59
 msgid "through the walls, shuffling noises can be heard."
-msgstr "壁を介して、シャッフルノイズを聞くことができる。"
+msgstr "przez ściany można usłyszeć czołganie się."
 
 #: ../../script/events/room.js:60
 msgid "can't tell what they're up to."
-msgstr "彼らは最高だものを伝えることはできません。"
+msgstr "nie wiem co oni zamierzają."
 
 #: ../../script/events/room.js:62
 msgid "strange noises can be heard through the walls"
-msgstr "奇妙な音は壁を聞くことができる"
+msgstr "przez ściany można usłyszeć dziwne dźwięki"
 
 #: ../../script/events/room.js:65 ../../script/events/room.js:115
 #: ../../script/events/setpieces.js:1599
 msgid "investigate"
-msgstr "調査する"
+msgstr "zbadaj"
 
 #: ../../script/events/room.js:69 ../../script/events/room.js:119
 #: ../../script/events/outside.js:29
 msgid "ignore them"
-msgstr "それらを無視"
+msgstr "zignoruj je"
 
 #: ../../script/events/room.js:76
 msgid "vague shapes move, just out of sight."
-msgstr "漠然とした形状は、ちょうど見えないところに、移動します。"
+msgstr "dziwne kształty ruszają się poza zasięgiem wzroku."
 
 #: ../../script/events/room.js:77
 msgid "the sounds stop."
-msgstr "音が停止します。"
+msgstr "dźwięki cichną."
 
 #: ../../script/events/room.js:81 ../../script/events/room.js:94
 msgid "go back inside"
-msgstr "内側に戻っ"
+msgstr "wróć do środka"
 
 #: ../../script/events/room.js:89
 msgid ""
 "a bundle of sticks lies just beyond the threshold, wrapped in coarse furs."
-msgstr "スティックの束が粗い毛皮に包まれ、まさにしきい値を超えて位置しています。"
+msgstr "kupka patyków leży zaraz za progiem, przewiązana grubymi futrami."
 
 #: ../../script/events/room.js:90
 msgid "the night is silent."
-msgstr "夜は静かです。"
+msgstr "noc jest cicha."
 
 #: ../../script/events/room.js:109
 msgid "scratching noises can be heard from the store room."
-msgstr "引っかきノイズが店の部屋から聞くことができる。"
+msgstr "możesz usłyszeć drapanie z pomieszczenia w sklepie."
 
 #: ../../script/events/room.js:110
 msgid "something's in there."
-msgstr "何かがそこにある。"
+msgstr "coś tam jest."
 
 #: ../../script/events/room.js:112
 msgid "something's in the store room"
-msgstr "スクラッチ！スクラッチ！"
+msgstr "coś jest w pomieszczeniu sklepowym."
 
 #: ../../script/events/room.js:126 ../../script/events/room.js:146
 #: ../../script/events/room.js:166
 msgid "some wood is missing."
-msgstr "いくつかの木材が不足しています！"
+msgstr "część drewna zniknęła."
 
 #: ../../script/events/room.js:127
 msgid "the ground is littered with small scales"
-msgstr "グランドは、小さなスケールが散らばっている"
+msgstr "ziemia jest obsypana małymi łuskami"
 
 #: ../../script/events/room.js:147
 msgid "the ground is littered with small teeth"
-msgstr "グランドは小歯が散らばっている"
+msgstr "ziemia jest obsypana małymi zębami"
 
 #: ../../script/events/room.js:167
 msgid "the ground is littered with scraps of cloth"
-msgstr "グランドは、布の切れ端が散らばっている"
+msgstr "ziemi jest pokryta podartymi ubraniami"
 
 #: ../../script/events/room.js:187
 msgid "The Beggar"
-msgstr "乞食"
+msgstr "Żebrak"
 
 #: ../../script/events/room.js:194
 msgid "a beggar arrives."
-msgstr "乞食が到着。"
+msgstr "żebrak przybył."
 
 #: ../../script/events/room.js:195
 msgid "asks for any spare furs to keep him warm at night."
-msgstr "彼は夜に暖かい彼を保つために予備の毛皮を要求します。"
+msgstr "prosi o jakieś futra na zbyciu, dzięki którym może się ogrzać w nocy."
 
 #: ../../script/events/room.js:197
 msgid "a beggar arrives"
-msgstr "乞食が到着"
+msgstr "żebrak przybył."
 
 #: ../../script/events/room.js:200
 msgid "give 50"
-msgstr "50を与える"
+msgstr "daj 50"
 
 #: ../../script/events/room.js:205 ../../script/events/room.js:271
 #: ../../script/events/room.js:341
 msgid "give 100"
-msgstr "与える100"
+msgstr "daj 100"
 
 #: ../../script/events/room.js:210 ../../script/events/room.js:281
 #: ../../script/events/room.js:458
 msgid "turn him away"
-msgstr "彼を向ける"
+msgstr "odpraw go z kwitkiem"
 
 #: ../../script/events/room.js:218 ../../script/events/room.js:231
 #: ../../script/events/room.js:244
 msgid "the beggar expresses his thanks."
-msgstr "乞食のおかげます。"
+msgstr "żebrak okazuje swoją wdzięczność."
 
 #: ../../script/events/room.js:219
 msgid "leaves a pile of small scales behind."
-msgstr "背後に小さなスケールの山を残します。"
+msgstr "zostawia za sobą stos małych łusek."
 
 #: ../../script/events/room.js:232
 msgid "leaves a pile of small teeth behind."
-msgstr "背後に小歯の山を残します。"
+msgstr "zostawia za sobą stos małych zębów."
 
 #: ../../script/events/room.js:245
 msgid "leaves some scraps of cloth behind."
-msgstr "背後にある布の一部スクラップを残します。"
+msgstr "zostawia za sobą jakieś skrawki materiałów."
 
 #: ../../script/events/room.js:258 ../../script/events/room.js:328
 msgid "The Mysterious Wanderer"
-msgstr "謎の放浪者"
+msgstr "Tajemniczy Wędrowiec"
 
 #: ../../script/events/room.js:265
 msgid ""
 "a wanderer arrives with an empty cart. says if he leaves with wood, he'll be "
 "back with more."
-msgstr "放浪者は、空のカートで到着。あなたは木材を残せば、彼はそれ以上と戻ってきますと言います。"
+msgstr ""
+"wędrowiec przybywa z pustym wózkiem. mówi, że jeśli odejdzie z drewnem, "
+"wróci z czymś więcej."
 
 #: ../../script/events/room.js:266
 msgid "builder's not sure he's to be trusted."
-msgstr "ビルダーは必ず彼が信頼されるべきである。"
+msgstr "budowniczy nie jest pewny, czy jest ona godna zaufania"
 
 #: ../../script/events/room.js:268 ../../script/events/room.js:338
 msgid "a mysterious wanderer arrives"
-msgstr "神秘的な放浪者が到着"
+msgstr "tajemniczy wędrowiec przybywa"
 
 #: ../../script/events/room.js:276 ../../script/events/room.js:346
 msgid "give 500"
-msgstr "与える500"
+msgstr "daj 500"
 
 #: ../../script/events/room.js:288 ../../script/events/room.js:307
 msgid "the wanderer leaves, cart loaded with wood"
-msgstr "放浪の葉、カートは木材を搭載"
+msgstr "wędrowiec odchodzi, wózek załadowany drewnem"
 
 #: ../../script/events/room.js:294 ../../script/events/room.js:313
 msgid "the mysterious wanderer returns, cart piled high with wood."
-msgstr "神秘的な放浪者に戻り、カートが木で高く積ま。"
+msgstr "tajemniczy wędrowiec powraca, w wózku piętrzy się drewno"
 
 #: ../../script/events/room.js:335
 msgid ""
 "a wanderer arrives with an empty cart. says if she leaves with furs, she'll "
 "be back with more."
-msgstr "放浪者は、空のカートで到着。彼女は毛皮を離れた場合、彼女はそれ以上と戻ってきますと言います。"
+msgstr ""
+"wędrowiec przybywa z pustym wózkiem. mówi, że jeśli odejdzie z futrami, "
+"wróci z czymś więcej."
 
 #: ../../script/events/room.js:336
 msgid "builder's not sure she's to be trusted."
-msgstr "ビルダーは必ず彼女が信頼されるべきである。"
+msgstr "pracownik nie jest pewny, czy jest godna zaufania."
 
 #: ../../script/events/room.js:351
 msgid "turn her away"
-msgstr "離れて彼女を向ける"
+msgstr "spław ją"
 
 #: ../../script/events/room.js:358 ../../script/events/room.js:377
 msgid "the wanderer leaves, cart loaded with furs"
-msgstr "毛皮を搭載放浪の葉、カート"
+msgstr "wędrowiec odchodzi, wózek załadowany futrem"
 
 #: ../../script/events/room.js:364 ../../script/events/room.js:383
 msgid "the mysterious wanderer returns, cart piled high with furs."
-msgstr "神秘的な放浪者に戻り、カートは毛皮で高い積ま。"
+msgstr "tajemniczy wędrowiec powraca, w wózku piętrzy się drewno"
 
 #: ../../script/events/room.js:398
 msgid "The Scout"
-msgstr "スカウト"
+msgstr "Zwiadowca"
 
 #: ../../script/events/room.js:405
 msgid "the scout says she's been all over."
-msgstr "スカウトは、彼女はすべての上にあったと言っている。"
+msgstr "zwiadowca twierdzi, że był wszędzie."
 
 #: ../../script/events/room.js:406
 msgid "willing to talk about it, for a price."
-msgstr "価格のために、それについて話をして喜んで。"
+msgstr "za pieniądze chętnie o tym porozmawia"
 
 #: ../../script/events/room.js:408
 msgid "a scout stops for the night"
-msgstr "スカウトは夜のために停止します。"
+msgstr "zwiadowca zatrzymuje się na noc"
 
 #: ../../script/events/room.js:411
 msgid "buy map"
-msgstr "地図を購入する"
+msgstr "kup mapę"
 
 #: ../../script/events/room.js:413
 msgid "the map uncovers a bit of the world"
-msgstr "マップは、世界のビットを示しています"
+msgstr "mapa odkrywa kawałek świata"
 
 #: ../../script/events/room.js:417
 msgid "learn scouting"
-msgstr "スカウトを学ぶ"
+msgstr "naucz się zwiadu"
 
 #: ../../script/events/room.js:436
 msgid "The Master"
-msgstr "マスター"
+msgstr "Mistrz"
 
 #: ../../script/events/room.js:443
 msgid "an old wanderer arrives."
-msgstr "古い放浪者が到着。"
+msgstr "stary wędrowiec przybywa."
 
 #: ../../script/events/room.js:444
 msgid "he smiles warmly and asks for lodgings for the night."
-msgstr "彼は温かく笑顔と夜の宿を求める。"
+msgstr "uśmiecha się ciepło i pyta o kwaterę na noc."
 
 #: ../../script/events/room.js:446
 msgid "an old wanderer arrives"
-msgstr "古い放浪者が到着"
+msgstr "stary wędrowiec przybywa"
 
 #: ../../script/events/room.js:449
 msgid "agree"
-msgstr "同意する"
+msgstr "zgoda"
 
 #: ../../script/events/room.js:465
 msgid "in exchange, the wanderer offers his wisdom."
-msgstr "引き換えに、放浪者は自分の知恵を提供しています。"
+msgstr "w ramach wymiany, wędrowiec oferuje swoją mądrość."
 
 #: ../../script/events/room.js:469
 msgid "evasion"
-msgstr "回避"
+msgstr "wymykanie się"
 
 #: ../../script/events/room.js:479
 msgid "precision"
-msgstr "精度"
+msgstr "precyzja"
 
 #: ../../script/events/room.js:489
 msgid "force"
-msgstr "力"
+msgstr "siła"
 
 #: ../../script/events/room.js:499
 msgid "nothing"
-msgstr "何も"
+msgstr "nic"
 
 #: ../../script/events/room.js:508
 msgid "The Sick Man"
-msgstr "病人"
+msgstr "Chory człowiek"
 
 #: ../../script/events/room.js:515
 msgid "a man hobbles up, coughing."
-msgstr "病人は喘鳴、アップ足枷。"
+msgstr "człowiek się podczołguje i kaszle."
 
 #: ../../script/events/room.js:516
 msgid "he begs for medicine."
-msgstr "彼は医学のために頼む。"
+msgstr "błaga o lekarstwa."
 
 #: ../../script/events/room.js:518
 msgid "a sick man hobbles up"
-msgstr "病人は、最大足枷"
+msgstr "chory mężczyzna się podczołguje."
 
 #: ../../script/events/room.js:521
 msgid "give 1 medicine"
-msgstr "薬を与える"
+msgstr "daj 1 lekarstwo"
 
 #: ../../script/events/room.js:523
 msgid "the man swallows the medicine eagerly"
-msgstr "男は熱心に薬を飲み込む"
+msgstr "mężczyzna błyskawicznie połyka lekarstwa"
 
 #: ../../script/events/room.js:527
 msgid "tell him to leave"
-msgstr "彼が去るように言う"
+msgstr "każ mu odejść"
 
 #: ../../script/events/room.js:534 ../../script/events/room.js:550
 #: ../../script/events/room.js:566
 msgid "the man is thankful."
-msgstr "男は感謝している。"
+msgstr "mężczyzna jest wdzięczny."
 
 #: ../../script/events/room.js:535 ../../script/events/room.js:551
 #: ../../script/events/room.js:567
 msgid "he leaves a reward."
-msgstr "彼は報酬を残します。"
+msgstr "zostawia nagrodę."
 
 #: ../../script/events/room.js:536
 msgid "some weird metal he picked up on his travels."
-msgstr "旅行時に彼が拾ったいくつかの奇妙な金属。"
+msgstr "jakiś dziwny metal który znalazł podczas swoich podróży."
 
 #: ../../script/events/room.js:552
 msgid "some weird glowing boxes he picked up on his travels."
-msgstr "いくつかの奇妙な光るボックス、彼は彼の旅行で拾いました。"
+msgstr "jakieś dziwne, świecące pudełko, które znalazł podczas swoich podróży."
 
 #: ../../script/events/room.js:568
 msgid "all he has are some scales."
-msgstr "彼が持っているすべては、いくつかの尺度である。"
+msgstr "jedyne co ma to kilka łusek."
 
 #: ../../script/events/room.js:582
 msgid "the man expresses his thanks and hobbles off."
-msgstr "男は彼のおかげで表現し、オフに蛇行。"
+msgstr "mężczyzna dziękuje ci i odchodzi."
 
 #: ../../script/events/setpieces.js:6
 msgid "An Outpost"
-msgstr "前哨"
+msgstr "Kolonia"
 
 #: ../../script/events/setpieces.js:10 ../../script/events/setpieces.js:12
 msgid "a safe place in the wilds."
-msgstr "荒野での安全な場所。"
+msgstr "bezpieczne miejsce w dziczy."
 
 #: ../../script/events/setpieces.js:33
 msgid "A Murky Swamp"
-msgstr "濁った沼"
+msgstr "Ciemne bagno"
 
 #: ../../script/events/setpieces.js:37
 msgid "rotting reeds rise out of the swampy earth."
-msgstr "腐っ葦は沼沢地から上昇。"
+msgstr "gnijąca trzcina wyrasta z bagnistej gleby."
 
 #: ../../script/events/setpieces.js:38
 msgid "a lone frog sits in the muck, silently."
-msgstr "唯一のカエルは、静かに、泥に座っている。"
+msgstr "samotna żaba siedzi cicho na błocie."
 
-# dur dur dur
+#. dur dur dur
 #: ../../script/events/setpieces.js:40
 msgid "a swamp festers in the stagnant air."
-msgstr "沼は停滞空気中に化膿。"
+msgstr "bagno śmierdzi zgnilizną w cichym powietrzu."
 
 #: ../../script/events/setpieces.js:43 ../../script/events/setpieces.js:530
 #: ../../script/events/setpieces.js:585 ../../script/events/setpieces.js:853
 #: ../../script/events/setpieces.js:1264 ../../script/events/setpieces.js:1282
 #: ../../script/events/setpieces.js:3408
 msgid "enter"
-msgstr "入力する"
+msgstr "wejdź"
 
 #: ../../script/events/setpieces.js:54
 msgid "deep in the swamp is a moss-covered cabin."
-msgstr "沼の深い苔に覆われた小屋である。"
+msgstr "głęboko w bagnie znajduje się chatka pokryta mchem."
 
 #: ../../script/events/setpieces.js:55
 msgid "an old wanderer sits inside, in a seeming trance."
-msgstr "古い放浪者は見せかけのトランス状態に、内側に座っている。"
+msgstr "stary wędrowiec siedzi w środku, jak gdyby w transie."
 
 #: ../../script/events/setpieces.js:60
 msgid "talk"
-msgstr "トーク"
+msgstr "porozmawiaj"
 
 #: ../../script/events/setpieces.js:71
 msgid "the wanderer takes the charm and nods slowly."
-msgstr "放浪の魅力を取り、ゆっくりとうなずく。"
+msgstr "wędrowiec zabiera talizman i powoli przytakuje."
 
 #: ../../script/events/setpieces.js:72
 msgid "he speaks of once leading the great fleets to fresh worlds."
-msgstr "彼はかつて、新鮮な世界に大きな艦隊をリードすることを話す。"
+msgstr ""
+"opowiada o tym, że raz dowodził wielkimi flotami zwiedzającymi nowe światy."
 
-# :( :(
+#. :( :(
 #: ../../script/events/setpieces.js:73
-      msgid "unfathomable destruction to fuel wanderer hungers."
-      msgstr "放浪の飢えを燃料に対する計り知れない破壊。"
+msgid "unfathomable destruction to fuel wanderer hungers."
+msgstr "niewyobrażalnie ogromna destrukcja, by zaspokoić głód wędrowca."
 
 #: ../../script/events/setpieces.js:74
-      msgid "his time here, now, is his penance."
-      msgstr "ここに彼の時間は、今、彼の苦行です・・・"
+msgid "his time here, now, is his penance."
+msgstr "jego czas tutaj, teraz, jest dla niego pokutą."
 
 #: ../../script/events/setpieces.js:90
-      msgid "A Damp Cave"
-      msgstr "湿った洞窟"
+msgid "A Damp Cave"
+msgstr "Wilgotna jaskinia"
 
 #: ../../script/events/setpieces.js:94
-      msgid "the mouth of the cave is wide and dark."
-      msgstr "洞窟の口が広く、暗い。"
+msgid "the mouth of the cave is wide and dark."
+msgstr "wejście do jaskini jest szerokie i ciemne."
 
 #: ../../script/events/setpieces.js:95
-      msgid "can't see what's inside."
-      msgstr "中身を見ることができない！"
+msgid "can't see what's inside."
+msgstr "ciężko dostrzec, co jest w środku."
 
 #: ../../script/events/setpieces.js:97
 msgid "the earth here is split, as if bearing an ancient wound"
-msgstr "古代の傷を持つかのように、ここでは地球は、分割されます。"
+msgstr ""
+"ziemia tutaj pękła na dwie części, zupełnie jakby miała na sobie pradawną "
+"ranę"
 
 #: ../../script/events/setpieces.js:100 ../../script/events/setpieces.js:2834
 #: ../../script/events/setpieces.js:3333
 msgid "go inside"
-msgstr "中に入る"
+msgstr "wejdź do środka"
 
 #: ../../script/events/setpieces.js:119 ../../script/events/setpieces.js:257
 msgid "a startled beast defends its home"
-msgstr "驚い獣はその家を守る"
+msgstr "przerażona bestia broni swojego domu"
 
 #: ../../script/events/setpieces.js:134 ../../script/events/setpieces.js:183
 #: ../../script/events/setpieces.js:222 ../../script/events/setpieces.js:239
@@ -1782,7 +1796,7 @@ msgstr "驚い獣はその家を守る"
 #: ../../script/events/setpieces.js:3227 ../../script/events/setpieces.js:3259
 #: ../../script/events/setpieces.js:3296
 msgid "continue"
-msgstr "続ける"
+msgstr "kontynuuj"
 
 #: ../../script/events/setpieces.js:138 ../../script/events/setpieces.js:154
 #: ../../script/events/setpieces.js:187 ../../script/events/setpieces.js:226
@@ -1791,107 +1805,107 @@ msgstr "続ける"
 #: ../../script/events/setpieces.js:372 ../../script/events/setpieces.js:413
 #: ../../script/events/setpieces.js:464 ../../script/events/setpieces.js:495
 msgid "leave cave"
-msgstr "洞窟を残す"
+msgstr "opuść jaskinię"
 
 #: ../../script/events/setpieces.js:145
 msgid "the cave narrows a few feet in."
-msgstr "洞窟はインチ数フィートを狭め。"
+msgstr "jaskinia się zwęża o kilka stóp."
 
 #: ../../script/events/setpieces.js:146
 msgid "the walls are moist and moss-covered"
-msgstr "壁が湿っていると苔に覆われた"
+msgstr "ściany są wilgotne oraz pokryte mchem"
 
 #: ../../script/events/setpieces.js:150
 msgid "squeeze"
-msgstr "スクイズ"
+msgstr "idź przy ścianie"
 
 #: ../../script/events/setpieces.js:161
 msgid "the remains of an old camp sits just inside the cave."
-msgstr "旧収容所跡はただの洞窟の中に座っている。"
+msgstr "pozostałości starego obozu znajdują się tuż przy wyjściu z jaskini."
 
 #: ../../script/events/setpieces.js:162
 msgid "bedrolls, torn and blackened, lay beneath a thin layer of dust."
-msgstr "ベッドのロールは、引き裂かれた黒化、ほこりの薄い層の下に横たわっていた。"
+msgstr "podarte i brudne śpiwory leżą pod cienką warstwą kurzu."
 
 #: ../../script/events/setpieces.js:194
 msgid "the body of a wanderer lies in a small cavern."
-msgstr "放浪の本体は、小さな洞窟にある。"
+msgstr "ciało wędrowca leży w małej grocie."
 
 #: ../../script/events/setpieces.js:195
 msgid "rot's been to work on it, and some of the pieces are missing."
-msgstr "腐敗それで動作するようにしてだし、作品の一部が欠けている。"
+msgstr "proces gnicia zrobił swoje, brakuje niektórych części."
 
 #: ../../script/events/setpieces.js:196
 msgid "can't tell what left it here."
-msgstr "ここでそれを残したものを伝えることはできません。"
+msgstr "nie jest w stanie powiedzieć, co tutaj zostawił."
 
 #: ../../script/events/setpieces.js:233
 msgid "the torch sputters and dies in the damp air"
-msgstr "トーチはスパッタや湿った空気中で死ぬ"
+msgstr "pochodnia przestaje płonąć, aż w końcu gaśnie w wilgotnym powietrzu"
 
 #: ../../script/events/setpieces.js:234
 msgid "the darkness is absolute"
-msgstr "闇が絶対的である"
+msgstr "zapadła absolutna ciemność"
 
 #: ../../script/events/setpieces.js:236
 msgid "the torch goes out"
-msgstr "トーチが消灯"
+msgstr "pochodnia gaśnie"
 
 #: ../../script/events/setpieces.js:289
 msgid "a cave lizard attacks"
-msgstr "洞窟トカゲ·アタック"
+msgstr "jaskiniowy jaszczur atakuje"
 
 #: ../../script/events/setpieces.js:321
 msgid "a large beast charges out of the dark"
-msgstr "大型獣は暗いから充電"
+msgstr "ogromna bestia szarżuje z ciemności"
 
 #: ../../script/events/setpieces.js:353
 msgid "a giant lizard shambles forward"
-msgstr "巨大なトカゲが前方修羅場！"
+msgstr "ogromny jaszczur lezie przed siebie"
 
 #: ../../script/events/setpieces.js:379
 msgid "the nest of a large animal lies at the back of the cave."
-msgstr "大型動物の巣は、洞窟の奥に位置しています。"
+msgstr "gniazdo dużego zwierza znajduje się z tyłu jaskini."
 
 #: ../../script/events/setpieces.js:420
 msgid "a small supply cache is hidden at the back of the cave."
-msgstr "小さな電源キャッシュは洞窟の奥に隠されています。"
+msgstr "mały zasobnik jest schowany z tyłu jaskini"
 
 #: ../../script/events/setpieces.js:471
 msgid "an old case is wedged behind a rock, covered in a thick layer of dust."
-msgstr "古いケースは、岩の後ろに押し込ま塵の厚い層に覆われている。"
+msgstr "stara, zakurzona skrzynka jest ukryta za kamieniem."
 
 #: ../../script/events/setpieces.js:503
 msgid "A Deserted Town"
-msgstr "さびれた町"
+msgstr "Opuszczone miasto"
 
 #: ../../script/events/setpieces.js:507
 msgid "a small suburb lays ahead, empty houses scorched and peeling."
-msgstr "小さな郊外の先にある、空の家は焦げや剥離。"
+msgstr "przed tobą jest małe przedmieście, puste domy są spalone na węgiel."
 
 #: ../../script/events/setpieces.js:508
 msgid ""
 "broken streetlights stand, rusting. light hasn't graced this place in a long "
 "time."
-msgstr "壊れた街灯は、錆、立っている。光が長い時間でこの場所を飾っていません。"
+msgstr "zniszczone latarnie stoją i rdzewieją. od dawna jest tutaj ciemno."
 
 #: ../../script/events/setpieces.js:510
 msgid "the town lies abandoned, its citizens long dead"
-msgstr "町の嘘は、その市民の長い死んで、捨てられた"
+msgstr "miasteczko jest opuszczone, a jego mieszkańcy od dawna nie żyją."
 
 #: ../../script/events/setpieces.js:513 ../../script/events/setpieces.js:1201
 msgid "explore"
-msgstr "探る"
+msgstr "eksploruj"
 
 #: ../../script/events/setpieces.js:525
 msgid ""
 "where the windows of the schoolhouse aren't shattered, they're blackened "
 "with soot."
-msgstr "校舎の窓が粉々にされていない場合、それらはすすで黒くなっています。"
+msgstr "tam, gdzie okna szkolne nie są porozbijane, są zaciemnione sadzą."
 
 #: ../../script/events/setpieces.js:526
 msgid "the double doors creak endlessly in the wind."
-msgstr "二重扉が風に延々ときしみ。"
+msgstr "podwójne drzwi wiecznie skrzypią w wietrze."
 
 #: ../../script/events/setpieces.js:535 ../../script/events/setpieces.js:573
 #: ../../script/events/setpieces.js:590 ../../script/events/setpieces.js:627
@@ -1905,176 +1919,184 @@ msgstr "二重扉が風に延々ときしみ。"
 #: ../../script/events/setpieces.js:1103 ../../script/events/setpieces.js:1146
 #: ../../script/events/setpieces.js:1167 ../../script/events/setpieces.js:1182
 msgid "leave town"
-msgstr "町を離れる"
+msgstr "opuść miasto"
 
 #: ../../script/events/setpieces.js:566
 msgid "ambushed on the street."
-msgstr "路上で待ち伏せ。"
+msgstr "wpadłeś w zasadzkę na ulicy."
 
-# ?
+#. ?
 #: ../../script/events/setpieces.js:580
 msgid "a squat building up ahead."
-msgstr "スクワット先に構築。"
+msgstr "przed tobą niski budynek."
 
 #: ../../script/events/setpieces.js:581
 msgid "a green cross barely visible behind grimy windows."
-msgstr "汚れた窓の後ろにほとんど見えミドリ十字。"
+msgstr "zielony krzyż jest ledwo widoczny z umorusanych okien."
 
 #: ../../script/events/setpieces.js:597
 msgid "a small cache of supplies is tucked inside a rusting locker."
-msgstr "物資の小さなキャッシュは、錆びたロッカーの中に隠れている。"
+msgstr "mała kryjówka materiałów jest schowana w zardzewiałej skrzyni."
 
 #: ../../script/events/setpieces.js:657
 msgid "a scavenger waits just inside the door."
-msgstr "スカベンジャーはちょうどドアの内側に待機します。"
+msgstr "padlinożerca czeka w środku drzwi."
 
 #: ../../script/events/setpieces.js:689
 msgid "a beast stands alone in an overgrown park."
-msgstr "獣は生い茂った公園に一人で立っている。"
+msgstr "bestia stoi samotnie w zarośniętym parku."
 
 #: ../../script/events/setpieces.js:703
 msgid "an overturned caravan is spread across the pockmarked street."
-msgstr "覆さキャラバンはあばた通りの向こう側に広がる。"
+msgstr "wywrócona karawana leży na drodze naznaczonej przez plagę ospy."
 
 #: ../../script/events/setpieces.js:704
 msgid ""
 "it's been picked over by scavengers, but there's still some things worth "
 "taking."
-msgstr "それはスカベンジャーに引き継が選んだが、取る価値のものがまだあるされています。"
+msgstr ""
+"zostało splądrowane przez padlinożerców, ale nadal jest tutaj coś wartego "
+"zebrania."
 
 #: ../../script/events/setpieces.js:764
 msgid "a madman attacks, screeching."
-msgstr "狂人攻撃をきしませながら。"
+msgstr "szaleniec atakuje wrzeszcząc."
 
 #: ../../script/events/setpieces.js:801
 msgid "a thug moves out of the shadows."
-msgstr "刺客は影の外に移動します。"
+msgstr "bandyta wyłania się z cieni."
 
 #: ../../script/events/setpieces.js:833
 msgid "a beast charges out of a ransacked classroom."
-msgstr "獣は物色教室の外に充電します。"
+msgstr "bestia wyskakuje ze splądrowanej klasy."
 
 #: ../../script/events/setpieces.js:847
 msgid "through the large gymnasium doors, footsteps can be heard."
-msgstr "大体育館のドアを通って、足音を聞くことができる。"
+msgstr "zza ogromnych drzwi gimnazjum można usłyszeć czyjeś kroki."
 
 #: ../../script/events/setpieces.js:848
 msgid "the torchlight casts a flickering glow down the hallway."
-msgstr "たいまつは、ちらつきが廊下をグローキャストします。"
+msgstr "światło pochodni pada wzdłuż korytarza."
 
 #: ../../script/events/setpieces.js:849
 msgid "the footsteps stop."
-msgstr "足音が停止します。"
+msgstr "kroki cichną."
 
 #: ../../script/events/setpieces.js:882
 msgid "another beast, draw by the noise, leaps out of a copse of trees."
-msgstr "別の獣は、ノイズによる描き、木の雑木林から跳躍。"
+msgstr "jeszcze jedna bestia, sprowokowana przez hałas, wyskakuje z zagajnika."
 
 #: ../../script/events/setpieces.js:896
 msgid "something's causing a commotion a ways down the road."
-msgstr "何かがやり方道騒ぎを引き起こしている。"
+msgstr "coś powoduje zamieszanie na drodze."
 
 #: ../../script/events/setpieces.js:897
 msgid "a fight, maybe."
-msgstr "戦い、多分。"
+msgstr "może walka."
 
 #: ../../script/events/setpieces.js:912
 msgid ""
 "a small basket of food is hidden under a park bench, with a note attached."
-msgstr "食品の小さなバスケットは付属のノートで、公園のベンチの下に隠されている。"
+msgstr ""
+"mały koszyk jedzenia z dołączoną karteczką jest ukryty pod ławką w parku."
 
 #: ../../script/events/setpieces.js:913
 msgid "can't read the words."
-msgstr "言葉を読み取ることができません。"
+msgstr "nie potrafisz jej przeczytać."
 
 #: ../../script/events/setpieces.js:958
 msgid "a panicked scavenger bursts through the door, screaming."
-msgstr "パニックスカベンジャーは叫んで、ドアを通ってバースト。"
+msgstr "spanikowany padlinożerca wybucha przez drzwi krzycząc."
 
 #: ../../script/events/setpieces.js:995
 msgid "a man stands over a dead wanderer. notices he's not alone."
-msgstr "男は死んで放浪上で立っている。通知彼は一人ではありません。"
+msgstr "człowiek stoi nad martwym wędrowcem. zauważa, że nie jest sam."
 
 #: ../../script/events/setpieces.js:1009
 msgid "scavenger had a small camp in the school."
-msgstr "スカベンジャーは、学校の小さなキャンプを持っていた。"
+msgstr "padlinożerca miał mały obóz w szkole."
 
 #: ../../script/events/setpieces.js:1010
 msgid "collected scraps spread across the floor like they fell from heaven."
-msgstr "彼らは天から落ちたような床の上スクラップを収集した。"
+msgstr ""
+"zebrane skrawki rozciągają się po podłodze jakby spadły prosto z niebios."
 
 #: ../../script/events/setpieces.js:1051
 msgid "scavenger'd been looking for supplies in here, it seems."
-msgstr "スカベンジャーがここにある消耗品を探していた、それはそうです。"
+msgstr "wygląda na to, że padlinożerca szukał tutaj materiałów."
 
 #: ../../script/events/setpieces.js:1052
 msgid "a shame to let what he'd found go to waste."
-msgstr "彼が発見したいものをできるように恥を無駄に。"
+msgstr "wstyd zostawiać to, co znaleźliśmy, na pastwę losu."
 
 #: ../../script/events/setpieces.js:1083
 msgid ""
 "beneath the wanderer's rags, clutched in one of its many hands, a glint of "
 "steel."
-msgstr "放浪者のぼろの下、彼の多くの手の1、鋼の輝きに握りしめ。"
+msgstr ""
+"za łachami wędrowca - które trzyma w jednej ze swoich rąk - błyszczy stal."
 
 #: ../../script/events/setpieces.js:1084
 msgid "worth killing for, it seems."
-msgstr "のために殺す価値は、それはそうです。"
+msgstr "wydaje się być warty zabicia."
 
 #: ../../script/events/setpieces.js:1110
 msgid "eye for an eye seems fair."
-msgstr "目には目を、公正と思われる。"
+msgstr "oko za oko wydaje się być fair."
 
 #: ../../script/events/setpieces.js:1111
 msgid "always worked before, at least."
-msgstr "常に少なくとも、前に働いていた。"
+msgstr "zawsze przedtem pracował."
 
 #: ../../script/events/setpieces.js:1112
 msgid "picking the bones finds some useful trinkets."
-msgstr "骨を拾うことはいくつかの有用な装身具を検索します。"
+msgstr "zbieranie kości pozwala na znalezienie różnych użytecznych bibelotów."
 
 #: ../../script/events/setpieces.js:1153
 msgid "some medicine abandoned in the drawers."
-msgstr "引き出しに放棄されたいくつかの薬。"
+msgstr "trochę lekarstw zostawionych w szufladach."
 
 #: ../../script/events/setpieces.js:1174
 msgid "the clinic has been ransacked."
-msgstr "診療所は荒らされています。"
+msgstr "klinika została splądrowana."
 
 #: ../../script/events/setpieces.js:1175
 msgid "only dust and stains remain."
-msgstr "唯一のほこりや汚れが残っている。"
+msgstr "został tylko pył i plamy."
 
 #: ../../script/events/setpieces.js:1190
 msgid "A Ruined City"
-msgstr "廃墟の街"
+msgstr "Zrujnowane miasto"
 
 #: ../../script/events/setpieces.js:1194
 msgid ""
 "a battered highway sign stands guard at the entrance to this once-great city."
-msgstr "虐待高速道路のサインは、このかつて偉大な都市の入り口にガードを立っている。"
+msgstr ""
+"zniszczony znak drogowy pilnuje wejścia do tego niegdyś wspaniałego miasta."
 
 #: ../../script/events/setpieces.js:1195
 msgid ""
 "the towers that haven't crumbled jut from the landscape like the ribcage of "
 "some ancient beast."
-msgstr "塔はいくつかの古代獣の胸郭のような風景から崩れていない。"
+msgstr ""
+"wieże, które się nie rozpadły, zupełnie jak klatki piersiowe jakichś "
+"starożytnych bestii."
 
 #: ../../script/events/setpieces.js:1196
 msgid "might be things worth having still inside."
-msgstr "まだ内部持つ価値なものかもしれません。"
+msgstr "wewnątrz mogą być rzeczy, które warto zebrać."
 
 #: ../../script/events/setpieces.js:1198
 msgid "the towers of a decaying city dominate the skyline"
-msgstr "腐敗都市の塔はスカイラインを支配"
+msgstr "wieże niszczejącego miasta zasłaniają krajobraz"
 
 #: ../../script/events/setpieces.js:1212
 msgid "the streets are empty."
-msgstr "通りは空です。"
+msgstr "ulice są puste."
 
 #: ../../script/events/setpieces.js:1213
 msgid "the air is filled with dust, driven relentlessly by the hard winds."
-msgstr "空気が硬い風によって執拗に吹き飛ばさホコリが充填されている。"
+msgstr "powietrze jest mocno zakurzone przez silny, nieustający wiatr."
 
 #: ../../script/events/setpieces.js:1221 ../../script/events/setpieces.js:1237
 #: ../../script/events/setpieces.js:1253 ../../script/events/setpieces.js:1269
@@ -2102,944 +2124,975 @@ msgstr "空気が硬い風によって執拗に吹き飛ばさホコリが充填
 #: ../../script/events/setpieces.js:2729 ../../script/events/setpieces.js:2773
 #: ../../script/events/setpieces.js:2816
 msgid "leave city"
-msgstr "街を離れる"
+msgstr "opuść miasto"
 
 #: ../../script/events/setpieces.js:1228
 msgid "orange traffic cones are set across the street, faded and cracked."
-msgstr "オレンジ色のトラフィックコーンは、通りの向こう側に設定色あせやひび割れている。"
+msgstr ""
+"pomarańczowe pachołki drogowe - zniszczone i popękane - są porozstawiane na "
+"ulicy."
 
 #: ../../script/events/setpieces.js:1229
 msgid "lights flash through the alleys between buildings."
-msgstr "ライトは建物の間の路地を通って点滅する。"
+msgstr "światła świecą się między budynkami przez małe alejki."
 
 #: ../../script/events/setpieces.js:1244
 msgid "a large shanty town sprawls across the streets."
-msgstr "大貧民街は、街全体に広がって。"
+msgstr ""
+"ogromne miasto składające się z ruder rozciąga się prostopadle do ulic."
 
 #: ../../script/events/setpieces.js:1245
 msgid "faces, darkened by soot and blood, stare out from crooked huts."
-msgstr "すすと血によって暗く顔は、曲がった小屋から外を眺める。"
+msgstr ""
+"twarze, ściemnione przez sadzę i krew, wyglądają z krzywo zbudowanych "
+"szałasów."
 
 #: ../../script/events/setpieces.js:1260
 msgid "the shell of an abandoned hospital looms ahead."
-msgstr "放棄された病院のシェルが先に織機。"
+msgstr "pozostałości opuszczonego szpitala czekają na zwiedzenie."
 
 #: ../../script/events/setpieces.js:1276
 msgid "the old tower seems mostly intact."
-msgstr "古い塔は、ほとんど無傷でいるようだ。"
+msgstr "stara wieża wydaje się być praktycznie nienaruszona"
 
 #: ../../script/events/setpieces.js:1277
 msgid "the shell of a burned out car blocks the entrance."
-msgstr "燃え尽きカーブロックの入り口の外殻。"
+msgstr "karoseria spalonego samochodu blokuje wejście."
 
 #: ../../script/events/setpieces.js:1278
 msgid "most of the windows at ground level are busted anyway."
-msgstr "グランドレベルウィンドウの大部分はとにかく逮捕されている。"
+msgstr "większość okien na poziomie gruntu jest tak czy owak zepsuta."
 
 #: ../../script/events/setpieces.js:1293
 msgid "a huge lizard scrambles up out of the darkness of an old metro station."
-msgstr "巨大なトカゲは、古い駅の闇から上ってスクランブルする。"
+msgstr ""
+"wielka jaszczurka próbuje się wygramolić z ciemności na starą stację metra."
 
 #: ../../script/events/setpieces.js:1319
 msgid "descend"
-msgstr "降りる"
+msgstr "zejdź"
 
 #: ../../script/events/setpieces.js:1329
 msgid "the shot echoes in the empty street."
-msgstr "ショットは、空の通りにエコーします。"
+msgstr "echo wystrzału roznosi się po pustej ulicy"
 
 #: ../../script/events/setpieces.js:1367
 msgid "the soldier steps out from between the buildings, rifle raised."
-msgstr "兵士が高く、建物、ライフルの間から繰り返します。"
+msgstr ""
+"żołnierz, trzymający karabin pionowo do góry, wychodzi spomiędzy budynków."
 
 #: ../../script/events/setpieces.js:1405
 msgid "a frail man stands defiantly, blocking the path."
-msgstr "虚弱男は経路を遮断、ふてくされて立っている。"
+msgstr "wątły mężczyzna stoi demonstracyjnie i blokuje przejście."
 
 #: ../../script/events/setpieces.js:1448
 msgid "nothing but downcast eyes."
-msgstr "伏し目がちが、何も。"
+msgstr "nic poza przygnębionymi oczami."
 
 #: ../../script/events/setpieces.js:1449
 msgid "the people here were broken a long time ago."
-msgstr "ここの人々は、長い時間前に壊れている。"
+msgstr "tutejsi ludzie od długiego czasu byli spłukani."
 
 #: ../../script/events/setpieces.js:1464
 msgid "empty corridors."
-msgstr "空の廊下。"
+msgstr "puste korytarze."
 
 #: ../../script/events/setpieces.js:1465
 msgid "the place has been swept clean by scavengers."
-msgstr "清道夫已经把这搜刮干净了."
+msgstr "to miejsce zostało absolutnie przeczyszczone przez padlinożerców."
 
 #: ../../script/events/setpieces.js:1479
 msgid "an old man bursts through a door, wielding a scalpel."
-msgstr "一个老人挥舞着手术刀冲了过来."
+msgstr "stary człowiek wybucha przez drzwi dzierżąc skalpel w dłoni."
 
 #: ../../script/events/setpieces.js:1516
 msgid "a thug is waiting on the other side of the wall."
-msgstr "一个暴徒等在另外一边墙那."
+msgstr "bandyta czeka po drugiej strony ściany."
 
 #: ../../script/events/setpieces.js:1554
 msgid "a snarling beast jumps out from behind a car."
-msgstr "一头咆哮着的野兽从车后面跳出来."
+msgstr "warcząca bestia wyskakuje zza samochodu."
 
 #: ../../script/events/setpieces.js:1593
 msgid "street above the subway platform is blown away."
-msgstr "地铁站上方的街道已经被摧毁了."
+msgstr "ulica nad stacją metra została zniszczona przez wybuch."
 
 #: ../../script/events/setpieces.js:1594
 msgid "lets some light down into the dusty haze."
-msgstr "一些光线照射到阴霾的尘土中."
+msgstr ""
+"zniszczenia na ulicy pozwalają światłu rozświetlić unoszący się w powietrzu "
+"pył."
 
+#. Weź to przetłumacz tak, aby było jasne, że:
+#. 1. Jesteś WEWNĄTRZ tunelu.
+#. 2. Słyszysz dźwięki.
+#. 3. Dźwięki są przed tobą.
+#. 4. Tunel NIE JEST przed tobą, tylko to dźwięki są przed tobą.
 #: ../../script/events/setpieces.js:1595
 msgid "a sound comes from the tunnel, just ahead."
-msgstr "前方传来一些声响."
+msgstr "z tunelu słychać dźwięk mający swoje źródło zaraz przed tobą."
 
 #: ../../script/events/setpieces.js:1612
 msgid "looks like a camp of sorts up ahead."
-msgstr "好像前方有一个营地."
+msgstr "wygląda na to, że przed nami jest jakiś obóz"
 
 #: ../../script/events/setpieces.js:1613
 msgid "rusted chainlink is pulled across an alleyway."
-msgstr "生锈的链条东拉西扯的."
+msgstr "zardzewiały, druciany płot rozciąga się przez alejkę."
 
 #: ../../script/events/setpieces.js:1614
 msgid "fires burn in the courtyard beyond."
-msgstr "大火灾庭院前燃烧."
+msgstr "ogień pali się za dziedzińcem."
 
 #: ../../script/events/setpieces.js:1630
 msgid "more voices can be heard ahead."
-msgstr "前方传来更多的声响."
+msgstr " można usłyszeć jeszcze więcej głosów z przodu."
 
 #: ../../script/events/setpieces.js:1631
 msgid "they must be here for a reason."
-msgstr "肯定有什么事情发生了."
+msgstr "muszą tutaj być z jakiegoś powodu"
 
 #: ../../script/events/setpieces.js:1647
 msgid "the sound of gunfire carries on the wind."
-msgstr "风中传来枪响."
+msgstr "wiatr niesie dźwięki strzelaniny."
 
 #: ../../script/events/setpieces.js:1648
 msgid "the street ahead glows with firelight."
-msgstr "前方街道闪光连连."
+msgstr "ulica z przodu mieni się światłem płomieni."
 
 #: ../../script/events/setpieces.js:1664
 msgid "more squatters are crowding around now."
-msgstr "越来越多的人挤过来了."
+msgstr "więcej dzikich lokatorów gromadzi się teraz wokoło."
 
 #: ../../script/events/setpieces.js:1665
 msgid "someone throws a stone."
-msgstr "有人扔出一块石头."
+msgstr "ktoś rzuca kamieniem"
 
 #: ../../script/events/setpieces.js:1681
 msgid "an improvised shop is set up on the sidewalk."
-msgstr "一个简易车间被安置在路边."
+msgstr "na chodniku znajduje się improwizowany sklepik."
 
 #: ../../script/events/setpieces.js:1682
 msgid "the owner stands by, stoic."
-msgstr "店主坚强的站在边上."
+msgstr "właściciel stoi bezczynnie ze stoickim spokojem."
 
 #: ../../script/events/setpieces.js:1725
 msgid "strips of meat hang drying by the side of the street."
-msgstr "很多肉条晒在路边."
+msgstr "paski mięsa wiszą susząc się od strony ulicy."
 
 #: ../../script/events/setpieces.js:1726
 msgid "the people back away, avoiding eye contact."
-msgstr "人们纷纷后退, 躲闪着眼光."
+msgstr "ludzie wycofują się, unikając kontaktu wzrokowego."
 
 #: ../../script/events/setpieces.js:1749
 msgid "someone has locked and barricaded the door to this operating theatre."
-msgstr "有人反锁了手术室的门."
+msgstr "ktoś zablokował i zabarykadował drzwi do tej sali operacyjnej."
 
 #: ../../script/events/setpieces.js:1764
 msgid "a tribe of elderly squatters is camped out in this ward."
-msgstr "老人们的蜗居就在这间病房."
+msgstr "plemię starych skwaterów zajęło oddział."
 
 #: ../../script/events/setpieces.js:1803
 msgid "a pack of lizards rounds the corner."
-msgstr "一群蜥蜴在角落里."
+msgstr "kilka jaszczurek zgromadziło się w rogu."
 
 #: ../../script/events/setpieces.js:1843
 msgid "strips of meat are hung up to dry in this ward."
-msgstr "肉条挂在房间里面风干."
+msgstr "paski mięsa wiszą w tym oddziale, aby się wysuszyły."
 
 #: ../../script/events/setpieces.js:1865
 msgid "a large bird nests at the top of the stairs."
-msgstr "楼梯尽头有一个巨大的鸟巢."
+msgstr "wielki ptak buduje gniazdo na górze schodów."
 
 #: ../../script/events/setpieces.js:1894
 msgid "the debris is denser here."
-msgstr "这里碎片密布."
+msgstr "jest tutaj więcej gruzu"
 
 #: ../../script/events/setpieces.js:1895
 msgid "maybe some useful stuff in the rubble."
-msgstr "可能在碎片中会有一些有用的东西."
+msgstr "może trochę potrzebnych rzeczy w gruzach."
 
 #: ../../script/events/setpieces.js:1932
 msgid "a swarm of rats rushes up the tunnel."
-msgstr "一大群老鼠冲入隧道."
+msgstr "mnóstwo szczurów pędzi tunelem."
 
 #: ../../script/events/setpieces.js:1966
 msgid "a large man attacks, waving a bayonet."
-msgstr "一个高大的男人挥舞着刺刀进行攻击."
+msgstr "wielki mężczyzna atakuje wymachując bagnetem."
 
 #: ../../script/events/setpieces.js:1999
 msgid "a second soldier opens fire."
-msgstr "第二个士兵开火了."
+msgstr "drugi żołnierz otwiera ogień."
 
 #: ../../script/events/setpieces.js:2038
 msgid "a masked soldier rounds the corner, gun drawn"
-msgstr "一个蒙面士兵持枪站在角落"
+msgstr "zamaskowany żołnierz siedzi w kącie, trzyma w ręku broń."
 
 #: ../../script/events/setpieces.js:2077
 msgid "the crowd surges forward."
-msgstr "人群涌动."
+msgstr "tłum leci na przód."
 
 #: ../../script/events/setpieces.js:2111
 msgid "a youth lashes out with a tree branch."
-msgstr "一个年轻小伙拿了根树枝就跳出来了."
+msgstr "młodzieniec wyskakuje, trzymając w ręku gałąź."
 
 #: ../../script/events/setpieces.js:2144
 msgid "a squatter stands firmly in the doorway of a small hut."
-msgstr "有个人坚守在小木屋的门口."
+msgstr "skwater stoi bacznie w przejściu do małego szałasu."
 
 #: ../../script/events/setpieces.js:2177
 msgid "behind the door, a deformed figure awakes and attacks."
-msgstr "在门后的一个畸形人进行攻击."
+msgstr "zdeformowane figury za drzwiami budzą się i atakują."
 
 #: ../../script/events/setpieces.js:2216
 msgid "as soon as the door is open a little bit, hundreds of tentacles erupt."
-msgstr "门只要开了一点, 几百个触手就涌过来."
+msgstr "tak długo jak drzwi są trochę otwarte, setki macek wybuchają."
 
 #: ../../script/events/setpieces.js:2242
 msgid "bird must have liked shiney things."
-msgstr "鸟儿都喜欢闪亮的东西."
+msgstr "ptak musiał lubić świecidełka."
 
 #: ../../script/events/setpieces.js:2243
 msgid "some good stuff woven into its nest."
-msgstr "它们的巢里面经常有好东西."
+msgstr "kilka dobrych rzeczy wplecionych w sieć."
 
 #: ../../script/events/setpieces.js:2276
 msgid "not much here."
-msgstr "没什么东西了."
+msgstr "niewiele tutaj."
 
 #: ../../script/events/setpieces.js:2277
 msgid "scavengers must have gotten to this place already."
-msgstr "清道夫已经来过这里了."
+msgstr "padlinożercy już musieli dotrzeć do tego miejsca."
 
 #: ../../script/events/setpieces.js:2305
 msgid "the tunnel opens up at another platform."
-msgstr "隧道通向一个平台."
+msgstr "na innej platformie znajduje się wejście do tunelu."
 
 #: ../../script/events/setpieces.js:2306
 msgid "the walls are scorched from an old battle."
-msgstr "残破的墙壁."
+msgstr "ściany są przypalone od starej bitwy."
 
 #: ../../script/events/setpieces.js:2307
 msgid "bodies and supplies from both sides litter the ground."
-msgstr "肢体和供给散落在墙壁两旁."
+msgstr "ciała i materiały z obydwóch stron zaśmiecają grunt."
 
 #: ../../script/events/setpieces.js:2351
 msgid "the small military outpost is well supplied."
-msgstr "小型军事哨站补给充分."
+msgstr "mała placówka wojskowa jest dobrze zaopatrzona."
 
 #: ../../script/events/setpieces.js:2352
 msgid ""
 "arms and munitions, relics from the war, are neatly arranged on the store-"
 "room floor."
-msgstr "武器弹药整理的排列在储藏室的地上."
+msgstr ""
+"bronie i amunicja - relikwie z wojny - są schludnie ustawione na podłodze "
+"pokoju w sklepie."
 
 #: ../../script/events/setpieces.js:2353
 msgid "just as deadly now as they were then."
-msgstr "跟以往一样的致命."
+msgstr "dokładnie tak śmiertelne teraz, jak oni byli wtedy."
 
 #: ../../script/events/setpieces.js:2386
 msgid "searching the bodies yields a few supplies."
-msgstr "搜索尸体会得到一些物资."
+msgstr "przeszukiwanie ciał sprawia, że znajdujesz trochę zasobów."
 
 #: ../../script/events/setpieces.js:2387
 msgid "more soldiers will be on their way."
-msgstr "路上会遇到更多的尸体的."
+msgstr "na ich drodze stanie więcej żołnierzy."
 
 #: ../../script/events/setpieces.js:2388
 msgid "time to move on."
-msgstr "该离开了."
+msgstr "czas ruszać."
 
 #: ../../script/events/setpieces.js:2426
 msgid "the small settlement has clearly been burning a while."
-msgstr "小型定居点已经烧了一阵子了."
+msgstr "mała osada z całą pewnością płonęła już przez jakiś czas."
 
 #: ../../script/events/setpieces.js:2427
 msgid ""
 "the bodies of the wanderers that lived here are still visible in the flames."
-msgstr "透过火焰仍可看到在燃烧的尸体."
+msgstr "ciała wędrowców, którzy tutaj żyli, są ciągle widoczne w płomieniach."
 
 #: ../../script/events/setpieces.js:2428
 msgid "still time to rescue a few supplies."
-msgstr "还有时间取得一些物资."
+msgstr "wciąż czas, aby uratować trochę materiałów"
 
 #: ../../script/events/setpieces.js:2462
 msgid ""
 "the remaining settlers flee from the violence, their belongings forgotten."
-msgstr "剩下的居民四处逃逸, 他们的物资都被抛下了."
+msgstr ""
+"ocalali mieszkańcy uciekają od przemocy, zapominając o swoich rzeczach."
 
 #: ../../script/events/setpieces.js:2463
 msgid "there's not much, but some useful things can still be found."
-msgstr "还能找到一些有用的东西, 虽然不多."
+msgstr ""
+"nie ma tu zbyt wiele, ale kilka przydatnych rzeczy nadal może się znaleźć."
 
 #: ../../script/events/setpieces.js:2496
 msgid "the young settler was carrying a canvas sack."
-msgstr "那个年轻的居民背着的是帆布包."
+msgstr "młody mieszkaniec miał przy sobie płócienny worek."
 
 #: ../../script/events/setpieces.js:2497
 msgid "it contains travelling gear, and a few trinkets."
-msgstr "里面有一些旅行用品和几个装饰品"
+msgstr "zawiera przybory do podróżowania i kilka drobiazgów."
 
 #: ../../script/events/setpieces.js:2498 ../../script/events/setpieces.js:2533
 msgid "there's nothing else here."
-msgstr "没别的了."
+msgstr "nie ma tutaj nic więcej."
 
 #: ../../script/events/setpieces.js:2531
 msgid "inside the hut, a child cries."
-msgstr "小木屋内, 一个孩子在哭."
+msgstr "w środku szałasu płacze dziecko."
 
 #: ../../script/events/setpieces.js:2532
 msgid "a few belongings rest against the walls."
-msgstr "有几个行李靠在墙边."
+msgstr "kilka bibelotów leży pod ścianami"
 
 #: ../../script/events/setpieces.js:2571
 msgid "the stench of rot and death fills the operating theatres."
-msgstr "腐烂和死亡的气息弥漫在手术室."
+msgstr "smród zgnilizny i śmierci wypełnia sale operacyjne"
 
 #: ../../script/events/setpieces.js:2572
 msgid "a few items are scattered on the ground."
-msgstr "有一些东西散落在地上."
+msgstr "kilka przedmiotów jest rozsianych po podłożu."
 
 #: ../../script/events/setpieces.js:2573
 msgid "there is nothing else here."
-msgstr "没有其他东西了."
+msgstr "nie ma tutaj nic więcej."
 
 #: ../../script/events/setpieces.js:2611
 msgid "a pristine medicine cabinet at the end of a hallway."
-msgstr "一个朴素的药箱在走廊尽头."
+msgstr "nienaruszona gablota z lekarstwami na końcu korytarza."
 
 #: ../../script/events/setpieces.js:2612
 msgid "the rest of the hospital is empty."
-msgstr "医院里面已经没什么了."
+msgstr "reszta szpitala jest pusta."
 
 #: ../../script/events/setpieces.js:2645
 msgid "someone had been stockpiling loot here."
-msgstr "肯定有人一直储备东西在这里."
+msgstr "ktoś składował tutaj swój łup."
 
 #: ../../script/events/setpieces.js:2693
 msgid "the tentacular horror is defeated."
-msgstr "恐怖触手被击败了."
+msgstr "mackowy horror został pokonany"
 
 #: ../../script/events/setpieces.js:2694
 msgid "inside, the remains of its victims are everywhere."
-msgstr "里面到处都是遇难者的尸体."
+msgstr "w środku wszędzie są pozostałości ofiar."
 
 #: ../../script/events/setpieces.js:2737
 msgid "the warped man lies dead."
-msgstr "扭曲的男人死了."
+msgstr "wykrzywiony człowiek leży martwy,"
 
 #: ../../script/events/setpieces.js:2738
 msgid "the operating theatre has a lot of curious equipment."
-msgstr "手术室有很多奇怪的设备."
+msgstr "na sali operacyjnej jest sporo ciekawych rzeczy."
 
 #: ../../script/events/setpieces.js:2781
 msgid "the old man had a small cache of interesting items."
-msgstr "这个老人有一些有趣的小收藏."
+msgstr "stary człowiek ma małą kryjówkę ciekawych przedmiotów."
 
 #: ../../script/events/setpieces.js:2824
 msgid "An Old House"
-msgstr "一所老房子"
+msgstr "Stary Dom"
 
 #: ../../script/events/setpieces.js:2828
 msgid "an old house remains here, once white siding yellowed and peeling."
-msgstr "一所老房子依旧留存着, 白色的外墙泛黄脱落."
+msgstr "ocalał tutaj stary dom, niegdyś biały, obecnie pożółkły i wyniszczony."
 
 #: ../../script/events/setpieces.js:2829
 msgid "the door hangs open."
-msgstr "门开着."
+msgstr "drzwi pozostają otwarte."
 
 #: ../../script/events/setpieces.js:2831
 msgid "the remains of an old house stand as a monument to simpler times"
-msgstr "老房子好比是一座对时代的纪念碑一般"
+msgstr "pozostałości starego domu stały jako monument łatwiejszych czasów."
 
 #: ../../script/events/setpieces.js:2845
 msgid "the house is abandoned, but not yet picked over."
-msgstr "房子虽然被废弃了, 但是还有一些东西."
+msgstr "dom został opuszczony i nikt się do niego nie wprowadził."
 
 #: ../../script/events/setpieces.js:2846
 msgid "still a few drops of water in the old well."
-msgstr "水井里面依旧有水."
+msgstr "w starej studni wciąż można dopatrzeć się odrobiny wody."
 
 #: ../../script/events/setpieces.js:2879
 msgid "the house has been ransacked."
-msgstr "房子已经被洗劫一空了."
+msgstr "dom został splądrowany."
 
 #: ../../script/events/setpieces.js:2880
 msgid "but there is a cache of medicine under the floorboards."
-msgstr "但是地板下面还有一些医疗用品."
+msgstr "poza tym jest tu kryjówka leków pod deskami podłogowymi."
 
 #: ../../script/events/setpieces.js:2907
 msgid "a man charges down the hall, a rusty blade in his hand"
-msgstr "一个男人占据着大厅, 手持大刀"
+msgstr "mężczyzna przebiega przez korytarz, w ręku trzyma zardzewiały miecz."
 
 #: ../../script/events/setpieces.js:2938
 msgid "A Forgotten Battlefield"
-msgstr "遗落战场"
+msgstr "Zapomniane Pole Bitwy"
 
 #: ../../script/events/setpieces.js:2942
 msgid "a battle was fought here, long ago."
-msgstr "很久以前的大战."
+msgstr "bitwa została tutaj rozegrana dawno temu."
 
 #: ../../script/events/setpieces.js:2943
 msgid ""
 "battered technology from both sides lays dormant on the blasted landscape."
-msgstr "双方的高科技造成了如此壮观的景象."
+msgstr ""
+"poobijane i niedziałające urządzenia leżą porozrzucane po zniszczonym "
+"wybuchem krajobrazie."
 
 #: ../../script/events/setpieces.js:2990
 msgid "A Huge Borehole"
-msgstr "一个巨坑"
+msgstr "Wielki odwiert."
 
 #: ../../script/events/setpieces.js:2994
 msgid "a huge hole is cut deep into the earth, evidence of the past harvest."
-msgstr "一个巨大的深坑切入地表."
+msgstr "wielka dziura jest wydrążona głęboko w ziemi, dowód na przeszłe żniwa."
 
 #: ../../script/events/setpieces.js:2995
 msgid "they took what they came for, and left."
-msgstr "他们拿走所需,拍拍屁股走了."
+msgstr "wzięli to, po co przyszli, i poszli."
 
 #: ../../script/events/setpieces.js:2996
 msgid ""
 "castoff from the mammoth drills can still be found by the edges of the "
 "precipice."
-msgstr "通过悬崖边依旧能看清庞大的废弃场."
+msgstr "odpady z mamucich wierteł wciąż są przy krawędziach przepaści."
 
 #: ../../script/events/setpieces.js:3018
 msgid "A Crashed Ship"
-msgstr "破损的飞船"
+msgstr "Rozbity Statek"
 
 #: ../../script/events/setpieces.js:3027
 msgid ""
 "the familiar curves of a wanderer vessel rise up out of the dust and ash. "
-msgstr "尘土和灰烬之下流露出熟悉的各种曲线."
+msgstr "znajoma sylwetka wędrownego statku wyłania się spod kurzu i popiołu."
 
 #: ../../script/events/setpieces.js:3028
 msgid "lucky that the natives can't work the mechanisms."
-msgstr "很幸运当地人不会机械."
+msgstr "szczęście, że tubylcy nie potrafią używać mechanizmów."
 
 #: ../../script/events/setpieces.js:3029
 msgid "with a little effort, it might fly again."
-msgstr "飞船可以被修复."
+msgstr "z małym wysiłkiem znów będzie mogło latać."
 
 #: ../../script/events/setpieces.js:3033
 msgid "salvage"
-msgstr "打捞"
+msgstr "Ocalenie"
 
 #: ../../script/events/setpieces.js:3041
 msgid "The Sulphur Mine"
-msgstr "一座硫磺矿"
+msgstr "Kopalnia siarki"
 
 #: ../../script/events/setpieces.js:3045
 msgid "the military is already set up at the mine's entrance."
-msgstr "军队已经驻扎在矿井入口了."
+msgstr "wojsko już ustanowiło pozycję przy wejściu do kopalni."
 
 #: ../../script/events/setpieces.js:3046
 msgid "soldiers patrol the perimeter, rifles slung over their shoulders."
-msgstr "巡逻兵挎着步枪."
+msgstr "żołnierze patrolują okolicę, karabiny mają przewieszone przez ramiona."
 
 #: ../../script/events/setpieces.js:3048
 msgid "a military perimeter is set up around the mine."
-msgstr "军队已经驻扎在矿井入口了"
+msgstr "wojskowy okrąg jest ustanowiony wokół kopalni."
 
 #: ../../script/events/setpieces.js:3051 ../../script/events/setpieces.js:3195
 msgid "attack"
-msgstr "攻击"
+msgstr "atak"
 
 #: ../../script/events/setpieces.js:3086
 msgid "a soldier, alerted, opens fire."
-msgstr "一个士兵发现并开火了."
+msgstr "zaalarmowany żołnierz otwiera ogień."
 
 #: ../../script/events/setpieces.js:3093 ../../script/events/setpieces.js:3131
 #: ../../script/events/setpieces.js:3231 ../../script/events/setpieces.js:3263
 msgid "run"
-msgstr "逃跑"
+msgstr "uciekaj"
 
 #: ../../script/events/setpieces.js:3124
 msgid "a second soldier joins the fight."
-msgstr "第二个士兵加入战斗."
+msgstr "drugi żołnierz dołącza się do walki."
 
 #: ../../script/events/setpieces.js:3156
 msgid "a grizzled soldier attacks, waving a bayonet."
-msgstr "一个头发花白的士兵加入战斗, 挥舞着刺刀."
+msgstr "blady żołnierz atakuje wymachując bagnetem."
 
 #: ../../script/events/setpieces.js:3166
 msgid "the military presence has been cleared."
-msgstr "军队已经被清除."
+msgstr "miejsce zostało wyczyszczone z wojskowych."
 
 #: ../../script/events/setpieces.js:3167 ../../script/events/setpieces.js:3304
 #: ../../script/events/setpieces.js:3379
 msgid "the mine is now safe for workers."
-msgstr "矿坑现在可以工作了."
+msgstr "kopalnia jest teraz bezpieczna dla pracowników/."
 
 #: ../../script/events/setpieces.js:3169
 msgid "the sulphur mine is clear of dangers"
-msgstr "硫磺矿解除危险了"
+msgstr "kopalnia siarki jest wolna od niebezpieczeństw."
 
 #: ../../script/events/setpieces.js:3185
 msgid "The Coal Mine"
-msgstr "一座煤矿"
+msgstr "Kopalnia węgla"
 
 #: ../../script/events/setpieces.js:3189
 msgid "camp fires burn by the entrance to the mine."
-msgstr "矿坑入口篝火很旺."
+msgstr "ognie z obozu płoną tuż przy wejściu do kopalni."
 
 #: ../../script/events/setpieces.js:3190
 msgid "men mill about, weapons at the ready."
-msgstr "有人带着武器驻守在那."
+msgstr "mężczyzna faluje przygotowaną bronią."
 
 #: ../../script/events/setpieces.js:3192
 msgid "this old mine is not abandoned"
-msgstr "这座老矿坑没有被遗弃"
+msgstr "ta stara kopalnia nie jest opuszczona"
 
 #: ../../script/events/setpieces.js:3224 ../../script/events/setpieces.js:3256
 msgid "a man joins the fight"
-msgstr "一个人加入战斗攻击"
+msgstr "mężczyzna dołącza do walki"
 
 #: ../../script/events/setpieces.js:3293
 msgid "only the chief remains."
-msgstr "只有老大还在."
+msgstr "został tylko wódz."
 
 #: ../../script/events/setpieces.js:3303
 msgid "the camp is still, save for the crackling of the fires."
-msgstr "营地依旧, 还有火焰燃烧的声音."
+msgstr ""
+"w obozie jest spokojnie, jedyne co wydaje się w nim burzliwe to płonące "
+"ognisko."
 
 #: ../../script/events/setpieces.js:3306
 msgid "the coal mine is clear of dangers"
-msgstr "矿坑安全了."
+msgstr "kopalnia węgla jest wolna od zagrożeń."
 
 #: ../../script/events/setpieces.js:3322
 msgid "The Iron Mine"
-msgstr "一座铁矿"
+msgstr "Kopalnia żelaza"
 
 #: ../../script/events/setpieces.js:3326
 msgid "an old iron mine sits here, tools abandoned and left to rust."
-msgstr "一个老矿坑在哪, 生锈的工具被乱丢."
+msgstr ""
+"przed tobą stara kopalnia żelaza, widzisz mnóstwo bezpańskich narzędzi, "
+"które rdzewieją."
 
 #: ../../script/events/setpieces.js:3327
 msgid ""
 "bleached bones are strewn about the entrance. many, deeply scored with "
 "jagged grooves."
-msgstr "各种白骨散落一地, 上面还有深深的齿痕."
+msgstr ""
+"wyjaśniałe kości są porozrzucane przed wejściem. wiele z nich ma głębokie "
+"pęknięcia."
 
 #: ../../script/events/setpieces.js:3328
 msgid "feral howls echo out of the darkness."
-msgstr "黑暗中传来野性的咆哮."
+msgstr "dzikie wycie echa z ciemności."
 
 #: ../../script/events/setpieces.js:3330
 msgid "the path leads to an abandoned mine"
-msgstr "通向矿坑的小路"
+msgstr "ścieżka prowadzi do opuszczonej kopalni."
 
 #: ../../script/events/setpieces.js:3368
 msgid "a large creature lunges, muscles rippling in the torchlight"
-msgstr "一个巨大的生物出现, 肌肉大到爆"
+msgstr ""
+"ogromna bestia rzuca się na ciebie, światło pochodni doskonale eksponuje jej "
+"mięśnie"
 
 #: ../../script/events/setpieces.js:3378
 msgid "the beast is dead."
-msgstr "野兽死了."
+msgstr "Bestia jest martwa."
 
 #: ../../script/events/setpieces.js:3381
 msgid "the iron mine is clear of dangers"
-msgstr "矿坑安全了."
+msgstr "kopalnia żelaza jest wolna od niebezpieczeństw."
 
 #: ../../script/events/setpieces.js:3398
 msgid "A Destroyed Village"
-msgstr "矿坑解除危险了"
+msgstr "Zniszczona wioska."
 
 #: ../../script/events/setpieces.js:3402
 msgid "a destroyed village lies in the dust."
-msgstr "一个毁灭的村庄"
+msgstr "zniszczona wioska leży w gruzach."
 
 #: ../../script/events/setpieces.js:3403
 msgid "charred bodies litter the ground."
-msgstr "毁灭的村子到处都是灰尘."
+msgstr "zwęglone ciała zaśmiecają okolicę."
 
 #: ../../script/events/setpieces.js:3405
 msgid "the metallic tang of wanderer afterburner hangs in the air."
-msgstr "破烂的尸体到处都是. 被烧焦的尸体挂在空中."
+msgstr "metaliczny zapach dopalacza wędrowca utrzymuje się w powietrzu."
 
 #: ../../script/events/setpieces.js:3419
 msgid "a shack stands at the center of the village."
-msgstr "一个木屋处理在村子中心."
+msgstr "chatka stoi na środku wioski."
 
 #: ../../script/events/setpieces.js:3420
 msgid "there are still supplies inside."
-msgstr "里面还有一些物资."
+msgstr "w środku nadal są jakieś materiały."
 
 #: ../../script/events/setpieces.js:3424
 msgid "take"
-msgstr "带走"
+msgstr "weź"
 
 #: ../../script/events/setpieces.js:3431
 msgid "all the work of a previous generation is here."
-msgstr "前代人的痕迹就在这里了."
+msgstr "cała praca poprzedniej generacji jest tutaj."
 
 #: ../../script/events/setpieces.js:3432
 msgid "ripe for the picking."
-msgstr "是时候采摘果实了."
+msgstr "idealne do zebrania."
 
 #: ../../script/events/encounters.js:7
 msgid "A Snarling Beast"
-msgstr "咆哮的野兽"
+msgstr "Warcząca Bestia"
 
 #: ../../script/events/encounters.js:15
 msgid "snarling beast"
-msgstr "一只咆哮的野兽从草丛中串起"
+msgstr "warcząca bestia"
 
 #: ../../script/events/encounters.js:16
 msgid "the snarling beast is dead"
-msgstr "野兽已死."
+msgstr "warcząca bestia jest martwa."
 
 #: ../../script/events/encounters.js:39
 msgid "a snarling beast leaps out of the underbrush"
-msgstr "一只咆哮的野兽从草丛中串起"
+msgstr "warcząca bestia wyskakuje z zarośli"
 
 #: ../../script/events/encounters.js:44
 msgid "A Gaunt Man"
-msgstr "一个落魄的人"
+msgstr "Wychudzony Człowiek"
 
 #: ../../script/events/encounters.js:52
 msgid "gaunt man"
-msgstr "落魄的人"
+msgstr "wychudzony człowiek"
 
 #: ../../script/events/encounters.js:53
 msgid "the gaunt man is dead"
-msgstr "落魄的人已经被打败"
+msgstr "wychudzony człowiek jest martwy"
 
 #: ../../script/events/encounters.js:76
 msgid "a gaunt man approaches, a crazed look in his eye"
-msgstr "一个疯狂的家伙出现了"
+msgstr "wychudzony człowiek zbliża się z szaleństwem w oczach"
 
 #: ../../script/events/encounters.js:81
 msgid "A Strange Bird"
-msgstr "一只怪鸟"
+msgstr "Dziwny Ptak"
 
 #: ../../script/events/encounters.js:89
 msgid "strange bird"
-msgstr "怪鸟"
+msgstr "dziwny ptak"
 
 #: ../../script/events/encounters.js:90
 msgid "the strange bird is dead"
-msgstr "怪鸟已经被消灭"
+msgstr "dziwny ptak jest martwy"
 
 #: ../../script/events/encounters.js:113
 msgid "a strange looking bird speeds across the plains"
-msgstr "一只怪鸟略过平原"
+msgstr "dziwnie wyglądający ptak pędzi przez równiny"
 
 #: ../../script/events/encounters.js:119
 msgid "A Shivering Man"
-msgstr "一个瑟瑟发抖的人"
+msgstr "Drżący Człowiek"
 
 #: ../../script/events/encounters.js:127
 msgid "shivering man"
-msgstr "发抖的人"
+msgstr "drżący człowiek"
 
 #: ../../script/events/encounters.js:128
 msgid "the shivering man is dead"
-msgstr "不能再得瑟了"
+msgstr "drżący człowiek nie żyje."
 
 #: ../../script/events/encounters.js:156
 msgid "a shivering man approaches and attacks with surprising strength"
-msgstr "一个瑟瑟发抖的人接近中, 看上去力量无穷"
+msgstr "drżący człowiek zbliża się i atakuje z zaskakującą siłą"
 
 #: ../../script/events/encounters.js:161
 msgid "A Man-Eater"
-msgstr "一个食人族"
+msgstr "Ludojad"
 
 #: ../../script/events/encounters.js:169
 msgid "man-eater"
-msgstr "食人族"
+msgstr "ludojad"
 
 #: ../../script/events/encounters.js:170
 msgid "the man-eater is dead"
-msgstr "一个食人族已经被消灭"
+msgstr "ludojad nie żyje"
 
 #: ../../script/events/encounters.js:193
 msgid "a large creature attacks, claws freshly bloodied"
-msgstr "一个食人族接近了, 爪子上鲜血淋漓"
+msgstr "wielka kreatura atakuje ze świeżo zakrwawionymi pazurami."
 
 #: ../../script/events/encounters.js:198
 msgid "A Scavenger"
-msgstr "一个清道夫"
+msgstr "Padlinożerca"
 
 #: ../../script/events/encounters.js:206
 msgid "scavenger"
-msgstr "清道夫"
+msgstr "padlinożerca"
 
 #: ../../script/events/encounters.js:207
 msgid "the scavenger is dead"
-msgstr "清道夫被消灭了"
+msgstr "padlinożerca jest martwy"
 
 #: ../../script/events/encounters.js:235
 msgid "a scavenger draws close, hoping for an easy score"
-msgstr "一个清道夫快速接近中, 想要偷袭"
+msgstr "padlinożerca zbliża się, licząc na łatwy łup."
 
 #: ../../script/events/encounters.js:240
 msgid "A Huge Lizard"
-msgstr "一直饥饿的蜥蜴"
+msgstr "Wielka Jaszczurka"
 
 #: ../../script/events/encounters.js:248
 msgid "lizard"
-msgstr "蜥蜴"
+msgstr "jaszczurka"
 
 #: ../../script/events/encounters.js:249
 msgid "the lizard is dead"
-msgstr "一直饥饿的蜥蜴饿死了"
+msgstr "jaszczurka nie żyje"
 
 #: ../../script/events/encounters.js:272
 msgid "the grass thrashes wildly as a huge lizard pushes through"
-msgstr "草丛扑出一只巨大的蜥蜴"
+msgstr "trawa miota się dziko pod ciężarem przechodzącego jaszczura."
 
 #: ../../script/events/encounters.js:278
 msgid "A Feral Terror"
-msgstr "一个恐怖生物"
+msgstr "Dzikie Przerażenie"
 
 #: ../../script/events/encounters.js:286
 msgid "feral terror"
-msgstr "恐怖生物"
+msgstr "dzikie przerażenie"
 
 #: ../../script/events/encounters.js:287
 msgid "the feral terror is dead"
-msgstr "一个恐怖生物daed"
+msgstr "dzikie przerażenie jest martwe"
 
 #: ../../script/events/encounters.js:310
 msgid "a beast, wilder than imagining, erupts out of the foliage"
-msgstr "一只野兽, 比想象中更大更狂野"
+msgstr ""
+"bestia, bardziej dzika niż jesteś sobie w stanie wyobrazić, wybucha z liści."
 
 #: ../../script/events/encounters.js:315
 msgid "A Soldier"
-msgstr "一个士兵"
+msgstr "Żołnierz"
 
 #: ../../script/events/encounters.js:323
 msgid "soldier"
-msgstr "士兵"
+msgstr "żołnierz"
 
 #: ../../script/events/encounters.js:324
 msgid "the soldier is dead"
-msgstr "士兵被干掉了"
+msgstr "żołnierz nie żyje"
 
 #: ../../script/events/encounters.js:353
 msgid "a soldier opens fire from across the desert"
-msgstr "一个士兵从沙漠那边开火"
+msgstr "żołnierz otwiera ogień po drugiej strony pustyni."
 
 #: ../../script/events/encounters.js:358
 msgid "A Sniper"
-msgstr "狙击手"
+msgstr "Snajper"
 
 #: ../../script/events/encounters.js:366
 msgid "sniper"
-msgstr "狙击手"
+msgstr "snajper"
 
 #: ../../script/events/encounters.js:367
 msgid "the sniper is dead"
-msgstr "狙击手被灭"
+msgstr "snajper jest martwy"
 
 #: ../../script/events/encounters.js:396
 msgid "a shot rings out, from somewhere in the long grass"
-msgstr "一声枪响, 远远得传来"
+msgstr "słyszysz świst strzału, gdzieś z wysokiej trawy."
 
 #: ../../script/events/outside.js:6
 msgid "A Ruined Trap"
-msgstr "破损的陷阱"
+msgstr "Zniszczona Pułapka"
 
 #: ../../script/events/outside.js:13
 msgid "some of the traps have been torn apart."
-msgstr "一些陷阱已经严重损毁."
+msgstr "niektóre pułapki zostały rozwalone."
 
 #: ../../script/events/outside.js:14
 msgid "large prints lead away, into the forest."
-msgstr "巨大的足印导向森林."
+msgstr "wielkie znaczniki wskazują ci drogę do lasu."
 
 #: ../../script/events/outside.js:22
 msgid "some traps have been destroyed"
-msgstr "一些陷阱损坏了"
+msgstr "niektóre pułapki zostały zniszczone"
 
 #: ../../script/events/outside.js:25
 msgid "track them"
-msgstr "追踪足迹"
+msgstr "śledź ich"
 
 #: ../../script/events/outside.js:36
 msgid "the tracks disappear after just a few minutes."
-msgstr "踪迹消失了..."
+msgstr "ślady znikają już po kilku minutach."
 
 #: ../../script/events/outside.js:37
 msgid "the forest is silent."
-msgstr "森林再次归于宁静."
+msgstr "las jest cicho."
 
 #: ../../script/events/outside.js:41 ../../script/events/outside.js:58
 #: ../../script/events/outside.js:98 ../../script/events/outside.js:115
 #: ../../script/events/outside.js:158 ../../script/events/outside.js:175
 #: ../../script/events/outside.js:206 ../../script/events/outside.js:236
 msgid "go home"
-msgstr "返回"
+msgstr "idź do domu"
 
 #: ../../script/events/outside.js:48
 msgid "not far from the village lies a large beast, its fur matted with blood."
-msgstr "在离开村子的不远处发现了一只巨大的野兽, 它的皮毛覆满了暗淡的血液."
+msgstr ""
+"nie tak daleko od wioski leży ciało ogromnej bestii, której futro pokryte "
+"jest krwią."
 
 #: ../../script/events/outside.js:49
 msgid "it puts up little resistance before the knife."
-msgstr "在武器面前, 它已经没什么抵抗力了."
+msgstr "daje to lekki opór przed nożem."
 
 #: ../../script/events/outside.js:67
 msgid "Sickness"
-msgstr "疾病"
+msgstr "choroba"
 
 #: ../../script/events/outside.js:77
 msgid "a sickness is spreading through the village."
-msgstr "疾病在村子里面传播."
+msgstr "choroba rozprzestrzenia się po wiosce."
 
 #: ../../script/events/outside.js:78 ../../script/events/outside.js:132
 msgid "medicine is needed immediately."
-msgstr "急需医疗药剂."
+msgstr "leki są natychmiast potrzebne."
 
 #: ../../script/events/outside.js:82
 msgid "1 medicine"
-msgstr "1 医疗药剂"
+msgstr "1 lek"
 
 #: ../../script/events/outside.js:87
 msgid "ignore it"
-msgstr "不理他"
+msgstr "zignoruj to"
 
 #: ../../script/events/outside.js:94
 msgid "the sickness is cured in time."
-msgstr "疾病被即时控制了."
+msgstr "choroba została uleczona na czas."
 
 #: ../../script/events/outside.js:105
 msgid "the sickness spreads through the village."
-msgstr "疾病蔓延在整个村庄."
+msgstr "choroba rozprzestrzenia się po wiosce."
 
 #: ../../script/events/outside.js:106
 msgid "the days are spent with burials."
-msgstr "天天都有人死去."
+msgstr "dni są spędzane z pogrzebanymi"
 
 #: ../../script/events/outside.js:107 ../../script/events/outside.js:166
 msgid "the nights are rent with screams."
-msgstr "黑夜总是伴随着惊声尖叫."
+msgstr "nocami słychać krzyki"
 
 #: ../../script/events/outside.js:124
 msgid "Plague"
-msgstr "瘟疫"
+msgstr "plaga"
 
 #: ../../script/events/outside.js:131
 msgid "a terrible plague is fast spreading through the village."
-msgstr "一场可怕的瘟疫在村子里面迅速蔓延开."
+msgstr "okropna plaga szybko rozprzestrzenia się po wiosce."
 
 #: ../../script/events/outside.js:136
 msgid "5 medicine"
-msgstr "5 治疗药剂"
+msgstr "5 leków"
 
 #: ../../script/events/outside.js:141
 msgid "do nothing"
-msgstr "置之不理"
+msgstr "nic nie rób"
 
 #: ../../script/events/outside.js:148
 msgid "the plague is kept from spreading."
-msgstr "瘟疫制止住了."
+msgstr "plaga nie rozprzestrzenia się."
 
 #: ../../script/events/outside.js:149
 msgid "only a few die."
-msgstr "我们只失去了几个人."
+msgstr "tylko kilku umiera."
 
 #: ../../script/events/outside.js:150
 msgid "the rest bury them."
-msgstr "我们埋葬了这些死者."
+msgstr "reszta ich chowa pod ziemię."
 
 #: ../../script/events/outside.js:165
 msgid "the plague rips through the village."
-msgstr "瘟疫席卷了整个村庄."
+msgstr "plaga sieje zamęt w wiosce."
 
 #: ../../script/events/outside.js:167
 msgid "the only hope is a quick death."
-msgstr "死亡也许是更好的归宿."
+msgstr "jedyną nadzieją jest szybka śmierć."
 
 #: ../../script/events/outside.js:184
 msgid "A Beast Attack"
-msgstr "猛兽袭击"
+msgstr "Atak Bestii"
 
 #: ../../script/events/outside.js:191
 msgid "a pack of snarling beasts pours out of the trees."
-msgstr "一群野兽冲出了森林奔向村庄."
+msgstr "stado ogromnych bestii wyskakuje zza drzew."
 
 #: ../../script/events/outside.js:192
 msgid "the fight is short and bloody, but the beasts are repelled."
-msgstr "战斗短暂而血腥, 兽群最终被击退了."
+msgstr "walka jest krótka i krwawa, ale bestie są odrażające."
 
 #: ../../script/events/outside.js:193
 msgid "the villagers retreat to mourn the dead."
-msgstr "村名们放弃了追击, 集体悼念了死去的人."
+msgstr "mieszkańcy wioski wycofują się, aby opłakiwać zmarłych."
 
 #: ../../script/events/outside.js:215
 msgid "A Military Raid"
-msgstr "武装冲突"
+msgstr "Nalot Wojskowy"
 
 #: ../../script/events/outside.js:222
 msgid "a gunshot rings through the trees."
-msgstr "一声枪响穿透树林."
+msgstr "słyszysz strzał z broni palnej spomiędzy drzew."
 
 #: ../../script/events/outside.js:223
 msgid "well armed men charge out of the forest, firing into the crowd."
-msgstr "武装精良的士兵冲突森林, 向我们的人开火."
+msgstr "dobrze uzbrojeni mężczyźni wybiegają z lasu, strzelając w tłum."
 
 #: ../../script/events/outside.js:224
 msgid "after a skirmish they are driven away, but not without losses."
-msgstr "在冲突后, 几个村名死亡, 随即武装人员就离开了."
+msgstr "po potyczce zostają oni przegonieni, ale nie bez strat."
 
 #: ../../script/events/global.js:6
 msgid "The Thief"
-msgstr "小偷"
+msgstr "Złodziej"
 
 #: ../../script/events/global.js:13
 msgid "the villagers haul a filthy man out of the store room."
-msgstr "村名们从储藏室拖出了一个肮脏的家伙."
+msgstr "wieśniacy wyciągają brudnego mężczyznę z pokoju w sklepie."
 
 #: ../../script/events/global.js:14
 msgid "say his folk have been skimming the supplies."
-msgstr "他的家人偷走了一些物资."
+msgstr "powiedz, że jego ludzie podkradali zasoby."
 
 #: ../../script/events/global.js:15
 msgid "say he should be strung up as an example."
-msgstr "他应该被绞死以示惩罚."
+msgstr "powiedz, że powinno się go powiesić dla przykładu."
 
 #: ../../script/events/global.js:17
 msgid "a thief is caught"
-msgstr "一个小偷被抓住了"
+msgstr "złodziej został złapany"
 
 #: ../../script/events/global.js:20
 msgid "hang him"
-msgstr "吊死他"
+msgstr "powieś go"
 
 #: ../../script/events/global.js:24
 msgid "spare him"
-msgstr "释放他"
+msgstr "oszczędź go"
 
 #: ../../script/events/global.js:31
 msgid "the villagers hang the thief high in front of the store room."
-msgstr "村名们把小偷吊死在了储藏室前面."
+msgstr "wieśniacy powiesili złodzieja zaraz przed wejściem do sklepu."
 
 #: ../../script/events/global.js:32
 msgid ""
 "the point is made. in the next few days, the missing supplies are returned."
-msgstr "在强大的压力下, 丢失的物资很快就被退回来了."
+msgstr "w ciągu kilku dni, utracone zasoby zostają zwrócone."
 
 #: ../../script/events/global.js:48
 msgid "the man says he's grateful. says he won't come around any more."
-msgstr "小偷感谢不杀之恩, 他说再也不偷了."
+msgstr "mężczyzna mówi, że jest wdzięczny. twierdzi, że już tutaj nie wróci."
 
 #: ../../script/events/global.js:49
 msgid "shares what he knows about sneaking before he goes."
-msgstr "他在离开之前把他的那些偷偷摸摸的技巧分享给了大家."
+msgstr "dzieli się wiedzą o skradaniu się zanim odejdzie."

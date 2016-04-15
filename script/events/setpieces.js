@@ -23,6 +23,7 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -96,7 +97,7 @@ Events.Setpieces = {
 				],
 				notification: _('the earth here is split, as if bearing an ancient wound'),
 				buttons: {
-					'enter': {	
+					'enter': {
 						text: _('go inside'),
 						cost: { torch: 1 },
 						nextScene: {0.3: 'a1', 0.6: 'a2', 1: 'a3'}
@@ -111,7 +112,7 @@ Events.Setpieces = {
 			'a1': {
 				combat: true,
 				enemy: 'beast',
-				chara: 'B',
+				chara: 'R',
 				damage: 1,
 				hit: 0.8,
 				attackDelay: 1,
@@ -132,10 +133,12 @@ Events.Setpieces = {
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'b1', 1: 'b2'}
 					},
 					'leave': {
 						text: _('leave cave'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -146,7 +149,7 @@ Events.Setpieces = {
 					_("the walls are moist and moss-covered")
 				],
 				buttons: {
-					'continue': {	
+					'continue': {
 						text: _('squeeze'),
 						nextScene: {0.5: 'b2', 1: 'b3'}
 					},
@@ -158,8 +161,8 @@ Events.Setpieces = {
 			},
 			'a3': {
 				text: [
-			       _('the remains of an old camp sits just inside the cave.'),
-			       _('bedrolls, torn and blackened, lay beneath a thin layer of dust.')
+					_('the remains of an old camp sits just inside the cave.'),
+					_('bedrolls, torn and blackened, lay beneath a thin layer of dust.')
 				],
 				loot: {
 					'cured meat': {
@@ -179,21 +182,24 @@ Events.Setpieces = {
 					}
 				},
 				buttons: {
-					'continue': {	
+					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'b3', 1: 'b4'}
 					},
 					'leave': {
 						text: _('leave cave'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'b1': {
 				text: [
-			       _('the body of a wanderer lies in a small cavern.'),
-			       _("rot's been to work on it, and some of the pieces are missing."),
-			       _("can't tell what left it here.")
+					_('the body of a wanderer lies in a small cavern.'),
+					_("rot's been to work on it, and some of the pieces are missing."),
+                    /// TRANSLATORS : 'it' is a rotting wanderer's body
+					_("can't tell what left it here.")
 				],
 				loot: {
 					'iron sword': {
@@ -212,30 +218,32 @@ Events.Setpieces = {
 						chance: 0.5
 					},
 					'medicine': {
-					  min: 1,
-					  max: 2,
-					  chance: 0.1
+					min: 1,
+					max: 2,
+					chance: 0.1
 					}
 				},
 				buttons: {
-					'continue': {	
+					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: { 1: 'c1' }
 					},
 					'leave': {
 						text: _('leave cave'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'b2': {
 				text: [
-			       _('the torch sputters and dies in the damp air'),
-			       _('the darkness is absolute')
-			    ],
+					_('the torch sputters and dies in the damp air'),
+					_('the darkness is absolute')
+				],
 				notification: _('the torch goes out'),
 				buttons: {
-					'continue': {	
+					'continue': {
 						text: _('continue'),
 						cost: {'torch': 1},
 						nextScene: { 1: 'c1' }
@@ -249,7 +257,7 @@ Events.Setpieces = {
 			'b3': {
 				combat: true,
 				enemy: 'beast',
-				chara: 'B',
+				chara: 'R',
 				damage: 1,
 				hit: 0.8,
 				attackDelay: 1,
@@ -270,10 +278,12 @@ Events.Setpieces = {
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {1: 'c2'}
 					},
 					'leave': {
 						text: _('leave cave'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -281,7 +291,7 @@ Events.Setpieces = {
 			'b4': {
 				combat: true,
 				enemy: 'cave lizard',
-				chara: 'L',
+				chara: 'R',
 				damage: 3,
 				hit: 0.8,
 				attackDelay: 2,
@@ -302,10 +312,12 @@ Events.Setpieces = {
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {1: 'c2'}
 					},
 					'leave': {
 						text: _('leave cave'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -313,7 +325,7 @@ Events.Setpieces = {
 			'c1': {
 				combat: true,
 				enemy: 'beast',
-				chara: 'B',
+				chara: 'R',
 				damage: 3,
 				hit: 0.8,
 				attackDelay: 2,
@@ -334,10 +346,12 @@ Events.Setpieces = {
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'end1', 1: 'end2'}
 					},
 					'leave': {
 						text: _('leave cave'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -345,7 +359,7 @@ Events.Setpieces = {
 			'c2': {
 				combat: true,
 				enemy: 'lizard',
-				chara: 'L',
+				chara: 'T',
 				damage: 4,
 				hit: 0.8,
 				attackDelay: 2,
@@ -366,17 +380,19 @@ Events.Setpieces = {
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.7: 'end2', 1: 'end3'}
 					},
 					'leave': {
 						text: _('leave cave'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'end1': {
 				text: [
-			       _('the nest of a large animal lies at the back of the cave.')
+					_('the nest of a large animal lies at the back of the cave.')
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -411,15 +427,16 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave cave'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'end2': {
 				text: [
-			       _('a small supply cache is hidden at the back of the cave.')
-		        ],
-		        loot: {
+					_('a small supply cache is hidden at the back of the cave.')
+				],
+				loot: {
 					'cloth': {
 						min: 5,
 						max: 10,
@@ -451,9 +468,9 @@ Events.Setpieces = {
 						chance: 0.3
 					},
 					'medicine': {
-					  min: 1,
-					  max: 4,
-					  chance: 0.15
+						min: 1,
+						max: 4,
+						chance: 0.15
 					}
 				},
 				onLoad: function() {
@@ -462,37 +479,39 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave cave'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'end3': {
 				text: [
-			       _('an old case is wedged behind a rock, covered in a thick layer of dust.')
-		        ],
-		        loot: {
-		        	'steel sword': {
-		        		min: 1,
-		        		max: 1,
-		        		chance: 1
-		        	},
-		        	'bolas': {
-		        		min: 1,
-		        		max: 3,
-		        		chance: 0.5
-		        	},
-    					'medicine': {
-    					  min: 1,
-    					  max: 3,
-    					  chance: 0.3
-    					}
-		        },
+					_('an old case is wedged behind a rock, covered in a thick layer of dust.')
+				],
+				loot: {
+					'steel sword': {
+						min: 1,
+						max: 1,
+						chance: 1
+					},
+					'bolas': {
+						min: 1,
+						max: 3,
+						chance: 0.5
+					},
+					'medicine': {
+						min: 1,
+						max: 3,
+						chance: 0.3
+					}
+				},
 				onLoad: function() {
 					World.clearDungeon();
 				},
 				buttons: {
 					'leave': {
 						text: _('leave cave'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -509,7 +528,7 @@ Events.Setpieces = {
 				],
 				notification: _("the town lies abandoned, its citizens long dead"),
 				buttons: {
-					'enter': {	
+					'enter': {
 						text: _('explore'),
 						nextScene: {0.3: 'a1', 0.7: 'a3', 1: 'a2'}
 					},
@@ -541,36 +560,38 @@ Events.Setpieces = {
 			'a2': {
 				combat: true,
 				enemy: 'thug',
-				chara: 'T',
+				chara: 'E',
 				damage: 4,
-  				hit: 0.8,
-  				attackDelay: 2,
-  				health: 30,
-  				loot: {
-  					'cloth': {
-  						min: 5,
-  						max: 10,
-  						chance: 0.8
-  					},
-  					'leather': {
-  						min: 5,
-  						max: 10,
-  						chance: 0.8
-  					},
+				hit: 0.8,
+				attackDelay: 2,
+				health: 30,
+				loot: {
+					'cloth': {
+						min: 5,
+						max: 10,
+						chance: 0.8
+					},
+					'leather': {
+						min: 5,
+						max: 10,
+						chance: 0.8
+					},
 					'cured meat': {
 						min: 1,
 						max: 5,
 						chance: 0.5
 					}
-  				},
-  				notification: _('ambushed on the street.'),
+				},
+				notification: _('ambushed on the street.'),
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'b3', 1: 'b4'}
 					},
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -594,37 +615,39 @@ Events.Setpieces = {
 			},
 			'b1': {
 				text: [
-			       _('a small cache of supplies is tucked inside a rusting locker.')
-			    ],
-			    loot: {
-			    	'cured meat': {
-			    		min: 1,
-			    		max: 5,
-			    		chance: 1
-			    	},
-			    	'torch': {
-			    		min: 1,
-			    		max: 3,
-			    		chance: 0.8
-			    	},
-			    	'bullets': {
-			    		min: 1,
-			    		max: 5,
-			    		chance: 0.3
-			    	},
-  					'medicine': {
-  					  min: 1,
-  					  max: 3,
-  					  chance: 0.05
-  					}
-		    	},
-		    	buttons: {
+					_('a small cache of supplies is tucked inside a rusting locker.')
+				],
+				loot: {
+					'cured meat': {
+						min: 1,
+						max: 5,
+						chance: 1
+					},
+					'torch': {
+						min: 1,
+						max: 3,
+						chance: 0.8
+					},
+					'bullets': {
+						min: 1,
+						max: 5,
+						chance: 0.3
+					},
+					'medicine': {
+						min: 1,
+						max: 3,
+						chance: 0.05
+					}
+			},
+			buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'c1', 1: 'c2'}
 					},
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -632,36 +655,38 @@ Events.Setpieces = {
 			'b2': {
 				combat: true,
 				enemy: 'scavenger',
-				chara: 'S',
+				chara: 'E',
 				damage: 4,
-  				hit: 0.8,
-  				attackDelay: 2,
-  				health: 30,
-  				loot: {
-  					'cloth': {
-  						min: 5,
-  						max: 10,
-  						chance: 0.8
-  					},
-  					'leather': {
-  						min: 5,
-  						max: 10,
-  						chance: 0.8
-  					},
-  					'cured meat': {
-  						min: 1,
-  						max: 5,
-  						chance: 0.5
-  					}
-  				},
-  				notification: _('a scavenger waits just inside the door.'),
+				hit: 0.8,
+				attackDelay: 2,
+				health: 30,
+				loot: {
+					'cloth': {
+						min: 5,
+						max: 10,
+						chance: 0.8
+					},
+					'leather': {
+						min: 5,
+						max: 10,
+						chance: 0.8
+					},
+					'cured meat': {
+						min: 1,
+						max: 5,
+						chance: 0.5
+					}
+				},
+				notification: _('a scavenger waits just inside the door.'),
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'c2', 1: 'c3'}
 					},
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -669,39 +694,41 @@ Events.Setpieces = {
 			'b3': {
 				combat: true,
 				enemy: 'beast',
-				chara: 'B',
+				chara: 'R',
 				damage: 3,
-  				hit: 0.8,
-  				attackDelay: 1,
-  				health: 25,
-  				loot: {
-  					'teeth': {
-  						min: 1,
-  						max: 5,
-  						chance: 1
-  					},
-  					'fur': {
-  						min: 5,
-  						max: 10,
-  						chance: 1
-  					}
-  				},
-  				notification: _('a beast stands alone in an overgrown park.'),
+				hit: 0.8,
+				attackDelay: 1,
+				health: 25,
+				loot: {
+					'teeth': {
+						min: 1,
+						max: 5,
+						chance: 1
+					},
+					'fur': {
+						min: 5,
+						max: 10,
+						chance: 1
+					}
+				},
+				notification: _('a beast stands alone in an overgrown park.'),
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'c4', 1: 'c5'}
 					},
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'b4': {
 				text: [
-			       _('an overturned caravan is spread across the pockmarked street.'),
-			       _("it's been picked over by scavengers, but there's still some things worth taking.")
+					_('an overturned caravan is spread across the pockmarked street.'),
+					_("it's been picked over by scavengers, but there's still some things worth taking.")
 				],
 				loot: {
 					'cured meat': {
@@ -720,18 +747,20 @@ Events.Setpieces = {
 						chance: 0.3
 					},
 					'medicine': {
-					  min: 1,
-					  max: 3,
-					  chance: 0.1
+						min: 1,
+						max: 3,
+						chance: 0.1
 					}
 				},
 				buttons: {
-					'continue': {	
+					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'c5', 1: 'c6' }
 					},
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -739,36 +768,38 @@ Events.Setpieces = {
 			'b5': {
 				combat: true,
 				enemy: 'madman',
-				chara: 'M',
+				chara: 'E',
 				damage: 6,
-  				hit: 0.3,
-  				attackDelay: 1,
-  				health: 10,
-  				loot: {
-  					'cloth': {
-  						min: 2,
-  						max: 4,
-  						chance: 0.3
-  					},
-  					'cured meat': {
-  						min: 1,
-  						max: 5,
-  						chance: 0.9
-  					},
-  					'medicine': {
-  						min: 1,
-  						max: 2,
-  						chance: 0.4
-  					}
-  				},
-  				notification: _('a madman attacks, screeching.'),
+				hit: 0.3,
+				attackDelay: 1,
+				health: 10,
+				loot: {
+					'cloth': {
+						min: 2,
+						max: 4,
+						chance: 0.3
+					},
+					'cured meat': {
+						min: 1,
+						max: 5,
+						chance: 0.9
+					},
+					'medicine': {
+						min: 1,
+						max: 2,
+						chance: 0.4
+					}
+				},
+				notification: _('a madman attacks, screeching.'),
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.3: 'end5', 1: 'end6'}
 					},
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -776,36 +807,38 @@ Events.Setpieces = {
 			'c1': {
 				combat: true,
 				enemy: 'thug',
-				chara: 'T',
+				chara: 'E',
 				damage: 4,
-  				hit: 0.8,
-  				attackDelay: 2,
-  				health: 30,
-  				loot: {
-  					'cloth': {
-  						min: 5,
-  						max: 10,
-  						chance: 0.8
-  					},
-  					'leather': {
-  						min: 5,
-  						max: 10,
-  						chance: 0.8
-  					},
+				hit: 0.8,
+				attackDelay: 2,
+				health: 30,
+				loot: {
+					'cloth': {
+						min: 5,
+						max: 10,
+						chance: 0.8
+					},
+					'leather': {
+						min: 5,
+						max: 10,
+						chance: 0.8
+					},
 					'cured meat': {
 						min: 1,
 						max: 5,
 						chance: 0.5
 					}
-  				},
-  				notification: _('a thug moves out of the shadows.'),
+				},
+				notification: _('a thug moves out of the shadows.'),
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {1: 'd1'}
 					},
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -813,43 +846,45 @@ Events.Setpieces = {
 			'c2': {
 				combat: true,
 				enemy: 'beast',
-				chara: 'B',
+				chara: 'R',
 				damage: 3,
-  				hit: 0.8,
-  				attackDelay: 1,
-  				health: 25,
-  				loot: {
-  					'teeth': {
-  						min: 1,
-  						max: 5,
-  						chance: 1
-  					},
-  					'fur': {
-  						min: 5,
-  						max: 10,
-  						chance: 1
-  					}
-  				},
-  				notification: _('a beast charges out of a ransacked classroom.'),
+				hit: 0.8,
+				attackDelay: 1,
+				health: 25,
+				loot: {
+					'teeth': {
+						min: 1,
+						max: 5,
+						chance: 1
+					},
+					'fur': {
+						min: 5,
+						max: 10,
+						chance: 1
+					}
+				},
+				notification: _('a beast charges out of a ransacked classroom.'),
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {1: 'd1'}
 					},
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'c3': {
 				text: [
-			       _('through the large gymnasium doors, footsteps can be heard.'),
-			       _('the torchlight casts a flickering glow down the hallway.'),
-			       _('the footsteps stop.')
-		        ],
-		        buttons: {
-			        'continue': {
+					_('through the large gymnasium doors, footsteps can be heard.'),
+					_('the torchlight casts a flickering glow down the hallway.'),
+					_('the footsteps stop.')
+				],
+				buttons: {
+					'continue': {
 						text: _('enter'),
 						nextScene: {1: 'd1'}
 					},
@@ -857,46 +892,48 @@ Events.Setpieces = {
 						text: _('leave town'),
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			'c4': {
 				combat: true,
 				enemy: 'beast',
-				chara: 'B',
+				chara: 'R',
 				damage: 4,
-  				hit: 0.8,
-  				attackDelay: 1,
-  				health: 25,
-  				loot: {
-  					'teeth': {
-  						min: 1,
-  						max: 5,
-  						chance: 1
-  					},
-  					'fur': {
-  						min: 5,
-  						max: 10,
-  						chance: 1
-  					}
-  				},
-  				notification: _('another beast, draw by the noise, leaps out of a copse of trees.'),
+				hit: 0.8,
+				attackDelay: 1,
+				health: 25,
+				loot: {
+					'teeth': {
+						min: 1,
+						max: 5,
+						chance: 1
+					},
+					'fur': {
+						min: 5,
+						max: 10,
+						chance: 1
+					}
+				},
+				notification: _('another beast, draw by the noise, leaps out of a copse of trees.'),
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {1: 'd2'}
 					},
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'c5': {
 				text: [
-			       _("something's causing a commotion a ways down the road."),
-			       _("a fight, maybe.")
-		        ],
-		        buttons: {
+					_("something's causing a commotion a ways down the road."),
+					_("a fight, maybe.")
+				],
+				buttons: {
 					'continue': {
 						text: _('continue'),
 						nextScene: {1: 'd2'}
@@ -909,23 +946,25 @@ Events.Setpieces = {
 			},
 			'c6': {
 				text: [
-			       _('a small basket of food is hidden under a park bench, with a note attached.'),
-			       _("can't read the words.")
-		        ],
-		        loot: {
-		        	'cured meat': {
-		        		min: 1,
-		        		max: 5,
-		        		chance: 1
-		        	}
-		        },
-		        buttons: {
+					_('a small basket of food is hidden under a park bench, with a note attached.'),
+					_("can't read the words.")
+				],
+				loot: {
+					'cured meat': {
+						min: 1,
+						max: 5,
+						chance: 1
+					}
+				},
+				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {1: 'd2'}
 					},
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -933,36 +972,38 @@ Events.Setpieces = {
 			'd1': {
 				combat: true,
 				enemy: 'scavenger',
-				chara: 'S',
+				chara: 'E',
 				damage: 5,
-  				hit: 0.8,
-  				attackDelay: 2,
-  				health: 30,
-  				loot: {
-  					'cured meat': {
-  						min: 1,
-  						max: 5,
-  						chance: 1
-  					},
-  					'leather': {
-  						min: 5,
-  						max: 10,
-  						chance: 0.8
-  					},
+				hit: 0.8,
+				attackDelay: 2,
+				health: 30,
+				loot: {
+					'cured meat': {
+						min: 1,
+						max: 5,
+						chance: 1
+					},
+					'leather': {
+						min: 5,
+						max: 10,
+						chance: 0.8
+					},
 					'steel sword': {
 						min: 1,
 						max: 1,
 						chance: 0.5
 					}
-  				},
-  				notification: _('a panicked scavenger bursts through the door, screaming.'),
+				},
+				notification: _('a panicked scavenger bursts through the door, screaming.'),
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'end1', 1: 'end2'}
 					},
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -970,46 +1011,48 @@ Events.Setpieces = {
 			'd2': {
 				combat: true,
 				enemy: 'vigilante',
-				chara: 'V',
+				chara: 'D',
 				damage: 6,
-  				hit: 0.8,
-  				attackDelay: 2,
-  				health: 30,
-  				loot: {
-  					'cured meat': {
-  						min: 1,
-  						max: 5,
-  						chance: 1
-  					},
-  					'leather': {
-  						min: 5,
-  						max: 10,
-  						chance: 0.8
-  					},
-  					'steel sword': {
-  						min: 1,
-  						max: 1,
-  						chance: 0.5
-  					}
-  				},
-  				notification: _("a man stands over a dead wanderer. notices he's not alone."),
+				hit: 0.8,
+				attackDelay: 2,
+				health: 30,
+				loot: {
+					'cured meat': {
+						min: 1,
+						max: 5,
+						chance: 1
+					},
+					'leather': {
+						min: 5,
+						max: 10,
+						chance: 0.8
+					},
+					'steel sword': {
+						min: 1,
+						max: 1,
+						chance: 0.5
+					}
+				},
+				notification: _("a man stands over a dead wanderer. notices he's not alone."),
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'end3', 1: 'end4'}
 					},
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'end1': {
 				text: [
-			       _('scavenger had a small camp in the school.'),
-			       _('collected scraps spread across the floor like they fell from heaven.')
-		        ],
-		        onLoad: function() {
+					_('scavenger had a small camp in the school.'),
+					_('collected scraps spread across the floor like they fell from heaven.')
+				],
+				onLoad: function() {
 					World.clearDungeon();
 				},
 				loot: {
@@ -1034,24 +1077,25 @@ Events.Setpieces = {
 						chance: 0.5
 					},
 					'medicine': {
-					  min: 1,
-					  max: 2,
-					  chance: 0.3
+						min: 1,
+						max: 2,
+						chance: 0.3
 					}
 				},
 				buttons: {
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'end2': {
 				text: [
-			       _("scavenger'd been looking for supplies in here, it seems."),
-			       _("a shame to let what he'd found go to waste.")
-		        ],
-		        onLoad: function() {
+					_("scavenger'd been looking for supplies in here, it seems."),
+					_("a shame to let what he'd found go to waste.")
+				],
+				onLoad: function() {
 					World.clearDungeon();
 				},
 				loot: {
@@ -1074,16 +1118,17 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'end3': {
 				text: [
-			       _("beneath the wanderer's rags, clutched in one of its many hands, a glint of steel."),
-			       _("worth killing for, it seems.")
-		        ],
-		        onLoad: function() {
+					_("beneath the wanderer's rags, clutched in one of its many hands, a glint of steel."),
+					_("worth killing for, it seems.")
+				],
+				onLoad: function() {
 					World.clearDungeon();
 				},
 				loot: {
@@ -1101,17 +1146,18 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'end4': {
 				text: [
-			       _("eye for an eye seems fair."),
-			       _("always worked before, at least."),
-			       _("picking the bones finds some useful trinkets.")
-		        ],
-		        onLoad: function() {
+					_("eye for an eye seems fair."),
+					_("always worked before, at least."),
+					_("picking the bones finds some useful trinkets.")
+				],
+				onLoad: function() {
 					World.clearDungeon();
 				},
 				loot: {
@@ -1136,53 +1182,56 @@ Events.Setpieces = {
 						chance: 0.5
 					},
 					'medicine': {
-					  min: 1,
-					  max: 2,
-					  chance: 0.1
+					min: 1,
+					max: 2,
+					chance: 0.1
 					}
 				},
 				buttons: {
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'end5': {
 				text: [
-			       _('some medicine abandoned in the drawers.')
-		        ],
-		    onLoad: function() {
+					_('some medicine abandoned in the drawers.')
+				],
+				onLoad: function() {
 					World.clearDungeon();
 				},
-        loot: {
-        	'medicine': {
-        		min: 2,
-        		max: 5,
-        		chance: 1
-        	}
-        },
-        buttons: {
+				loot: {
+					'medicine': {
+						min: 2,
+						max: 5,
+						chance: 1
+					}
+				},
+				buttons: {
 					'leave': {
 						text: _('leave town'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
-		    }
+				}
 			},
 			'end6': {
 				text: [
-			       _('the clinic has been ransacked.'),
-			       _('only dust and stains remain.')
-		        ],
-		    onLoad: function() {
+					_('the clinic has been ransacked.'),
+					_('only dust and stains remain.')
+				],
+				onLoad: function() {
 					World.clearDungeon();
 				},
-        buttons: {
+				buttons: {
 					'leave': {
 						text: _('leave town'),
+
 						nextScene: 'end'
 					}
-		    }
+				}
 			}
 		}
 	},
@@ -1197,7 +1246,7 @@ Events.Setpieces = {
 				],
 				notification: _("the towers of a decaying city dominate the skyline"),
 				buttons: {
-					'enter': {	
+					'enter': {
 						text: _('explore'),
 						nextScene: {0.2: 'a1', 0.5: 'a2', 0.8: 'a3', 1: 'a4'}
 					},
@@ -1209,11 +1258,11 @@ Events.Setpieces = {
 			},
 			'a1': {
 				text:[
-				    _('the streets are empty.'),
-				    _('the air is filled with dust, driven relentlessly by the hard winds.')
-		        ],
-		        buttons: {
-					'continue': {	
+					_('the streets are empty.'),
+					_('the air is filled with dust, driven relentlessly by the hard winds.')
+				],
+				buttons: {
+					'continue': {
 						text: _('continue'),
 						nextScene: {0.5: 'b1', 1: 'b2'}
 					},
@@ -1225,11 +1274,11 @@ Events.Setpieces = {
 			},
 			'a2': {
 				text:[
-				    _('orange traffic cones are set across the street, faded and cracked.'),
-				    _('lights flash through the alleys between buildings.')
-		        ],
-		        buttons: {
-					'continue': {	
+					_('orange traffic cones are set across the street, faded and cracked.'),
+					_('lights flash through the alleys between buildings.')
+				],
+				buttons: {
+					'continue': {
 						text: _('continue'),
 						nextScene: {0.5: 'b3', 1: 'b4'}
 					},
@@ -1241,11 +1290,11 @@ Events.Setpieces = {
 			},
 			'a3': {
 				text: [
-			       _('a large shanty town sprawls across the streets.'),
-			       _('faces, darkened by soot and blood, stare out from crooked huts.')
-		        ],
-		        buttons: {
-					'continue': {	
+					_('a large shanty town sprawls across the streets.'),
+					_('faces, darkened by soot and blood, stare out from crooked huts.')
+				],
+				buttons: {
+					'continue': {
 						text: _('continue'),
 						nextScene: {0.5: 'b5', 1: 'b6'}
 					},
@@ -1257,28 +1306,28 @@ Events.Setpieces = {
 			},
 			'a4': {
 				text: [
-			       _('the shell of an abandoned hospital looms ahead.')
-		        ],
-        buttons: {
-          'enter': {
-            text: _('enter'),
-            cost: { 'torch': 1 },
-            nextScene: {0.5: 'b7', 1: 'b8'}
-          },
+					_('the shell of an abandoned hospital looms ahead.')
+				],
+				buttons: {
+					'enter': {
+						text: _('enter'),
+						cost: { 'torch': 1 },
+						nextScene: {0.5: 'b7', 1: 'b8'}
+					},
 					'leave': {
 						text: _('leave city'),
 						nextScene: 'end'
 					}
-        }
+				}
 			},
 			'b1': {
 				text: [
-			       _('the old tower seems mostly intact.'),
-			       _('the shell of a burned out car blocks the entrance.'),
-			       _('most of the windows at ground level are busted anyway.')
-		        ],
-		        buttons: {
-		        	'enter': {	
+					_('the old tower seems mostly intact.'),
+					_('the shell of a burned out car blocks the entrance.'),
+					_('most of the windows at ground level are busted anyway.')
+				],
+				buttons: {
+					'enter': {
 						text: _('enter'),
 						nextScene: {0.5: 'c1', 1: 'c2'}
 					},
@@ -1286,61 +1335,63 @@ Events.Setpieces = {
 						text: _('leave city'),
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			'b2': {
 				combat: true,
 				notification: _('a huge lizard scrambles up out of the darkness of an old metro station.'),
 				enemy: 'lizard',
-				chara: 'L',
+				chara: 'R',
 				damage: 5,
-  				hit: 0.8,
-  				attackDelay: 2,
-  				health: 20,
-  				loot: {
-  					'scales': {
-  						min: 5,
-  						max: 10,
-  						chance: 0.8
-  					},
-  					'teeth': {
-  						min: 5,
-  						max: 10,
-  						chance: 0.5
-  					},
-  					'meat': {
-  						min: 5,
-  						max: 10,
-  						chance: 0.8
-  					}
-  				},
-		        buttons: {
-		        	'descend': {	
+				hit: 0.8,
+				attackDelay: 2,
+				health: 20,
+				loot: {
+					'scales': {
+						min: 5,
+						max: 10,
+						chance: 0.8
+					},
+					'teeth': {
+						min: 5,
+						max: 10,
+						chance: 0.5
+					},
+					'meat': {
+						min: 5,
+						max: 10,
+						chance: 0.8
+					}
+				},
+				buttons: {
+					'descend': {
 						text: _('descend'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'c2', 1: 'c3'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			'b3': {
 				notification: _('the shot echoes in the empty street.'),
 				combat: true,
-  				enemy: 'sniper',
-  				chara: 'S',
-  				damage: 15,
-  				hit: 0.8,
-  				attackDelay: 4,
-  				health: 30,
+				enemy: 'sniper',
+				chara: 'D',
+				damage: 15,
+				hit: 0.8,
+				attackDelay: 4,
+				health: 30,
 				ranged: true,
-  				loot: {
-  					'cured meat': {
-  						min: 1,
-  						max: 5,
-  						chance: 0.8
-  					},
+				loot: {
+					'cured meat': {
+						min: 1,
+						max: 5,
+						chance: 0.8
+					},
 					'bullets': {
 						min: 1,
 						max: 5,
@@ -1351,34 +1402,36 @@ Events.Setpieces = {
 						max: 1,
 						chance: 0.2
 					}
-  				},
-		        buttons: {
-		        	'continue': {	
+				},
+				buttons: {
+					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'c4', 1: 'c5'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			'b4': {
 				notification: _('the soldier steps out from between the buildings, rifle raised.'),
 				combat: true,
-  				enemy: 'soldier',
+				enemy: 'soldier',
 				ranged: true,
-  				chara: 'D',
-  				damage: 8,
-  				hit: 0.8,
-  				attackDelay: 2,
-  				health: 50,
-  				loot: {
-  					'cured meat': {
-  						min: 1,
-  						max: 5,
-  						chance: 0.8
-  					},
+				chara: 'D',
+				damage: 8,
+				hit: 0.8,
+				attackDelay: 2,
+				health: 50,
+				loot: {
+					'cured meat': {
+						min: 1,
+						max: 5,
+						chance: 0.8
+					},
 					'bullets': {
 						min: 1,
 						max: 5,
@@ -1389,67 +1442,71 @@ Events.Setpieces = {
 						max: 1,
 						chance: 0.2
 					}
-  				},
-		        buttons: {
-		        	'continue': {	
+				},
+				buttons: {
+					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'c5', 1: 'c6'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			'b5': {
 				notification: _('a frail man stands defiantly, blocking the path.'),
 				combat: true,
-  				enemy: 'frail man',
-  				chara: 'M',
-  				damage: 1,
-  				hit: 0.8,
-  				attackDelay: 2,
-  				health: 10,
-  				loot: {
-  					'cured meat': {
-  						min: 1,
-  						max: 5,
-  						chance: 0.8
-  					},
-  					'cloth': {
-  						min: 1,
-  						max: 5,
-  						chance: 0.5
-  					},
-  					'leather': {
-  						min: 1,
-  						max: 1,
-  						chance: 0.2
-  					},
-  					'medicine': {
-  					  min: 1,
-  					  max: 3,
-  					  chance: 0.05
-  					}
-  				},
-		        buttons: {
-		        	'continue': {	
+				enemy: 'frail man',
+				chara: 'E',
+				damage: 1,
+				hit: 0.8,
+				attackDelay: 2,
+				health: 10,
+				loot: {
+					'cured meat': {
+						min: 1,
+						max: 5,
+						chance: 0.8
+					},
+					'cloth': {
+						min: 1,
+						max: 5,
+						chance: 0.5
+					},
+					'leather': {
+						min: 1,
+						max: 1,
+						chance: 0.2
+					},
+					'medicine': {
+						min: 1,
+						max: 3,
+						chance: 0.05
+					}
+				},
+				buttons: {
+					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'c7', 1: 'c8'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			'b6': {
 				text: [
-			       _('nothing but downcast eyes.'),
-			       _('the people here were broken a long time ago.')
-		        ],
-		        buttons: {
-		        	'continue': {	
+					_('nothing but downcast eyes.'),
+					_('the people here were broken a long time ago.')
+				],
+				buttons: {
+					'continue': {
 						text: _('continue'),
 						nextScene: {0.5: 'c8', 1: 'c9'}
 					},
@@ -1457,15 +1514,15 @@ Events.Setpieces = {
 						text: _('leave city'),
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			'b7': {
 				text: [
-			       _('empty corridors.'),
-			       _('the place has been swept clean by scavengers.')
-		        ],
-		    buttons: {
-		      'continue': {	
+					_('empty corridors.'),
+					_('the place has been swept clean by scavengers.')
+				],
+				buttons: {
+					'continue': {
 						text: _('continue'),
 						nextScene: {0.3: 'c12', 0.7: 'c10', 1: 'c11'}
 					},
@@ -1473,129 +1530,135 @@ Events.Setpieces = {
 						text: _('leave city'),
 						nextScene: 'end'
 					}
-		    }
+				}
 			},
 			'b8': {
 				notification: _('an old man bursts through a door, wielding a scalpel.'),
 				combat: true,
 				enemy: 'old man',
-  				chara: 'M',
-  				damage: 3,
-  				hit: 0.5,
-  				attackDelay: 2,
-  				health: 10,
-  				loot: {
-  					'cured meat': {
-  						min: 1,
-  						max: 3,
-  						chance: 0.5
-  					},
-  					'cloth': {
-  						min: 1,
-  						max: 5,
-  						chance: 0.8
-  					},
-  					'medicine': {
-  					  min: 1,
-  					  max: 2,
-  					  chance: 0.5
-  					}
-  				},
-        buttons: {
-        	'continue': {	
-    				text: _('continue'),
-    				nextScene: {0.3: 'c13', 0.7: 'c11', 1: 'end15'}
-    			},
-    			'leave': {
-    				text: _('leave city'),
-    				nextScene: 'end'
-    			}
-		    }
+				chara: 'E',
+				damage: 3,
+				hit: 0.5,
+				attackDelay: 2,
+				health: 10,
+				loot: {
+					'cured meat': {
+						min: 1,
+						max: 3,
+						chance: 0.5
+					},
+					'cloth': {
+						min: 1,
+						max: 5,
+						chance: 0.8
+					},
+					'medicine': {
+						min: 1,
+						max: 2,
+						chance: 0.5
+					}
+				},
+				buttons: {
+					'continue': {
+						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
+						nextScene: {0.3: 'c13', 0.7: 'c11', 1: 'end15'}
+					},
+					'leave': {
+						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
+						nextScene: 'end'
+					}
+				}
 			},
 			'c1': {
 				notification: _('a thug is waiting on the other side of the wall.'),
 				combat: true,
 				enemy: 'thug',
-  				chara: 'T',
-  				damage: 3,
-  				hit: 0.8,
-  				attackDelay: 2,
-  				health: 30,
-  				loot: {
-  					'steel sword': {
-  						min: 1,
-  						max: 1,
-  						chance: 0.5
-  					},
-  					'cured meat': {
-  						min: 1,
-  						max: 3,
-  						chance: 0.5
-  					},
-  					'cloth': {
-  						min: 1,
-  						max: 5,
-  						chance: 0.8
-  					}
-  				},
-		        buttons: {
-		        	'continue': {	
+				chara: 'E',
+				damage: 3,
+				hit: 0.8,
+				attackDelay: 2,
+				health: 30,
+				loot: {
+					'steel sword': {
+						min: 1,
+						max: 1,
+						chance: 0.5
+					},
+					'cured meat': {
+						min: 1,
+						max: 3,
+						chance: 0.5
+					},
+					'cloth': {
+						min: 1,
+						max: 5,
+						chance: 0.8
+					}
+				},
+				buttons: {
+					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'd1', 1: 'd2'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			
 			'c2': {
 				notification: _('a snarling beast jumps out from behind a car.'),
 				combat: true,
 				enemy: 'beast',
-  				chara: 'B',
-  				damage: 2,
-  				hit: 0.8,
-  				attackDelay: 1,
-  				health: 30,
-  				loot: {
-  					'meat': {
-  						min: 1,
-  						max: 5,
-  						chance: 0.8
-  					},
-  					'fur': {
-  						min: 1,
-  						max: 5,
-  						chance: 0.8
-  					},
-  					'teeth': {
-  						min: 1,
-  						max: 5,
-  						chance: 0.5
-  					}
-  				},
-		        buttons: {
-		        	'continue': {	
+				chara: 'R',
+				damage: 2,
+				hit: 0.8,
+				attackDelay: 1,
+				health: 30,
+				loot: {
+					'meat': {
+						min: 1,
+						max: 5,
+						chance: 0.8
+					},
+					'fur': {
+						min: 1,
+						max: 5,
+						chance: 0.8
+					},
+					'teeth': {
+						min: 1,
+						max: 5,
+						chance: 0.5
+					}
+				},
+				buttons: {
+					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {1: 'd2'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			
 			'c3': {
 				text: [
-			       _('street above the subway platform is blown away.'),
-			       _('lets some light down into the dusty haze.'),
-			       _('a sound comes from the tunnel, just ahead.')
-		        ],
-		        buttons: {
-		        	'enter': {	
+					_('street above the subway platform is blown away.'),
+					_('lets some light down into the dusty haze.'),
+					_('a sound comes from the tunnel, just ahead.')
+				],
+				buttons: {
+					'enter': {
 						text: _('investigate'),
 						cost: { 'torch': 1 },
 						nextScene: {0.5: 'd2', 1: 'd3'}
@@ -1604,17 +1667,18 @@ Events.Setpieces = {
 						text: _('leave city'),
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			
 			'c4': {
 				text: [
-			       _('looks like a camp of sorts up ahead.'),
-			       _('rusted chainlink is pulled across an alleyway.'),
-			       _('fires burn in the courtyard beyond.')
-		        ],
-		        buttons: {
-		        	'enter': {	
+					_('looks like a camp of sorts up ahead.'),
+                    /// TRANSLATORS : chainlink is a type of metal fence.
+					_('rusted chainlink is pulled across an alleyway.'),
+					_('fires burn in the courtyard beyond.')
+				],
+				buttons: {
+					'enter': {
 						text: _('continue'),
 						nextScene: {0.5: 'd4', 1: 'd5'}
 					},
@@ -1622,16 +1686,16 @@ Events.Setpieces = {
 						text: _('leave city'),
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			
 			'c5': {
 				text: [
-			       _('more voices can be heard ahead.'),
-			       _('they must be here for a reason.')
-		        ],
-		        buttons: {
-		        	'enter': {	
+					_('more voices can be heard ahead.'),
+					_('they must be here for a reason.')
+				],
+				buttons: {
+					'enter': {
 						text: _('continue'),
 						nextScene: {1: 'd5'}
 					},
@@ -1639,16 +1703,16 @@ Events.Setpieces = {
 						text: _('leave city'),
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			
 			'c6': {
 				text: [
-			       _('the sound of gunfire carries on the wind.'),
-			       _('the street ahead glows with firelight.')
-		        ],
-		        buttons: {
-		        	'enter': {	
+					_('the sound of gunfire carries on the wind.'),
+					_('the street ahead glows with firelight.')
+				],
+				buttons: {
+					'enter': {
 						text: _('continue'),
 						nextScene: {0.5: 'd5', 1: 'd6'}
 					},
@@ -1656,16 +1720,17 @@ Events.Setpieces = {
 						text: _('leave city'),
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			
 			'c7': {
 				text: [
-			       _('more squatters are crowding around now.'),
-			       _('someone throws a stone.')
-		        ],
-		        buttons: {
-		        	'enter': {	
+                    /// TRANSLATORS : squatters occupy abandoned dwellings they don't own.
+					_('more squatters are crowding around now.'),
+					_('someone throws a stone.')
+				],
+				buttons: {
+					'enter': {
 						text: _('continue'),
 						nextScene: {0.5: 'd7', 1: 'd8'}
 					},
@@ -1673,7 +1738,7 @@ Events.Setpieces = {
 						text: _('leave city'),
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			
 			'c8': {
@@ -1703,53 +1768,57 @@ Events.Setpieces = {
 						chance: 0.01
 					},
 					'medicine': {
-					  min: 1,
-					  max: 4,
-					  chance: 0.5
+						min: 1,
+						max: 4,
+						chance: 0.5
 					}
 				},
-		        buttons: {
-		        	'enter': {	
+				buttons: {
+					'enter': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {1: 'd8'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			
 			'c9': {
 				text: [
-			       _('strips of meat hang drying by the side of the street.'),
-			       _('the people back away, avoiding eye contact.')
-		        ],
-		        loot: {
-		        	'cured meat': {
-		        		min: 5,
-		        		max: 10,
-		        		chance: 1
-		        	}
-		        },
-		        buttons: {
-		        	'enter': {	
+					_('strips of meat hang drying by the side of the street.'),
+					_('the people back away, avoiding eye contact.')
+				],
+				loot: {
+					'cured meat': {
+						min: 5,
+						max: 10,
+						chance: 1
+					}
+				},
+				buttons: {
+					'enter': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'd8', 1: 'd9'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			
 			'c10': {
 				text: [
-			       _('someone has locked and barricaded the door to this operating theatre.')
-		        ],
-		    buttons: {
-		      'enter': {	
+					_('someone has locked and barricaded the door to this operating theatre.')
+				],
+				buttons: {
+					'enter': {
 						text: _('continue'),
 						nextScene: {0.2: 'end12', 0.6: 'd10', 1: 'd11'}
 					},
@@ -1757,7 +1826,7 @@ Events.Setpieces = {
 						text: _('leave city'),
 						nextScene: 'end'
 					}
-		    }
+				}
 			},
 			
 			'c11': {
@@ -1765,12 +1834,12 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'squatters',
 				plural: true,
-				chara: 'SSS',
+				chara: 'EEE',
 				damage: 2,
 				hit: 0.7,
 				attackDelay: 0.5,
 				health: 40,
-  			loot: {
+				loot: {
 					'cured meat': {
 						min: 1,
 						max: 3,
@@ -1782,21 +1851,23 @@ Events.Setpieces = {
 						chance: 0.8
 					},
 					'medicine': {
-					  min: 1,
-					  max: 3,
-					  chance: 0.3
+						min: 1,
+						max: 3,
+						chance: 0.3
 					}
 				},
-        buttons: {
-    			'continue': {
-    				text: _('continue'),
-    				nextScene: { 1: 'end10' }
-    			},
-    			'leave': {
+				buttons: {
+					'continue': {
+						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
+						nextScene: { 1: 'end10' }
+					},
+					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
-		    }
+				}
 			},
 			
 			'c12': {
@@ -1804,12 +1875,12 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'lizards',
 				plural: true,
-				chara: 'LLL',
+				chara: 'RRR',
 				damage: 4,
 				hit: 0.7,
 				attackDelay: 0.7,
 				health: 30,
-  			loot: {
+				loot: {
 					'meat': {
 						min: 3,
 						max: 8,
@@ -1821,21 +1892,23 @@ Events.Setpieces = {
 						chance: 1
 					},
 					'scales': {
-					  min: 3,
-					  max: 5,
-					  chance: 1
+						min: 3,
+						max: 5,
+						chance: 1
 					}
 				},
-        buttons: {
-    			'continue': {
-    				text: _('continue'),
-    				nextScene: { 1: 'end10' }
-    			},
-    			'leave': {
+				buttons: {
+					'continue': {
+						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
+						nextScene: { 1: 'end10' }
+					},
+					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
-		    }
+				}
 			},
 			
 			'c13': {
@@ -1844,88 +1917,94 @@ Events.Setpieces = {
 				],
 				loot: {
 					'cured meat': {
-					  min: 3,
-					  max: 10,
-					  chance: 1
+						min: 3,
+						max: 10,
+						chance: 1
 					}
 				},
-        buttons: {
-    			'continue': {
-    				text: _('continue'),
-    				nextScene: { 0.5: 'end10', 1: 'end11' }
-    			},
-    			'leave': {
+				buttons: {
+					'continue': {
+						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
+						nextScene: { 0.5: 'end10', 1: 'end11' }
+					},
+					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
-		    }
+				}
 			},
 						
 			'd1': {
 				notification: _('a large bird nests at the top of the stairs.'),
 				combat: true,
 				enemy: 'bird',
-  				chara: 'B',
-  				damage: 5,
-  				hit: 0.7,
-  				attackDelay: 1,
-  				health: 45,
-  				loot: {
-  					'meat': {
-  						min: 5,
-  						max: 10,
-  						chance: 0.8
-  					}
-  				},
-		        buttons: {
-		        	'continue': {	
+				chara: 'R',
+				damage: 5,
+				hit: 0.7,
+				attackDelay: 1,
+				health: 45,
+				loot: {
+					'meat': {
+						min: 5,
+						max: 10,
+						chance: 0.8
+					}
+				},
+				buttons: {
+					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'end1', 1: 'end2'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			
 			'd2': {
 				text: [
-			       _("the debris is denser here."),
-			       _("maybe some useful stuff in the rubble.")
-		        ],
-		        loot: {
-		        	'bullets': {
-		        		min: 1,
-		        		max: 5,
-		        		chance: 0.5
-		        	},
-		        	'steel': {
-		        		min: 1,
-		        		max: 10,
-		        		chance: 0.8
-		        	},
-		        	'alien alloy': {
-		        		min: 1,
-		        		max: 1,
-		        		chance: 0.01
-		        	},
-		        	'cloth': {
-		        		min: 1,
-		        		max: 10,
-		        		chance: 1
-		        	}
-		        },
-		        buttons: {
-		        	'continue': {	
+					_("the debris is denser here."),
+					_("maybe some useful stuff in the rubble.")
+				],
+				loot: {
+					'bullets': {
+						min: 1,
+						max: 5,
+						chance: 0.5
+					},
+					'steel': {
+						min: 1,
+						max: 10,
+						chance: 0.8
+					},
+					'alien alloy': {
+						min: 1,
+						max: 1,
+						chance: 0.01
+					},
+					'cloth': {
+						min: 1,
+						max: 10,
+						chance: 1
+					}
+				},
+				buttons: {
+					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {1: 'end2'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			
 			'd3': {
@@ -1933,41 +2012,43 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'rats',
 				plural: true,
-  				chara: 'RRR',
-  				damage: 1,
-  				hit: 0.8,
-  				attackDelay: 0.25,
-  				health: 60,
-  				loot: {
-  					'fur': {
-  						min: 5,
-  						max: 10,
-  						chance: 0.8
-  					},
+				chara: 'RRR',
+				damage: 1,
+				hit: 0.8,
+				attackDelay: 0.25,
+				health: 60,
+				loot: {
+					'fur': {
+						min: 5,
+						max: 10,
+						chance: 0.8
+					},
 					'teeth': {
 						min: 5,
 						max: 10,
 						chance: 0.5
 					}
-  				},
-		        buttons: {
-		        	'continue': {	
+				},
+				buttons: {
+					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'end2', 1: 'end3'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			
 			'd4': {
 				notification: _('a large man attacks, waving a bayonet.'),
 				combat: true,
 				enemy: 'veteran',
-				chara: 'V',
-				damage: 3,
+				chara: 'D',
+				damage: 6,
 				hit: 0.8,
 				attackDelay: 2,
 				health: 45,
@@ -1986,10 +2067,12 @@ Events.Setpieces = {
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'end4', 1: 'end5'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -1998,19 +2081,19 @@ Events.Setpieces = {
 			'd5': {
 				notification: _('a second soldier opens fire.'),
 				combat: true,
-  				enemy: 'soldier',
+				enemy: 'soldier',
 				ranged: true,
-  				chara: 'D',
-  				damage: 8,
-  				hit: 0.8,
-  				attackDelay: 2,
-  				health: 50,
-  				loot: {
-  					'cured meat': {
-  						min: 1,
-  						max: 5,
-  						chance: 0.8
-  					},
+				chara: 'D',
+				damage: 8,
+				hit: 0.8,
+				attackDelay: 2,
+				health: 50,
+				loot: {
+					'cured meat': {
+						min: 1,
+						max: 5,
+						chance: 0.8
+					},
 					'bullets': {
 						min: 1,
 						max: 5,
@@ -2021,24 +2104,26 @@ Events.Setpieces = {
 						max: 1,
 						chance: 0.2
 					}
-  				},
-		        buttons: {
-		        	'continue': {	
+				},
+				buttons: {
+					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {1: 'end5'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
-		        }
+				}
 			},
 			
 			'd6': {
 				notification: _('a masked soldier rounds the corner, gun drawn'),
 				combat: true,
 				enemy: 'commando',
-				chara: 'C',
+				chara: 'D',
 				ranged: true,
 				damage: 3,
 				hit: 0.9,
@@ -2064,10 +2149,12 @@ Events.Setpieces = {
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'end5', 1: 'end6'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2078,7 +2165,7 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'squatters',
 				plural: true,
-				chara: 'SSS',
+				chara: 'EEE',
 				damage: 2,
 				hit: 0.7,
 				attackDelay: 0.5,
@@ -2098,10 +2185,12 @@ Events.Setpieces = {
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'end7', 1: 'end8'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2111,7 +2200,7 @@ Events.Setpieces = {
 				notification: _('a youth lashes out with a tree branch.'),
 				combat: true,
 				enemy: 'youth',
-				chara: 'Y',
+				chara: 'E',
 				damage: 2,
 				hit: 0.7,
 				attackDelay: 1,
@@ -2131,10 +2220,12 @@ Events.Setpieces = {
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {1: 'end8'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2144,7 +2235,7 @@ Events.Setpieces = {
 				notification: _('a squatter stands firmly in the doorway of a small hut.'),
 				combat: true,
 				enemy: 'squatter',
-				chara: 'S',
+				chara: 'E',
 				damage: 3,
 				hit: 0.8,
 				attackDelay: 2,
@@ -2164,10 +2255,12 @@ Events.Setpieces = {
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {0.5: 'end8', 1: 'end9'}
 					},
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2177,7 +2270,7 @@ Events.Setpieces = {
 				notification: _('behind the door, a deformed figure awakes and attacks.'),
 				combat: true,
 				enemy: 'deformed',
-				chara: 'D',
+				chara: 'T',
 				damage: 8,
 				hit: 0.6,
 				attackDelay: 2,
@@ -2194,19 +2287,20 @@ Events.Setpieces = {
 						chance: 1
 					},
 					'steel': {
-					  min: 1,
-					  max: 3,
-					  chance: 0.6
+						min: 1,
+						max: 3,
+						chance: 0.6
 					},
 					'scales': {
-					  min: 2,
-					  max: 3,
-					  chance: 0.1
+						min: 2,
+						max: 3,
+						chance: 0.1
 					}
 				},
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {1: 'end14'}
 					}
 				}
@@ -2232,6 +2326,7 @@ Events.Setpieces = {
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: {1: 'end13'}
 					}
 				}
@@ -2239,8 +2334,8 @@ Events.Setpieces = {
 		
 			'end1': {
 				text: [
-				   _('bird must have liked shiney things.'),
-				   _('some good stuff woven into its nest.')
+					_('bird must have liked shiney things.'),
+					_('some good stuff woven into its nest.')
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -2266,6 +2361,7 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2273,8 +2369,8 @@ Events.Setpieces = {
 			
 			'end2': {
 				text: [
-				   _('not much here.'),
-				   _('scavengers must have gotten to this place already.')
+					_('not much here.'),
+					_('scavengers must have gotten to this place already.')
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -2295,6 +2391,7 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2302,9 +2399,10 @@ Events.Setpieces = {
 			
 			'end3': {
 				text: [
-				   _('the tunnel opens up at another platform.'),
-				   _('the walls are scorched from an old battle.'),
-				   _('bodies and supplies from both sides litter the ground.')
+                    /// TRANSLATORS : a platform in the subway
+					_('the tunnel opens up at another platform.'),
+					_('the walls are scorched from an old battle.'),
+					_('bodies and supplies from both sides litter the ground.')
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -2340,17 +2438,17 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			
-			
 			'end4': {
 				text: [
-				   _('the small military outpost is well supplied.'),
-				   _('arms and munitions, relics from the war, are neatly arranged on the store-room floor.'),
-				   _('just as deadly now as they were then.')
+					_('the small military outpost is well supplied.'),
+					_('arms and munitions, relics from the war, are neatly arranged on the store-room floor.'),
+					_('just as deadly now as they were then.')
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -2376,6 +2474,7 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2383,9 +2482,9 @@ Events.Setpieces = {
 			
 			'end5': {
 				text: [
-				   _('searching the bodies yields a few supplies.'),
-				   _('more soldiers will be on their way.'),
-				   _('time to move on.')
+					_('searching the bodies yields a few supplies.'),
+					_('more soldiers will be on their way.'),
+					_('time to move on.')
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -2408,14 +2507,15 @@ Events.Setpieces = {
 						chance: 0.8
 					},
 					'medicine': {
-					  min: 1,
-					  max: 4,
-					  chance: 0.1
+					min: 1,
+					max: 4,
+					chance: 0.1
 					}
 				},
 				buttons: {
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2423,9 +2523,9 @@ Events.Setpieces = {
 			
 			'end6': {
 				text: [
-				   _('the small settlement has clearly been burning a while.'),
-				   _('the bodies of the wanderers that lived here are still visible in the flames.'),
-				   _("still time to rescue a few supplies.")
+					_('the small settlement has clearly been burning a while.'),
+					_('the bodies of the wanderers that lived here are still visible in the flames.'),
+					_("still time to rescue a few supplies.")
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -2451,16 +2551,16 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			
-			
 			'end7': {
 				text: [
-				   _('the remaining settlers flee from the violence, their belongings forgotten.'),
-				   _("there's not much, but some useful things can still be found.")
+					_('the remaining settlers flee from the violence, their belongings forgotten.'),
+					_("there's not much, but some useful things can still be found.")
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -2486,6 +2586,7 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2493,9 +2594,9 @@ Events.Setpieces = {
 			
 			'end8': {
 				text: [
-				   _('the young settler was carrying a canvas sack.'),
-				   _("it contains travelling gear, and a few trinkets."),
-				   _("there's nothing else here.")
+					_('the young settler was carrying a canvas sack.'),
+					_("it contains travelling gear, and a few trinkets."),
+					_("there's nothing else here.")
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -2521,6 +2622,7 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2528,9 +2630,9 @@ Events.Setpieces = {
 			
 			'end9': {
 				text: [
-				   _('inside the hut, a child cries.'),
-				   _("a few belongings rest against the walls."),
-				   _("there's nothing else here.")
+					_('inside the hut, a child cries.'),
+					_("a few belongings rest against the walls."),
+					_("there's nothing else here.")
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -2561,6 +2663,7 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2568,9 +2671,9 @@ Events.Setpieces = {
 			
 			'end10': {
 				text: [
-				   _('the stench of rot and death fills the operating theatres.'),
-				   _("a few items are scattered on the ground."),
-				   _('there is nothing else here.')
+					_('the stench of rot and death fills the operating theatres.'),
+					_("a few items are scattered on the ground."),
+					_('there is nothing else here.')
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -2601,6 +2704,7 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2608,8 +2712,8 @@ Events.Setpieces = {
 			
 			'end11': {
 				text: [
-				   _('a pristine medicine cabinet at the end of a hallway.'),
-				   _("the rest of the hospital is empty.")
+					_('a pristine medicine cabinet at the end of a hallway.'),
+					_("the rest of the hospital is empty.")
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -2635,6 +2739,7 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2642,7 +2747,7 @@ Events.Setpieces = {
 			
 			'end12': {
 				text: [
-				   _('someone had been stockpiling loot here.')
+					_('someone had been stockpiling loot here.')
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -2665,24 +2770,25 @@ Events.Setpieces = {
 						chance: 1
 					},
 					'torch': {
-					  min: 1,
-					  max: 3,
-					  chance: 0.5
+					min: 1,
+					max: 3,
+					chance: 0.5
 					},
 					'grenade': {
-					  min: 1,
-					  max: 1,
-					  chance: 0.5
+					min: 1,
+					max: 1,
+					chance: 0.5
 					},
 					'alien alloy': {
-					  min: 1,
-					  max: 2,
-					  chance: 0.8
+					min: 1,
+					max: 2,
+					chance: 0.8
 					}
 				},
 				buttons: {
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2690,8 +2796,8 @@ Events.Setpieces = {
 			
 			'end13': {
 				text: [
-				   _('the tentacular horror is defeated.'),
-				   _('inside, the remains of its victims are everywhere.')
+					_('the tentacular horror is defeated.'),
+					_('inside, the remains of its victims are everywhere.')
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -2714,19 +2820,20 @@ Events.Setpieces = {
 						chance: 1
 					},
 					'cloth': {
-					  min: 3,
-					  max: 6,
-					  chance: 0.5
+					min: 3,
+					max: 6,
+					chance: 0.5
 					},
 					'alien alloy': {
-					  min: 1,
-					  max: 1,
-					  chance: 0.1
+					min: 1,
+					max: 1,
+					chance: 0.1
 					}
 				},
 				buttons: {
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2734,8 +2841,9 @@ Events.Setpieces = {
 			
 			'end14': {
 				text: [
-				   _('the warped man lies dead.'),
-				   _('the operating theatre has a lot of curious equipment.')
+                    /// TRANSLATORS : warped means extremely disfigured.
+					_('the warped man lies dead.'),
+					_('the operating theatre has a lot of curious equipment.')
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -2753,24 +2861,25 @@ Events.Setpieces = {
 						chance: 1
 					},
 					'cloth': {
-					  min: 1,
-					  max: 3,
-					  chance: 0.5
+						min: 1,
+						max: 3,
+						chance: 0.5
 					},
 					'steel': {
-					  min: 2,
-					  max: 3,
-					  chance: 0.3
+						min: 2,
+						max: 3,
+						chance: 0.3
 					},
 					'alien alloy': {
-					  min: 1,
-					  max: 1,
-					  chance: 0.3
+						min: 1,
+						max: 1,
+						chance: 0.3
 					}
 				},
 				buttons: {
 					'leave': {
 						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2791,34 +2900,35 @@ Events.Setpieces = {
 						chance: 0.8
 					},
 					'medicine': {
-					  min: 1,
-					  max: 4,
-					  chance: 1
+					min: 1,
+					max: 4,
+					chance: 1
 					},
 					'cured meat': {
-					  min: 3,
-					  max: 7,
-					  chance: 1
+					min: 3,
+					max: 7,
+					chance: 1
 					},
 					'bolas': {
-					  min: 1,
-					  max: 3,
-					  chance: 0.5
+					min: 1,
+					max: 3,
+					chance: 0.5
 					},
 					'fur': {
-					  min: 1,
-					  max: 5,
-					  chance: 0.8
+					min: 1,
+					max: 5,
+					chance: 0.8
 					}
 				},
 				buttons: {
-    			'leave': {
-    				text: _('leave city'),
-    				nextScene: 'end'
-    			}
-		    }
+					'leave': {
+						text: _('leave city'),
+						cooldown: Events._LEAVE_COOLDOWN,
+						nextScene: 'end'
+					}
+				}
 			}
-		}	
+		}
 	},
 	"house": { /* Abandoned House */
 		title: _('An Old House'),
@@ -2851,11 +2961,11 @@ Events.Setpieces = {
 					Notifications.notify(null, _('water replenished'));
 				},
 				loot: {
- 					'cured meat': {
- 						min: 1,
- 						max: 10,
- 						chance: 0.8
- 					},
+					'cured meat': {
+						min: 1,
+						max: 10,
+						chance: 0.8
+					},
 					'leather': {
 						min: 1,
 						max: 10,
@@ -2870,13 +2980,14 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'medicine': {
 				text: [
-				  _('the house has been ransacked.'),
+					_('the house has been ransacked.'),
 					_('but there is a cache of medicine under the floorboards.')
 				],
 				onLoad: function() {
@@ -2892,6 +3003,7 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2899,7 +3011,7 @@ Events.Setpieces = {
 			'occupied': {
 				combat: true,
 				enemy: 'squatter',
-				chara: 'S',
+				chara: 'E',
 				damage: 3,
 				hit: 0.8,
 				attackDelay: 2,
@@ -2909,11 +3021,11 @@ Events.Setpieces = {
 					World.markVisited(World.curPos[0], World.curPos[1]);
 				},
 				loot: {
- 					'cured meat': {
- 						min: 1,
- 						max: 10,
- 						chance: 0.8
- 					},
+					'cured meat': {
+						min: 1,
+						max: 10,
+						chance: 0.8
+					},
 					'leather': {
 						min: 1,
 						max: 10,
@@ -2928,6 +3040,7 @@ Events.Setpieces = {
 				buttons: {
 					'leave': {
 						text: _('leave'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -2939,50 +3052,51 @@ Events.Setpieces = {
 		scenes: {
 			'start': {
 				text: [
-			       _('a battle was fought here, long ago.'),
-			       _('battered technology from both sides lays dormant on the blasted landscape.')
-		        ],
-		        onLoad: function() {
+					_('a battle was fought here, long ago.'),
+					_('battered technology from both sides lays dormant on the blasted landscape.')
+				],
+				onLoad: function() {
 					World.markVisited(World.curPos[0], World.curPos[1]);
 				},
-		        loot: {
-		        	'rifle': {
-		        		min: 1,
-		        		max: 3,
-		        		chance: 0.5
-		        	},
-		        	'bullets': {
-		        		min: 5,
-		        		max: 20,
-		        		chance: 0.8
-		        	},
-		        	'laser rifle': {
-		        		min: 1,
-		        		max: 3,
-		        		chance: 0.3
-		        	},
-		        	'energy cell': {
-		        		min: 5,
-		        		max: 10,
-		        		chance: 0.5
-		        	},
-		        	'grenade': {
-		        		min: 1,
-		        		max: 5,
-		        		chance: 0.5
-		        	},
-		        	'alien alloy': {
-		        		min: 1,
-		        		max: 1,
-		        		chance: 0.3
-		        	}
-		        },
-		        buttons: {
-		        	'leave': {
-		        		text: _('leave'),
-		        		nextScene: 'end'
-		        	}
-		        }
+				loot: {
+					'rifle': {
+						min: 1,
+						max: 3,
+						chance: 0.5
+					},
+					'bullets': {
+						min: 5,
+						max: 20,
+						chance: 0.8
+					},
+					'laser rifle': {
+						min: 1,
+						max: 3,
+						chance: 0.3
+					},
+					'energy cell': {
+						min: 5,
+						max: 10,
+						chance: 0.5
+					},
+					'grenade': {
+						min: 1,
+						max: 5,
+						chance: 0.5
+					},
+					'alien alloy': {
+						min: 1,
+						max: 1,
+						chance: 0.3
+					}
+				},
+				buttons: {
+					'leave': {
+						text: _('leave'),
+
+						nextScene: 'end'
+					}
+				}
 			}
 		}
 	},
@@ -2991,26 +3105,27 @@ Events.Setpieces = {
 		scenes: {
 			'start': {
 				text: [
-			       _('a huge hole is cut deep into the earth, evidence of the past harvest.'),
-			       _('they took what they came for, and left.'),
-			       _('castoff from the mammoth drills can still be found by the edges of the precipice.')
-		        ],
-		        onLoad: function() {
+					_('a huge hole is cut deep into the earth, evidence of the past harvest.'),
+					_('they took what they came for, and left.'),
+					_('castoff from the mammoth drills can still be found by the edges of the precipice.')
+				],
+				onLoad: function() {
 					World.markVisited(World.curPos[0], World.curPos[1]);
 				},
-		        loot: {
-		        	'alien alloy': {
-		        		min: 1,
-		        		max: 3,
-		        		chance: 1
-		        	}
-		        },
-		        buttons: {
-		        	'leave': {
-		        		text: _('leave'),
-		        		nextScene: 'end'
-		        	}
-		        }
+				loot: {
+					'alien alloy': {
+						min: 1,
+						max: 3,
+						chance: 1
+					}
+				},
+				buttons: {
+					'leave': {
+						text: _('leave'),
+						cooldown: Events._LEAVE_COOLDOWN,
+						nextScene: 'end'
+					}
+				}
 			}
 		}
 	},
@@ -3024,16 +3139,16 @@ Events.Setpieces = {
 					World.state.ship = true;
 				},
 				text: [
-			       _('the familiar curves of a wanderer vessel rise up out of the dust and ash. '),
-				   _("lucky that the natives can't work the mechanisms."),
-			       _('with a little effort, it might fly again.')
-		        ],
-		        buttons: {
-		        	'leavel': {
-		        		text: _('salvage'),
-		        		nextScene: 'end'
-		        	}
-		        }
+					_('the familiar curves of a wanderer vessel rise up out of the dust and ash. '),
+					_("lucky that the natives can't work the mechanisms."),
+					_('with a little effort, it might fly again.')
+				],
+				buttons: {
+					'leavel': {
+						text: _('salvage'),
+						nextScene: 'end'
+					}
+				}
 			}
 		}
 	},
@@ -3047,7 +3162,7 @@ Events.Setpieces = {
 				],
 				notification: _('a military perimeter is set up around the mine.'),
 				buttons: {
-					'attack': {	
+					'attack': {
 						text: _('attack'),
 						nextScene: {1: 'a1'}
 					},
@@ -3059,19 +3174,19 @@ Events.Setpieces = {
 			},
 			'a1': {
 				combat: true,
-  				enemy: 'soldier',
+				enemy: 'soldier',
 				ranged: true,
-  				chara: 'D',
-  				damage: 8,
-  				hit: 0.8,
-  				attackDelay: 2,
-  				health: 50,
-  				loot: {
-  					'cured meat': {
-  						min: 1,
-  						max: 5,
-  						chance: 0.8
-  					},
+				chara: 'D',
+				damage: 8,
+				hit: 0.8,
+				attackDelay: 2,
+				health: 50,
+				loot: {
+					'cured meat': {
+						min: 1,
+						max: 5,
+						chance: 0.8
+					},
 					'bullets': {
 						min: 1,
 						max: 5,
@@ -3082,34 +3197,36 @@ Events.Setpieces = {
 						max: 1,
 						chance: 0.2
 					}
-  				},
-  				notification: _('a soldier, alerted, opens fire.'),
+				},
+				notification: _('a soldier, alerted, opens fire.'),
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: { 1: 'a2' }
 					},
 					'run': {
 						text: _('run'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'a2': {
 				combat: true,
-  				enemy: 'soldier',
+				enemy: 'soldier',
 				ranged: true,
-  				chara: 'D',
-  				damage: 8,
-  				hit: 0.8,
-  				attackDelay: 2,
-  				health: 50,
-  				loot: {
-  					'cured meat': {
-  						min: 1,
-  						max: 5,
-  						chance: 0.8
-  					},
+				chara: 'D',
+				damage: 8,
+				hit: 0.8,
+				attackDelay: 2,
+				health: 50,
+				loot: {
+					'cured meat': {
+						min: 1,
+						max: 5,
+						chance: 0.8
+					},
 					'bullets': {
 						min: 1,
 						max: 5,
@@ -3120,15 +3237,17 @@ Events.Setpieces = {
 						max: 1,
 						chance: 0.2
 					}
-  				},
-  				notification: _('a second soldier joins the fight.'),
- 				buttons: {
+				},
+				notification: _('a second soldier joins the fight.'),
+				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: { 1: 'a3' }
 					},
 					'run': {
 						text: _('run'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
@@ -3136,7 +3255,7 @@ Events.Setpieces = {
 			'a3': {
 				combat: true,
 				enemy: 'veteran',
-				chara: 'V',
+				chara: 'D',
 				damage: 10,
 				hit: 0.8,
 				attackDelay: 2,
@@ -3154,9 +3273,10 @@ Events.Setpieces = {
 					}
 				},
 				notification: _('a grizzled soldier attacks, waving a bayonet.'),
- 				buttons: {
+				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: { 1: 'cleared' }
 					}
 				}
@@ -3191,7 +3311,7 @@ Events.Setpieces = {
 				],
 				notification: _('this old mine is not abandoned'),
 				buttons: {
-					'attack': {	
+					'attack': {
 						text: _('attack'),
 						nextScene: {1: 'a1'}
 					},
@@ -3204,7 +3324,7 @@ Events.Setpieces = {
 			'a1': {
 				combat: true,
 				enemy: 'man',
-				chara: 'M',
+				chara: 'E',
 				damage: 3,
 				hit: 0.8,
 				attackDelay: 2,
@@ -3225,63 +3345,67 @@ Events.Setpieces = {
 				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: { 1: 'a2' }
 					},
 					'run': {
 						text: _('run'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'a2': {
 				combat: true,
- 				enemy: 'man',
- 				chara: 'M',
- 				damage: 3,
- 				hit: 0.8,
- 				attackDelay: 2,
- 				health: 10,
- 				loot: {
+				enemy: 'man',
+				chara: 'E',
+				damage: 3,
+				hit: 0.8,
+				attackDelay: 2,
+				health: 10,
+				loot: {
 					'cured meat': {
 						min: 1,
- 						max: 5,
+						max: 5,
 						chance: 0.8
 					},
 					'cloth': {
 						min: 1,
- 						max: 5,
+						max: 5,
 						chance: 0.8
 					}
- 				},
- 				notification: _('a man joins the fight'),
- 				buttons: {
+				},
+				notification: _('a man joins the fight'),
+				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: { 1: 'a3' }
 					},
 					'run': {
 						text: _('run'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: 'end'
 					}
 				}
 			},
 			'a3': {
 				combat: true,
- 				enemy: 'chief',
- 				chara: 'C',
- 				damage: 5,
- 				hit: 0.8,
- 				attackDelay: 2,
- 				health: 20,
- 				loot: {
+				enemy: 'chief',
+				chara: 'D',
+				damage: 5,
+				hit: 0.8,
+				attackDelay: 2,
+				health: 20,
+				loot: {
 					'cured meat': {
 						min: 5,
- 						max: 10,
+						max: 10,
 						chance: 1
 					},
 					'cloth': {
 						min: 5,
- 						max: 10,
+						max: 10,
 						chance: 0.8
 					},
 					'iron': {
@@ -3289,11 +3413,12 @@ Events.Setpieces = {
 						max: 5,
 						chance: 0.8
 					}
- 				},
- 				notification: _('only the chief remains.'),
- 				buttons: {
+				},
+				notification: _('only the chief remains.'),
+				buttons: {
 					'continue': {
 						text: _('continue'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: { 1: 'cleared' }
 					}
 				}
@@ -3320,7 +3445,7 @@ Events.Setpieces = {
 	},
 	"ironmine": { /* Clearing the Iron Mine */
 		title: _('The Iron Mine'),
- 		scenes: {
+		scenes: {
 			'start': {
 				text: [
 					_('an old iron mine sits here, tools abandoned and left to rust.'),
@@ -3340,39 +3465,40 @@ Events.Setpieces = {
 					}
 				}
 			},
- 			'enter': {
- 				combat: true,
- 				enemy: 'beastly matriarch',
- 				chara: 'M',
- 				damage: 4,
- 				hit: 0.8,
- 				attackDelay: 2,
- 				health: 10,
- 				loot: {
- 					'teeth': {
- 						min: 5,
- 						max: 10,
- 						chance: 1
- 					},
+			'enter': {
+				combat: true,
+				enemy: 'beastly matriarch',
+				chara: 'T',
+				damage: 4,
+				hit: 0.8,
+				attackDelay: 2,
+				health: 10,
+				loot: {
+					'teeth': {
+						min: 5,
+						max: 10,
+						chance: 1
+					},
 					'scales': {
 						min: 5,
- 						max: 10,
+						max: 10,
 						chance: 0.8
 					},
 					'cloth': {
 						min: 5,
- 						max: 10,
+						max: 10,
 						chance: 0.5
 					}
- 				},
- 				notification: _('a large creature lunges, muscles rippling in the torchlight'),
- 				buttons: {
+				},
+				notification: _('a large creature lunges, muscles rippling in the torchlight'),
+				buttons: {
 					'leave': {
 						text: _('leave'),
+						cooldown: Events._LEAVE_COOLDOWN,
 						nextScene: { 1: 'cleared' }
 					}
 				}
- 			},
+			},
 			'cleared': {
 				text: [
 					_('the beast is dead.'),
@@ -3391,7 +3517,7 @@ Events.Setpieces = {
 					}
 				}
 			}
- 		}
+		}
 	},
 	
 	"cache": { /* Cache - contains some of supplies from previous game */
@@ -3402,6 +3528,7 @@ Events.Setpieces = {
 					_('a destroyed village lies in the dust.'),
 					_('charred bodies litter the ground.')
 				],
+                /// TRANSLATORS : tang = strong metallic smell, wanderer afterburner = ship's engines
 				notification: _('the metallic tang of wanderer afterburner hangs in the air.'),
 				buttons: {
 					'enter': {

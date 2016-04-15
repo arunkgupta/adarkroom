@@ -14,6 +14,7 @@ Events.Room = [
 					_("won't say from where he came, but it's clear that he's not staying.")
 				],
 				notification: _('a nomad arrives, looking to trade'),
+				blink: true,
 				buttons: {
 					'buyScales': {
 						text: _('buy scales'),
@@ -38,8 +39,7 @@ Events.Room = [
 						text: _('buy compass'),
 						cost: { fur: 300, scales: 15, teeth: 5 },
 						reward: { 'compass': 1 },
-						notification: _('the old compass is dented and dusty, but it looks to work.'),
-						onChoose: Path.openPath
+						notification: _('the old compass is dented and dusty, but it looks to work.')
 					}, 
 					'goodbye': {
 						text: _('say goodbye'),
@@ -48,7 +48,8 @@ Events.Room = [
 				}
 			}
 		}
-	}, { /* Noises Outside  --  gain wood/fur */
+	}, 
+	{ /* Noises Outside  --  gain wood/fur */
 		title: _('Noises'),
 		isAvailable: function() {
 			return Engine.activeModule == Room && $SM.get('stores.wood');
@@ -60,6 +61,7 @@ Events.Room = [
 					_("can't tell what they're up to.")
 				],
 				notification: _('strange noises can be heard through the walls'),
+				blink: true,
 				buttons: {
 					'investigate': {
 						text: _('investigate'),
@@ -106,10 +108,11 @@ Events.Room = [
 		scenes: {
 			start: {
 				text: [
-			       _('scratching noises can be heard from the store room.'),
-			       _('something\'s in there.')
+					_('scratching noises can be heard from the store room.'),
+					_('something\'s in there.')
 				],
 				notification: _('something\'s in the store room'),
+				blink: true,
 				buttons: {
 					'investigate': {
 						text: _('investigate'),
@@ -123,63 +126,63 @@ Events.Room = [
 			},
 			scales: {
 				text: [
-			       _('some wood is missing.'),
-			       _('the ground is littered with small scales')
-			    ],
-			    onLoad: function() {
-			    	var numWood = $SM.get('stores.wood', true);
-			    	numWood = Math.floor(numWood * 0.1);
-			    	if(numWood == 0) numWood = 1;
-			    	var numScales = Math.floor(numWood / 5);
-			    	if(numScales == 0) numScales = 1;
-			    	$SM.addM('stores', {'wood': -numWood, 'scales': numScales});
-			    },
-			    buttons: {
-			    	'leave': {
-			    		text: _('leave'),
-			    		nextScene: 'end'
-			    	}
-			    }
+					_('some wood is missing.'),
+					_('the ground is littered with small scales')
+				],
+				onLoad: function() {
+					var numWood = $SM.get('stores.wood', true);
+					numWood = Math.floor(numWood * 0.1);
+					if(numWood === 0) numWood = 1;
+					var numScales = Math.floor(numWood / 5);
+					if(numScales === 0) numScales = 1;
+					$SM.addM('stores', {'wood': -numWood, 'scales': numScales});
+				},
+				buttons: {
+					'leave': {
+						text: _('leave'),
+						nextScene: 'end'
+					}
+				}
 			},
 			teeth: {
 				text: [
-			       _('some wood is missing.'),
-			       _('the ground is littered with small teeth')
-			    ],
-			    onLoad: function() {
-			    	var numWood = $SM.get('stores.wood', true);
-			    	numWood = Math.floor(numWood * 0.1);
-			    	if(numWood == 0) numWood = 1;
-			    	var numTeeth = Math.floor(numWood / 5);
-			    	if(numTeeth == 0) numTeeth = 1;
-			    	$SM.addM('stores', {'wood': -numWood, 'teeth': numTeeth});
-			    },
-			    buttons: {
-			    	'leave': {
-			    		text: _('leave'),
-			    		nextScene: 'end'
-			    	}
-			    }
+					_('some wood is missing.'),
+					_('the ground is littered with small teeth')
+				],
+				onLoad: function() {
+					var numWood = $SM.get('stores.wood', true);
+					numWood = Math.floor(numWood * 0.1);
+					if(numWood === 0) numWood = 1;
+					var numTeeth = Math.floor(numWood / 5);
+					if(numTeeth === 0) numTeeth = 1;
+					$SM.addM('stores', {'wood': -numWood, 'teeth': numTeeth});
+				},
+				buttons: {
+					'leave': {
+						text: _('leave'),
+						nextScene: 'end'
+					}
+				}
 			},
 			cloth: {
 				text: [
-			       _('some wood is missing.'),
-			       _('the ground is littered with scraps of cloth')
-			    ],
-			    onLoad: function() {
-			    	var numWood = $SM.get('stores.wood', true);
-			    	numWood = Math.floor(numWood * 0.1);
-			    	if(numWood == 0) numWood = 1;
-			    	var numCloth = Math.floor(numWood / 5);
-			    	if(numCloth == 0) numCloth = 1;
-			    	$SM.addM('stores', {'wood': -numWood, 'cloth': numCloth});
-			    },
-			    buttons: {
-			    	'leave': {
-			    		text: _('leave'),
-			    		nextScene: 'end'
-			    	}
-			    }
+					_('some wood is missing.'),
+					_('the ground is littered with scraps of cloth')
+				],
+				onLoad: function() {
+					var numWood = $SM.get('stores.wood', true);
+					numWood = Math.floor(numWood * 0.1);
+					if(numWood === 0) numWood = 1;
+					var numCloth = Math.floor(numWood / 5);
+					if(numCloth === 0) numCloth = 1;
+					$SM.addM('stores', {'wood': -numWood, 'cloth': numCloth});
+				},
+				buttons: {
+					'leave': {
+						text: _('leave'),
+						nextScene: 'end'
+					}
+				}
 			}
 		}
 	},
@@ -191,10 +194,11 @@ Events.Room = [
 		scenes: {
 			start: {
 				text: [
-			       _('a beggar arrives.'),
-			       _('asks for any spare furs to keep him warm at night.')
+					_('a beggar arrives.'),
+					_('asks for any spare furs to keep him warm at night.')
 				],
 				notification: _('a beggar arrives'),
+				blink: true,
 				buttons: {
 					'50furs': {
 						text: _('give 50'),
@@ -215,41 +219,41 @@ Events.Room = [
 			scales: {
 				reward: { scales: 20 },
 				text: [
-			       _('the beggar expresses his thanks.'),
-			       _('leaves a pile of small scales behind.')
-			    ],
-			    buttons: {
-			    	'leave': {
-			    		text: _('say goodbye'),
-			    		nextScene: 'end'
-			    	}
-			    }
+					_('the beggar expresses his thanks.'),
+					_('leaves a pile of small scales behind.')
+				],
+				buttons: {
+					'leave': {
+						text: _('say goodbye'),
+						nextScene: 'end'
+					}
+				}
 			},
 			teeth: {
 				reward: { teeth: 20 },
 				text: [
-			       _('the beggar expresses his thanks.'),
-			       _('leaves a pile of small teeth behind.')
-			    ],
-			    buttons: {
-			    	'leave': {
-			    		text: _('say goodbye'),
-			    		nextScene: 'end'
-			    	}
-			    }
+					_('the beggar expresses his thanks.'),
+					_('leaves a pile of small teeth behind.')
+				],
+				buttons: {
+					'leave': {
+						text: _('say goodbye'),
+						nextScene: 'end'
+					}
+				}
 			},
 			cloth: {
 				reward: { cloth: 20 },
 				text: [
-			       _('the beggar expresses his thanks.'),
-			       _('leaves some scraps of cloth behind.')
-			    ],
-			    buttons: {
-			    	'leave': {
-			    		text: _('say goodbye'),
-			    		nextScene: 'end'
-			    	}
-			    }
+					_('the beggar expresses his thanks.'),
+					_('leaves some scraps of cloth behind.')
+				],
+				buttons: {
+					'leave': {
+						text: _('say goodbye'),
+						nextScene: 'end'
+					}
+				}
 			}
 		}
 	},
@@ -262,20 +266,21 @@ Events.Room = [
 		scenes: {
 			start: {
 				text: [
-			       _('a wanderer arrives with an empty cart. says if he leaves with wood, he\'ll be back with more.'),
-			       _("builder's not sure he's to be trusted.")
+					_('a wanderer arrives with an empty cart. says if he leaves with wood, he\'ll be back with more.'),
+					_("builder's not sure he's to be trusted.")
 				],
 				notification: _('a mysterious wanderer arrives'),
+				blink: true,
 				buttons: {
-					'100wood': {
+					'wood100': {
 						text: _('give 100'),
 						cost: {wood: 100},
-						nextScene: { 1: '100wood'}
+						nextScene: { 1: 'wood100'}
 					},
-					'500wood': {
+					'wood500': {
 						text: _('give 500'),
 						cost: {wood: 500},
-						nextScene: { 1: '500wood' }
+						nextScene: { 1: 'wood500' }
 					},
 					'deny': {
 						text: _('turn him away'),
@@ -283,43 +288,51 @@ Events.Room = [
 					}
 				}
 			},
-			'100wood': {
+			'wood100': {
 				text: [
-			       _('the wanderer leaves, cart loaded with wood')
-			    ],
-			    onLoad: function() {
-			    	if(Math.random() < 0.5) {
-			    		setTimeout(function() {
-			    			$SM.add('stores.wood', 300);
-			    			Notifications.notify(Room, _('the mysterious wanderer returns, cart piled high with wood.'));
-			    		}, 60 * 1000);
-			    	}
-			    },
-			    buttons: {
-			    	'leave': {
-			    		text: _('say goodbye'),
-			    		nextScene: 'end'
-			    	}
-			    }
+					_('the wanderer leaves, cart loaded with wood')
+				],
+				action: function(delay) {
+					var delay = delay || false;
+					Events.saveDelay(function() {
+						$SM.add('stores.wood', 300);
+						Notifications.notify(Room, _('the mysterious wanderer returns, cart piled high with wood.'));
+					}, 'Room[4].scenes.wood100.action', delay);
+				},
+				onLoad: function() {
+					if(Math.random() < 0.5) {
+						this.action(60);
+					}
+				},
+				buttons: {
+					'leave': {
+						text: _('say goodbye'),
+						nextScene: 'end'
+					}
+				}
 			},
-			'500wood': {
+			'wood500': {
 				text: [
-				       _('the wanderer leaves, cart loaded with wood')
-			    ],
-			    onLoad: function() {
-			    	if(Math.random() < 0.3) {
-			    		setTimeout(function() {
-			    			$SM.add('stores.wood', 1500);
-			    			Notifications.notify(Room, _('the mysterious wanderer returns, cart piled high with wood.'));
-			    		}, 60 * 1000);
-			    	}
-			    },
-			    buttons: {
-			    	'leave': {
-			    		text: _('say goodbye'),
-			    		nextScene: 'end'
-			    	}
-			    }
+					_('the wanderer leaves, cart loaded with wood')
+				],
+				action: function(delay) {
+					var delay = delay || false;
+					Events.saveDelay(function() {
+						$SM.add('stores.wood', 1500);
+						Notifications.notify(Room, _('the mysterious wanderer returns, cart piled high with wood.'));
+					}, 'Room[4].scenes.wood500.action', delay);
+				},
+				onLoad: function() {
+					if(Math.random() < 0.3) {
+						this.action(60);
+					}
+				},
+				buttons: {
+					'leave': {
+						text: _('say goodbye'),
+						nextScene: 'end'
+					}
+				}
 			}
 		}
 	},
@@ -332,20 +345,21 @@ Events.Room = [
 		scenes: {
 			start: {
 				text: [
-			       _('a wanderer arrives with an empty cart. says if she leaves with furs, she\'ll be back with more.'),
-			       _("builder's not sure she's to be trusted.")
+					_('a wanderer arrives with an empty cart. says if she leaves with furs, she\'ll be back with more.'),
+					_("builder's not sure she's to be trusted.")
 				],
 				notification: _('a mysterious wanderer arrives'),
+				blink: true,
 				buttons: {
-					'100fur': {
+					'fur100': {
 						text: _('give 100'),
 						cost: {fur: 100},
-						nextScene: { 1: '100fur'}
+						nextScene: { 1: 'fur100'}
 					},
-					'500fur': {
+					'fur500': {
 						text: _('give 500'),
 						cost: {fur: 500},
-						nextScene: { 1: '500fur' }
+						nextScene: { 1: 'fur500' }
 					},
 					'deny': {
 						text: _('turn her away'),
@@ -353,43 +367,51 @@ Events.Room = [
 					}
 				}
 			},
-			'100fur': {
+			'fur100': {
 				text: [
-			       _('the wanderer leaves, cart loaded with furs')
-			    ],
-			    onLoad: function() {
-			    	if(Math.random() < 0.5) {
-			    		setTimeout(function() {
-			    			$SM.add('stores.fur', 300);
-			    			Notifications.notify(Room, _('the mysterious wanderer returns, cart piled high with furs.'));
-			    		}, 60 * 1000);
-			    	}
-			    },
-			    buttons: {
-			    	'leave': {
-			    		text: _('say goodbye'),
-			    		nextScene: 'end'
-			    	}
-			    }
+					_('the wanderer leaves, cart loaded with furs')
+				],
+				action: function(delay) {
+					var delay = delay || false;
+					Events.saveDelay(function() {
+						$SM.add('stores.fur', 300);
+						Notifications.notify(Room, _('the mysterious wanderer returns, cart piled high with furs.'));
+					}, 'Room[5].scenes.fur100.action', delay);
+				},
+				onLoad: function() {
+					if(Math.random() < 0.5) {
+						this.action(60);
+					}
+				},
+				buttons: {
+					'leave': {
+						text: _('say goodbye'),
+						nextScene: 'end'
+					}
+				}
 			},
-			'500fur': {
+			'fur500': {
 				text: [
-				       _('the wanderer leaves, cart loaded with furs')
-			    ],
-			    onLoad: function() {
-			    	if(Math.random() < 0.3) {
-			    		setTimeout(function() {
-			    			$SM.add('stores.fur', 1500);
-			    			Notifications.notify(Room, _('the mysterious wanderer returns, cart piled high with furs.'));
-			    		}, 60 * 1000);
-			    	}
-			    },
-			    buttons: {
-			    	'leave': {
-			    		text: _('say goodbye'),
-			    		nextScene: 'end'
-			    	}
-			    }
+					_('the wanderer leaves, cart loaded with furs')
+				],
+				action: function(delay) {
+					var delay = delay || false;
+					Events.saveDelay(function() {
+						$SM.add('stores.fur', 1500);
+						Notifications.notify(Room, _('the mysterious wanderer returns, cart piled high with furs.'));
+					}, 'Room[5].scenes.fur500.action', delay);
+				},
+				onLoad: function() {
+					if(Math.random() < 0.3) {
+						this.action(60);
+					}
+				},
+				buttons: {
+					'leave': {
+						text: _('say goodbye'),
+						nextScene: 'end'
+					}
+				}
 			}
 		}
 	},
@@ -406,6 +428,7 @@ Events.Room = [
 					_("willing to talk about it, for a price.")
 				],
 				notification: _('a scout stops for the night'),
+				blink: true,
 				buttons: {
 					'buyMap': {
 						text: _('buy map'),
@@ -424,9 +447,9 @@ Events.Room = [
 						}
 					},
 					'leave': {
-			    		text: _('say goodbye'),
-			    		nextScene: 'end'
-			    	}
+						text: _('say goodbye'),
+						nextScene: 'end'
+					}
 				}
 			}
 		}
@@ -444,6 +467,7 @@ Events.Room = [
 					_('he smiles warmly and asks for lodgings for the night.')
 				],
 				notification: _('an old wanderer arrives'),
+				blink: true,
 				buttons: {
 					'agree': {
 						text: _('agree'),
@@ -462,132 +486,133 @@ Events.Room = [
 			},
 			'agree': {
 				text: [
-			       _('in exchange, the wanderer offers his wisdom.')
-		        ],
-		        buttons: {
-		        	'evasion': {
-		        		text: _('evasion'),
-		        		available: function() {
-		        			return !$SM.hasPerk('evasive');
-		        		},
-		        		onChoose: function() {
-		        			$SM.addPerk('evasive');
-		        		},
-		        		nextScene: 'end'
-		        	},
-		        	'precision': {
-		        		text: _('precision'),
-		        		available: function() {
-		        			return !$SM.hasPerk('precise');
-		        		},
-		        		onChoose: function() {
-		        			$SM.addPerk('precise');
-		        		},
-		        		nextScene: 'end'
-		        	},
-		        	'force': {
-		        		text: _('force'),
-		        		available: function() {
-		        			return !$SM.hasPerk('barbarian');
-		        		},
-		        		onChoose: function() {
-		        			$SM.addPerk('barbarian');
-		        		},
-		        		nextScene: 'end'
-		        	},
-		        	'nothing': {
-		        		text: _('nothing'),
-		        		nextScene: 'end'
-		        	}
-		        }
+					_('in exchange, the wanderer offers his wisdom.')
+				],
+				buttons: {
+					'evasion': {
+						text: _('evasion'),
+						available: function() {
+							return !$SM.hasPerk('evasive');
+						},
+						onChoose: function() {
+							$SM.addPerk('evasive');
+						},
+						nextScene: 'end'
+					},
+					'precision': {
+						text: _('precision'),
+						available: function() {
+							return !$SM.hasPerk('precise');
+						},
+						onChoose: function() {
+							$SM.addPerk('precise');
+						},
+						nextScene: 'end'
+					},
+					'force': {
+						text: _('force'),
+						available: function() {
+							return !$SM.hasPerk('barbarian');
+						},
+						onChoose: function() {
+							$SM.addPerk('barbarian');
+						},
+						nextScene: 'end'
+					},
+					'nothing': {
+						text: _('nothing'),
+						nextScene: 'end'
+					}
+				}
 			}
 		}
 	},
 		
 	{ /* The Sick Man */
-  		title: _('The Sick Man'),
-  		isAvailable: function() {
-  			return Engine.activeModule == Room && $SM.get('stores.medicine', true) > 0;
-  		},
-  		scenes: {
-  			'start': {
-  				text: [
-  					_("a man hobbles up, coughing."),
-  					_("he begs for medicine.")
-  				],
-  				notification: _('a sick man hobbles up'),
-  				buttons: {
-  					'help': {
-  						text: _('give 1 medicine'),
-  						cost: { 'medicine': 1 },
-  						notification: _('the man swallows the medicine eagerly'),
-  						nextScene: { 0.1: 'alloy', 0.3: 'cells', 0.5: 'scales', 1.0: 'nothing' }
-  					},
-  					'ignore': {
-  						text: _('tell him to leave'),
-  						nextScene: 'end'
-  					}
-  				}
-  			},
-  			'alloy': {
-  				text: [
-  					_("the man is thankful."),
-  					_('he leaves a reward.'),
-  					_('some weird metal he picked up on his travels.')
-  				],
-  				onLoad: function() {
-  					$SM.add('stores["alien alloy"]', 1);
-			    },
-  				buttons: {
-  					'bye': {
-  						text: _('say goodbye'),
-  						nextScene: 'end'
-  					}
-  				}
-  			},
-  			'cells': {
-  				text: [
-  					_("the man is thankful."),
-  					_('he leaves a reward.'),
-  					_('some weird glowing boxes he picked up on his travels.')
-  				],
-  				onLoad: function() {
-  					$SM.add('stores["energy cell"]', 3);
-			    },
-  				buttons: {
-  					'bye': {
-  						text: _('say goodbye'),
-  						nextScene: 'end'
-  					}
-  				}
-  			},
-  			'scales': {
-  				text: [
-  					_("the man is thankful."),
-  					_('he leaves a reward.'),
-  					_('all he has are some scales.')
-  				],
-  				onLoad: function() {
-  					$SM.add('stores.scales', 5);
-			    },
-  				buttons: {
-  					'bye': {
-  						text: _('say goodbye'),
-  						nextScene: 'end'
-  					}
-  				}
-  			},
-  			'nothing': {
-  				text: [
-  					_("the man expresses his thanks and hobbles off.")
-  				],
-  				buttons: {
-  					'bye': {
-  						text: _('say goodbye'),
-  						nextScene: 'end'
-  					}
-  				}
-  		  }
-  	}
+		title: _('The Sick Man'),
+		isAvailable: function() {
+			return Engine.activeModule == Room && $SM.get('stores.medicine', true) > 0;
+		},
+		scenes: {
+			'start': {
+				text: [
+					_("a man hobbles up, coughing."),
+					_("he begs for medicine.")
+				],
+				notification: _('a sick man hobbles up'),
+				blink: true,
+				buttons: {
+					'help': {
+						text: _('give 1 medicine'),
+						cost: { 'medicine': 1 },
+						notification: _('the man swallows the medicine eagerly'),
+						nextScene: { 0.1: 'alloy', 0.3: 'cells', 0.5: 'scales', 1.0: 'nothing' }
+					},
+					'ignore': {
+						text: _('tell him to leave'),
+						nextScene: 'end'
+					}
+				}
+			},
+			'alloy': {
+				text: [
+					_("the man is thankful."),
+					_('he leaves a reward.'),
+					_('some weird metal he picked up on his travels.')
+				],
+				onLoad: function() {
+					$SM.add('stores["alien alloy"]', 1);
+				},
+				buttons: {
+					'bye': {
+						text: _('say goodbye'),
+						nextScene: 'end'
+					}
+				}
+			},
+			'cells': {
+				text: [
+					_("the man is thankful."),
+					_('he leaves a reward.'),
+					_('some weird glowing boxes he picked up on his travels.')
+				],
+				onLoad: function() {
+					$SM.add('stores["energy cell"]', 3);
+				},
+				buttons: {
+					'bye': {
+						text: _('say goodbye'),
+						nextScene: 'end'
+					}
+				}
+			},
+			'scales': {
+				text: [
+					_("the man is thankful."),
+					_('he leaves a reward.'),
+					_('all he has are some scales.')
+				],
+				onLoad: function() {
+					$SM.add('stores.scales', 5);
+				},
+				buttons: {
+					'bye': {
+						text: _('say goodbye'),
+						nextScene: 'end'
+					}
+				}
+			},
+			'nothing': {
+				text: [
+					_("the man expresses his thanks and hobbles off.")
+				],
+				buttons: {
+					'bye': {
+						text: _('say goodbye'),
+						nextScene: 'end'
+					}
+				}
+			}
+		}
 	}
 ];
